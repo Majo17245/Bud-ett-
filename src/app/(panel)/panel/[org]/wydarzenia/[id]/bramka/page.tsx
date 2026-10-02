@@ -15,7 +15,7 @@ export default async function DoorAdminPage({ params, searchParams }: { params: 
   const { user, org } = await requireOrg(slug, ['owner', 'manager', 'door']);
   const event = await getEvent(org.id, id);
   if (!event) notFound();
-  const [tokens, external, summary, secret] = await Promise.all([doorTokens(event.id), externalTicketCounts(event.id), doorSummary(event.id), readSecretFlash()]);
+  const [tokens, external, summary, secret] = await Promise.all([doorTokens(event.id), externalTicketCounts(event.id), doorSummary(event.id), readSecretFlash('bramka')]);
   const doorLink = secret?.includes(`/bramka/${event.id}#t=`) ? secret : null;
   const hidden = (<><input type="hidden" name="org" value={org.slug} /><input type="hidden" name="event" value={event.id} /></>);
   const isManager = org.role !== 'door';

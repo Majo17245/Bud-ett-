@@ -54,7 +54,7 @@ export async function createPromoterAction(fd: FormData) {
       name: str(fd, 'name'), code: str(fd, 'code'), phone: optStr(fd, 'phone'), email: optStr(fd, 'email'),
       ticketCommissionPct: num(fd, 'ticketCommissionPct'), guestCommission: money(fd, 'guestCommission'),
     });
-    await setSecretFlash(`Prywatny link do panelu promotora ${p.code} (wyślij tylko jemu — działa bez hasła): ${env.appUrl}/promotor/${p.panelToken}`);
+    await setSecretFlash('promotorzy', `Prywatny link do panelu promotora ${p.code} (wyślij tylko jemu — działa bez hasła): ${env.appUrl}/promotor/${p.panelToken}`);
     return `Dodano promotora ${p.code}.`;
   });
 }
@@ -63,7 +63,7 @@ export async function promoterLinkAction(fd: FormData) {
   const { org } = await requireOrg(str(fd, 'org'));
   await act(`/panel/${org.slug}/promotorzy`, async () => {
     const token = await regeneratePanelToken(org.id, str(fd, 'id'));
-    await setSecretFlash(`Nowy link do panelu promotora ${str(fd, 'code')}: ${env.appUrl}/promotor/${token}`);
+    await setSecretFlash('promotorzy', `Nowy link do panelu promotora ${str(fd, 'code')}: ${env.appUrl}/promotor/${token}`);
     return 'Nowy link wygenerowany — poprzedni przestał działać.';
   });
 }
@@ -108,7 +108,7 @@ export async function addMemberAction(fd: FormData) {
     const role = str(fd, 'role');
     if (!['owner', 'manager', 'door'].includes(role)) throw new UserError('Nieznana rola.');
     const { user, tempPassword } = await addMember(org.id, str(fd, 'email'), str(fd, 'name'), role as 'owner' | 'manager' | 'door');
-    if (tempPassword) await setSecretFlash(`Hasło tymczasowe dla ${user.email}: ${tempPassword} — przekaż je osobiście, zniknie za 2 minuty.`);
+    if (tempPassword) await setSecretFlash('ustawienia', `Hasło tymczasowe dla ${user.email}: ${tempPassword} — przekaż je osobiście, zniknie za 2 minuty.`);
     return `Dodano ${user.email} do zespołu.`;
   });
 }

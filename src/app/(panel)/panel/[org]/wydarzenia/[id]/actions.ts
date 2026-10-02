@@ -147,7 +147,7 @@ export async function createDoorLinkAction(fd: FormData) {
   const { event, base } = await ctx(fd, ['owner', 'manager', 'door']);
   await act(`${base}/bramka`, async () => {
     const token = await createDoorToken(event.id, str(fd, 'label') || 'Bramka');
-    await setSecretFlash(`${env.appUrl}/bramka/${event.id}#t=${token}`);
+    await setSecretFlash('bramka', `${env.appUrl}/bramka/${event.id}#t=${token}`);
     return 'Link do skanera gotowy — zeskanuj kod QR telefonem bramki.';
   });
 }

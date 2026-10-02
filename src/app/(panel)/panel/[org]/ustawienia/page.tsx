@@ -13,7 +13,7 @@ export default async function SettingsPage({ params, searchParams }: { params: P
   const { org: slug } = await params;
   const sp = await searchParams;
   const { user, org } = await requireOrg(slug, ['owner']);
-  const [team, secret] = await Promise.all([teamMembers(org.id), readSecretFlash()]);
+  const [team, secret] = await Promise.all([teamMembers(org.id), readSecretFlash('ustawienia')]);
   return (
     <>
       <PanelNav org={org} active="ustawienia" userName={user.name} />

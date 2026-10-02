@@ -10,7 +10,7 @@ export default async function PromotersPage({ params, searchParams }: { params: 
   const sp = await searchParams;
   const { user, org } = await requireOrg(slug);
   const [promoters, stats] = await Promise.all([promotersForOrg(org.id), promoterStats(org.id)]);
-  const secret = await readSecretFlash();
+  const secret = await readSecretFlash('promotorzy');
   const byId = new Map(stats.map((s) => [s.promoter_id, s]));
   return (
     <>

@@ -39,10 +39,20 @@ const SECRET_FLASH = 'flash_secret';
  * Jednorazowe pokazanie sekretu (link promotora, hasło tymczasowe) bez umieszczania go w adresie URL,
  * który trafiłby do historii przeglądarki i logów serwera.
  */
-export async function setSecretFlash(value: string) {
-  (await cookies()).set(SECRET_FLASH, value, { httpOnly: true, secure: process.env.NODE_ENV === 'production', sameSite: 'strict', path: '/panel', maxAge: 120 });
+export type SecretScope = 'promotorzy' | 'ustawienia' | 'bramka';
+
+export async function setSecretFlash(scope: SecretScope, value: string) {
+  (await cookies()).set(SECRET_FLASH, JSON.stringify({ scope, value }), { httpOnly: true, secure: process.env.NODE_ENV === 'production', sameSite: 'strict', path: '/panel', maxAge: 120 });
 }
 
-export async function readSecretFlash() {
-  return (await cookies()).get(SECRET_FLASH)?.value ?? null;
+/** Sekret pokazujemy tylko na stronie, na której powstał (link bramki nie pojawi się w ustawieniach). */
+export async function readSecretFlash(scope: SecretScope): Promise<string | null> {
+  const raw = (await cookies()).get(SECRET_FLASH)?.value;
+  if (!raw) return null;
+  try {
+    const parsed = JSON.parse(raw) as { scope?: string; value?: string };
+    return parsed.scope === scope && typeof parsed.value === 'string' ? parsed.value : null;
+  } catch {
+    return null;
+  }
 }
