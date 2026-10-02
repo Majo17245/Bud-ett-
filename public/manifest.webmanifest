@@ -1,0 +1,12 @@
+{
+  "name": "Klubowy — bramka",
+  "short_name": "Bramka",
+  "description": "Skaner biletów, list i loż działający bez internetu",
+  "start_url": "/panel",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1012",
+  "theme_color": "#0f1012",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
