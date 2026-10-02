@@ -65,18 +65,26 @@ export async function liveReport(orgId: string, eventId: string) {
   return { sales: sales!, byType, door, entriesByKind, timeline, lists, lounges: lounges!, promoters, external, problems };
 }
 
+/** Odmiana rzeczownika po liczebniku: 1 bilet, 2 bilety, 5 biletów. */
+export function plural(n: number, one: string, few: string, many: string) {
+  if (n === 1) return one;
+  const d = n % 10;
+  const t = n % 100;
+  return d >= 2 && d <= 4 && (t < 12 || t > 14) ? few : many;
+}
+
 /** Krótkie podsumowanie nocy — wysyłane właścicielowi rano (raport poranny). */
 export async function nightSummaryText(orgId: string, eventId: string, eventName: string) {
   const r = await liveReport(orgId, eventId);
   const zl = (g: number) => (g / 100).toLocaleString('pl-PL', { maximumFractionDigits: 0 }) + ' zł';
   const lines = [
     `${eventName}`,
-    `Wejścia: ${r.door.entered} osób (bilety ${r.entriesByKind.find((k) => k.kind === 'ticket')?.persons ?? 0}, listy ${r.entriesByKind.find((k) => k.kind === 'guest')?.persons ?? 0}, loże ${r.entriesByKind.find((k) => k.kind === 'lounge')?.persons ?? 0}, inne platformy ${r.entriesByKind.find((k) => k.kind === 'external')?.persons ?? 0}).`,
-    `Sprzedaż online: ${r.sales.tickets} biletów, ${zl(r.sales.gross)}.`,
-    `Loże: ${r.lounges.booked} zarezerwowanych, ${r.lounges.arrived} przyszło, ${r.lounges.no_show} nie przyszło.`,
+    `Wejścia: ${r.door.entered} ${plural(r.door.entered, 'osoba', 'osoby', 'osób')} (bilety ${r.entriesByKind.find((k) => k.kind === 'ticket')?.persons ?? 0}, listy ${r.entriesByKind.find((k) => k.kind === 'guest')?.persons ?? 0}, loże ${r.entriesByKind.find((k) => k.kind === 'lounge')?.persons ?? 0}, inne platformy ${r.entriesByKind.find((k) => k.kind === 'external')?.persons ?? 0}).`,
+    `Sprzedaż online: ${r.sales.tickets} ${plural(r.sales.tickets, 'bilet', 'bilety', 'biletów')}, ${zl(r.sales.gross)}.`,
+    `Loże: zarezerwowane ${r.lounges.booked}, goście przyszli do ${r.lounges.arrived}, nie przyszli do ${r.lounges.no_show}.`,
   ];
   const top = r.promoters.filter((p) => p.tickets + p.guests_entered > 0).slice(0, 3);
-  if (top.length) lines.push('Promotorzy: ' + top.map((p) => `${p.name} ${p.tickets} bil. + ${p.guests_entered} z listy (prowizja ${zl(p.commission)})`).join('; ') + '.');
+  if (top.length) lines.push('Promotorzy: ' + top.map((p) => `${p.name}: ${p.tickets} bil. i ${p.guests_entered} os. z listy (prowizja ${zl(p.commission)})`).join('; ') + '.');
   const bad = r.problems.reduce((s, p) => s + p.n, 0);
   if (bad) lines.push(`Odrzucone skany: ${bad}.`);
   return lines.join('\n');

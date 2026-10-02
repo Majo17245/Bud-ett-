@@ -5,6 +5,7 @@ import { parseZl, zl } from '@/lib/money';
 import { fromLocalInput, toLocalInput } from '@/lib/time';
 import { notificationSign, registerSign } from '@/lib/payments/p24';
 import { parseGuestLine } from '@/lib/services/lists';
+import { plural } from '@/lib/services/reports';
 
 describe('cennik', () => {
   it('opłata od biletu: 5% z minimum 1,49 zł w planie Start', () => {
@@ -77,6 +78,13 @@ describe('kwoty i czas', () => {
     expect(fromLocalInput('2026-10-16T22:00')!.toISOString()).toBe('2026-10-16T20:00:00.000Z');
     expect(fromLocalInput('2026-12-31T22:00')!.toISOString()).toBe('2026-12-31T21:00:00.000Z');
     expect(toLocalInput(new Date('2026-10-16T20:00:00Z'))).toBe('2026-10-16T22:00');
+  });
+});
+
+describe('odmiana', () => {
+  it('bilet / bilety / biletów', () => {
+    expect([1, 2, 4, 5, 12, 22, 25, 112].map((n) => plural(n, 'bilet', 'bilety', 'biletów')))
+      .toEqual(['bilet', 'bilety', 'bilety', 'biletów', 'biletów', 'bilety', 'biletów', 'biletów']);
   });
 });
 
