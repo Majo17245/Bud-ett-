@@ -1,0 +1,11 @@
+# Statyczna lista ważnych danych makro z USA (fallback, gdy kalendarz online jest niedostępny).
+# Czas w strefie America/New_York. Bot blokuje nowe wejścia w oknie
+# [event - block_before_min, event + block_after_min] (config.yaml -> filters.macro_events).
+# Uzupełniaj o publikacje CPI / PPI / PCE / GDP z kalendarza BLS / BEA.
+# NFP (pierwszy piątek miesiąca, 8:30 ET) jest dodawany automatycznie (auto_nfp: true).
+events:
+  - {time: "2026-10-28 14:00", name: "FOMC rate decision"}
+  - {time: "2026-12-09 14:00", name: "FOMC rate decision"}
+  - {time: "2026-10-14 08:30", name: "CPI (sprawdź datę w kalendarzu BLS)"}
+  - {time: "2026-11-12 08:30", name: "CPI (sprawdź datę w kalendarzu BLS)"}
+  - {time: "2026-12-10 08:30", name: "CPI (sprawdź datę w kalendarzu BLS)"}

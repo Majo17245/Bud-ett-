@@ -1,0 +1,17 @@
+# sekrety
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# dane, logi i raporty generowane lokalnie
+data/cache/*
+!data/cache/.gitkeep
+logs/*
+!logs/.gitkeep
+backtest/reports/*
+!backtest/reports/.gitkeep

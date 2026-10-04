@@ -1,0 +1,241 @@
+# =====================================================================
+#  Bybit USDT-Perpetual trading bot - główna konfiguracja
+#  Każdy parametr strategii, ryzyka i egzekucji jest tutaj.
+#  Uzasadnienia decyzji projektowych: README.md, sekcja "Decyzje projektowe".
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Tryb pracy.  testnet = Bybit Testnet (domyślnie), live = PRAWDZIWE PIENIĄDZE.
+# Przełączenie na "live" wymaga ponadto ustawienia live_confirm: true.
+# ---------------------------------------------------------------------
+mode: testnet
+live_confirm: false
+
+exchange:
+  category: linear            # USDT Perpetual
+  settle_coin: USDT
+  account_type: UNIFIED       # UTA (domyślne na testnecie); "CONTRACT" dla kont klasycznych
+  # Dane rynkowe do analizy pobieramy z mainnetu (publiczne endpointy, bez kluczy):
+  # testnet ma sztuczny wolumen i płytki order book, więc nie nadaje się do analizy.
+  # Poziomy SL/TP są przeliczane procentowo na cenę rynku, na którym składamy zlecenie.
+  market_data_venue: mainnet  # mainnet | same_as_mode
+  recv_window: 10000
+  http_timeout: 10
+  max_requests_per_second: 8  # własny limiter (Bybit: 600 zapytań / 5 s / IP)
+  margin_mode: isolated
+  position_mode: one_way
+  sl_trigger_by: MarkPrice    # SL wyzwalany ceną mark - odporny na knoty/manipulacje last price
+  tp_trigger_by: LastPrice
+
+instruments:
+  traded: [BTCUSDT, ETHUSDT]
+  pair:
+    enabled: true
+    name: BTC/ETH
+    long_leg: BTCUSDT          # sygnał long BTC/ETH = long BTCUSDT + short ETHUSDT
+    short_leg: ETHUSDT
+    risk_factor: 0.75          # para ma 4 egzekucje i ryzyko rozjazdu nóg -> 0.75 standardowego ryzyka
+    hard_stop_mult: 4.0        # twardy (awaryjny) SL każdej nogi = max(4 x dystans SL ratio, 3 x ATR4h nogi)
+    hard_stop_atr4h_mult: 3.0  # stop pary jest na ratio (bot); twarde SL nóg tylko na wypadek awarii bota
+
+timeframes:
+  trend: "D"     # 1d - główny trend i reżim
+  structure: "240"  # 4h - struktura i strefy
+  timing: "60"   # 1h - timing wejścia/wyjścia
+  history_bars: 1000
+
+# ---------------------------------------------------------------------
+# Wskaźniki
+# ---------------------------------------------------------------------
+indicators:
+  ema: [20, 50, 200]
+  adx_period: 14
+  rsi_period: 14
+  macd: [12, 26, 9]
+  atr_period: 14
+  swing_lookback: 3            # pivot: 3 świece z lewej i prawej (potwierdzenie po 3 świecach - bez lookahead)
+  divergence_max_age: 12       # ile świec po potwierdzeniu dywergencja jest aktywna
+  divergence_min_bars: 5
+  rvol_period: 20
+  cvd_window: 24
+  volume_profile:
+    window_bars: 720           # 30 dni świec 1h
+    bins: 60
+    value_area: 0.70
+  liquidation_model:           # estymacja klastrów likwidacji (model jak heatmapy Coinglass/Hyblock)
+    leverages: [10, 25, 50, 100]
+    leverage_weights: [0.35, 0.35, 0.2, 0.1]
+    maintenance_margin: 0.005
+    bin_pct: 0.0025            # szerokość koszyka 0.25%
+    decay_per_bar: 0.995       # wygaszanie starych pozycji (~5.8 dnia half-life na 1h)
+    scan_range_pct: 0.05       # szukaj klastrów w +-5% od ceny
+    cluster_min_share: 0.08    # klaster = koszyk z >= 8% sumy intensywności w zakresie skanowania
+  orderbook:
+    depth: 200
+    bands_pct: [0.5, 1.0, 2.0]
+    band_weights: [0.5, 0.3, 0.2]
+    wall_multiplier: 6.0       # ściana = poziom >= 6x mediana wielkości poziomu
+    wall_min_persist_s: 30
+    spoof_approach_pct: 0.3    # ściana znikła gdy cena podeszła na 0.3% i nie została zjedzona -> spoofing
+    snapshot_interval_s: 5
+  cross_exchange:
+    exchanges: [binance, okx, coinbase, kraken]
+    spike_rvol: 2.0            # skok wolumenu = RVOL >= 2
+    min_confirming: 2          # ile innych giełd musi potwierdzić skok
+    suspicious_weight: 0.3     # waga RVOL gdy skok jest tylko na jednej giełdzie
+  macro:
+    spx_ticker: "ES=F"
+    spx_fallback: "^GSPC"
+    gold_ticker: "GC=F"
+    corr_window_days: 30
+    min_corr: 0.25
+  sentiment:
+    extreme_fear: 20
+    extreme_greed: 80
+
+# ---------------------------------------------------------------------
+# Scoring: wagi modułów (suma = 1.0).  Moduły niedostępne (np. order book
+# w backteście) są pomijane, a wagi pozostałych renormalizowane.
+# ---------------------------------------------------------------------
+scoring:
+  weights:
+    trend: 0.25
+    momentum: 0.15
+    volume: 0.15
+    positioning: 0.15
+    orderbook: 0.10
+    macro: 0.10
+    sentiment: 0.10
+  trend_tf_weights: {"60": 0.30, "240": 0.40, "D": 0.30}
+  momentum_tf_weights: {"60": 0.5, "240": 0.5}
+  pair_weights:                # dla BTC/ETH - order book i makro działają relatywnie
+    trend: 0.30
+    momentum: 0.20
+    volume: 0.10
+    positioning: 0.15
+    orderbook: 0.05
+    macro: 0.10
+    sentiment: 0.10
+
+# ---------------------------------------------------------------------
+# Reguły wejścia
+# ---------------------------------------------------------------------
+entry:
+  threshold: 30                # |score| >= 30 -> sygnał
+  strong_threshold: 55         # sygnał przeciwny do trendu 1d wymaga >= 55
+  counter_trend_risk_factor: 0.5
+  regime_threshold: 20         # trend 1d > +20 = bull, < -20 = bear
+  structure_min: 0             # 4h score musi być >= 0 dla longa (<= 0 dla shorta)
+  require_1h_trigger: true     # 1h: close po właściwej stronie EMA20 i rosnący histogram MACD
+  min_agreeing_modules: 3      # min. liczba modułów zgodnych z kierunkiem (|s|>=10)
+  max_strong_opposing: 1       # max. liczba modułów silnie przeciwnych (|s|>=50)
+  cooldown_bars: 3             # po zamknięciu pozycji czekaj 3h przed nowym wejściem na tym instrumencie
+
+# ---------------------------------------------------------------------
+# Filtry "nie handluj"
+# ---------------------------------------------------------------------
+filters:
+  max_atr_percentile: 0.95     # ATR(1h)/cena > 95 percentyl z 90 dni -> skrajna zmienność
+  atr_percentile_window: 2160  # 90 dni świec 1h
+  max_bar_range_atr: 3.0       # ostatnia świeca 1h > 3x ATR -> skrajna zmienność
+  min_rvol: 0.35               # wolumen < 35% średniej -> niska płynność
+  max_spread_bps: 5            # live: spread > 5 bps -> niska płynność
+  min_depth_usd_1pct: 2000000  # live: suma bid+ask w +-1% < 2 mln USD -> niska płynność
+  macro_events:
+    enabled: true
+    block_before_min: 60
+    block_after_min: 45
+    fetch_calendar: true       # ForexFactory feed tygodniowy (high impact USD); offline -> lista statyczna
+    calendar_url: "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+    static_file: config/macro_events.yaml
+    auto_nfp: true             # NFP: pierwszy piątek miesiąca 8:30 ET
+
+# ---------------------------------------------------------------------
+# Stop loss / take profit / zarządzanie pozycją
+# ---------------------------------------------------------------------
+exits:
+  sl:
+    structure_buffer_atr: 0.3  # SL = swing low - 0.3 ATR(1h)
+    min_atr: 1.0               # SL nie bliżej niż 1.0 ATR(1h)
+    max_atr: 4.0               # SL dalej niż 4 ATR(1h) -> rezygnacja (unieważnienie za daleko)
+    liq_avoid_atr: 0.5         # jeśli klaster likwidacji w +-0.5 ATR od SL -> przesuń SL za klaster
+  tp:
+    min_rr: 2.0                # minimalne R:R (blended) - zasada nienaruszalna >= 2.0
+    tp1_min_r: 1.2
+    tp2_min_r: 2.0
+    max_r: 8.0
+    fractions: [0.35, 0.35, 0.30]  # TP1, TP2, runner (trailing do TP3)
+    fallback_atr_r: [1.5, 3.0, 5.0]  # gdy brak poziomów płynności - w wielokrotnościach R
+    level_merge_pct: 0.15      # poziomy bliżej niż 0.15% łączone
+  break_even_after_tp1: true
+  break_even_fee_buffer: 0.0015  # SL na BE + 0.15% (pokrywa prowizje i poślizg)
+  trailing:
+    activate_after: tp2        # trailing po TP2
+    atr_mult: 3.0              # chandelier 3x ATR(1h)
+  invalidation:
+    score_flip: -25            # score przeciwny <= -25 (dla longa) -> wyjście
+    structure_4h_flip: -35     # trend 4h <= -35 -> wyjście
+    close_beyond_structure: true
+    time_stop_bars: 72         # po 72h bez osiągnięcia +0.5R -> wyjście
+    time_stop_min_r: 0.5
+
+# ---------------------------------------------------------------------
+# Zarządzanie ryzykiem - ZASADY NIENARUSZALNE (twarde limity w kodzie)
+# ---------------------------------------------------------------------
+risk:
+  risk_per_trade: 0.01         # 1% kapitału (twardy limit w kodzie: max 1%)
+  max_total_risk: 0.03         # 3% łącznie (twardy limit w kodzie: max 3%)
+  max_correlated_risk: 0.02    # BTC i ETH w tym samym kierunku liczone jako jeden klaster: max 2%
+  correlation_threshold: 0.6
+  correlation_window: 720      # 30 dni świec 1h
+  daily_loss_limit: 0.03
+  weekly_loss_limit: 0.06
+  fees:
+    taker: 0.00055             # Bybit VIP0 perpetual
+    maker: 0.00020
+  slippage: 0.0005             # 0.05% na każdą egzekucję rynkową
+  leverage:
+    max: 10
+    min: 1
+    liq_safety_factor: 2.5     # odległość do likwidacji >= 2.5 x odległość do SL
+  max_positions: 3
+
+# ---------------------------------------------------------------------
+# Pętla live
+# ---------------------------------------------------------------------
+live:
+  loop_seconds: 10
+  decision_delay_s: 8          # analiza 8 s po zamknięciu świecy 1h
+  ws_stale_seconds: 60         # brak wiadomości > 60 s -> restart websocketu
+  aux_refresh_minutes:
+    macro: 60
+    sentiment: 60
+    cross_exchange: 5
+    coinglass: 15
+    calendar: 360
+
+# ---------------------------------------------------------------------
+# Backtest i walk-forward
+# ---------------------------------------------------------------------
+backtest:
+  years: 2.5
+  initial_capital: 10000
+  symbols: [BTCUSDT, ETHUSDT]
+  include_pair: true
+  use_funding: true
+  warmup_bars: 300
+  walk_forward:
+    train_days: 180
+    test_days: 60
+    grid:
+      entry.threshold: [25, 30, 35, 40]
+      exits.tp.min_rr: [2.0, 2.5]
+    min_trades_train: 8
+    holdout_fraction: 0.20     # ostatnie 20% danych - nigdy nie używane do doboru parametrów
+
+logging:
+  level: INFO
+  dir: logs
+  decisions_file: logs/decisions.jsonl
+  state_file: logs/state.json
+  trades_file: logs/trades.jsonl
