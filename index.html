@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Majo — portfolio</title>
+<meta name="description" content="Portfolio — małe, dopracowane aplikacje webowe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: #E7E8E0;
+    --paper-raised: #DDDFD3;
+    --paper-line: #C7CBBB;
+    --ink: #23271F;
+    --ink-soft: #62695A;
+    --ink-faint: #8B9080;
+    --accent: #2C5F52;
+    --accent-bg: #D9E4DD;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper: #1C1F19;
+      --paper-raised: #252920;
+      --paper-line: #363B2F;
+      --ink: #E7E8E0;
+      --ink-soft: #AEB4A3;
+      --ink-faint: #7C8272;
+      --accent: #8CC1AF;
+      --accent-bg: #24342D;
+    }
+  }
+
+  *{ box-sizing: border-box; }
+
+  html, body{
+    margin: 0; padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a{ color: inherit; }
+
+  .wrap{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 20px 72px;
+  }
+
+  .serif{ font-family: 'Fraunces', Georgia, serif; }
+
+  /* ---- nav ---- */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    font-size: 13px;
+    color: var(--ink-faint);
+    margin-bottom: 72px;
+  }
+  nav .links{ display: flex; gap: 18px; }
+  nav a{ text-decoration: none; color: var(--ink-soft); }
+  nav a:hover{ color: var(--ink); }
+
+  /* ---- hero ---- */
+  .hero h1{
+    font-family: 'Fraunces', Georgia, serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: clamp(38px, 8vw, 60px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0 0 18px;
+  }
+  .hero p{
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    margin: 0;
+    max-width: 52ch;
+  }
+
+  /* ---- rule / sections ---- */
+  .rule{
+    border: none;
+    border-top: 1px solid var(--paper-line);
+    margin: 56px 0 28px;
+  }
+  .section-title{
+    font-size: 12px;
+    color: var(--ink-faint);
+    margin: 0 0 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  /* ---- project card ---- */
+  .project{
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 28px;
+    align-items: center;
+    padding: 24px;
+    background: var(--paper-raised);
+    border: 1px solid var(--paper-line);
+    border-radius: 4px;
+  }
+  .project h3{
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0 0 10px;
+  }
+  .project p{
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    margin: 0 0 16px;
+  }
+  .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 18px;
+  }
+  .tag{
+    font-size: 11.5px;
+    padding: 4px 9px;
+    border-radius: 3px;
+    border: 1px solid var(--paper-line);
+    color: var(--ink-soft);
+  }
+  .actions{ display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn{
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 9px 14px;
+    border-radius: 3px;
+    border: 1px solid var(--ink);
+  }
+  .btn.primary{ background: var(--ink); color: var(--paper); }
+  .btn.ghost{ color: var(--ink); }
+  .btn:active{ transform: translateY(1px); }
+
+  /* mini preview of the app */
+  .preview{
+    background: var(--paper);
+    border: 1px solid var(--paper-line);
+    border-radius: 4px;
+    padding: 16px 14px 14px;
+    font-size: 10px;
+    color: var(--ink-faint);
+  }
+  .preview .amt{
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.1;
+    margin: 4px 0 4px;
+  }
+  .preview .sub{ color: var(--ink-soft); line-height: 1.5; }
+  .preview .bars{
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 52px;
+    margin: 14px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--paper-line);
+  }
+  .preview .bars span{
+    flex: 1;
+    background: var(--paper-line);
+    border-radius: 1px;
+  }
+  .preview .bars span.today{ background: var(--ink-soft); }
+
+  /* ---- about / skills ---- */
+  .about p{
+    font-size: 14px;
+    line-height: 1.75;
+    color: var(--ink-soft);
+    margin: 0 0 14px;
+    max-width: 60ch;
+  }
+  .skills{
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0 20px;
+  }
+  .skills li{
+    font-size: 13px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--paper-line);
+  }
+
+  /* ---- contact ---- */
+  .contact a{
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 26px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--paper-line);
+  }
+  .contact a:hover{ border-color: var(--ink); }
+
+  footer{
+    margin-top: 64px;
+    font-size: 12px;
+    color: var(--ink-faint);
+  }
+
+  @media (max-width: 620px){
+    .wrap{ padding: 32px 16px 56px; }
+    nav{ margin-bottom: 48px; }
+    .project{ grid-template-columns: 1fr; padding: 20px; }
+    .preview{ order: -1; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav>
+    <span>majo17245</span>
+    <div class="links">
+      <a href="#projekty">projekty</a>
+      <a href="#o-mnie">o mnie</a>
+      <a href="#kontakt">kontakt</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Cześć, jestem Majo.</h1>
+    <p>Robię małe, dopracowane aplikacje webowe — proste w obsłudze, bez zbędnych dodatków, działające od razu w przeglądarce.</p>
+  </header>
+
+  <hr class="rule" id="projekty">
+  <p class="section-title">Projekty</p>
+
+  <article class="project">
+    <div>
+      <h3>Budżet</h3>
+      <p>Miesięczny budżet w jednym pliku HTML. Wpisujesz kwotę na miesiąc, dodajesz wydatki w kategoriach, a aplikacja mówi, ile zostało i do kiedy starczy przy obecnym tempie. Dane zostają w przeglądarce.</p>
+      <div class="tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">localStorage</span>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="budzet-standalone.html">Otwórz demo</a>
+        <a class="btn ghost" href="https://github.com/Majo17245/Bud-ett-">Kod na GitHubie</a>
+      </div>
+    </div>
+
+    <div class="preview" aria-hidden="true">
+      <span id="preview-month">Październik 2026</span>
+      <div class="amt">1 640 zł</div>
+      <div class="sub">Trzymasz się tempa.</div>
+      <div class="bars">
+        <span style="height:40%"></span>
+        <span style="height:75%"></span>
+        <span style="height:20%"></span>
+        <span style="height:55%"></span>
+        <span style="height:10%"></span>
+        <span style="height:65%"></span>
+        <span class="today" style="height:35%"></span>
+      </div>
+    </div>
+  </article>
+
+  <hr class="rule" id="o-mnie">
+  <p class="section-title">O mnie</p>
+
+  <section class="about">
+    <p>Lubię narzędzia, które robią jedną rzecz dobrze. Zaczynam od problemu, który mam sam, i buduję najprostsze rozwiązanie, które go rozwiązuje.</p>
+    <ul class="skills">
+      <li>HTML &amp; CSS</li>
+      <li>JavaScript</li>
+      <li>Responsywny design</li>
+      <li>Git &amp; GitHub</li>
+    </ul>
+  </section>
+
+  <hr class="rule" id="kontakt">
+  <p class="section-title">Kontakt</p>
+
+  <section class="contact">
+    <a href="https://github.com/Majo17245">github.com/Majo17245 →</a>
+  </section>
+
+  <footer>© <span id="year">2026</span> Majo</footer>
+
+</div>
+<script>
+  const now = new Date();
+  const months = ['Styczeń','Luty','Marzec','Kwiecień','Maj','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'];
+  document.getElementById('year').textContent = now.getFullYear();
+  document.getElementById('preview-month').textContent = months[now.getMonth()] + ' ' + now.getFullYear();
+</script>
+</body>
+</html>
