@@ -9,7 +9,11 @@ major viral resurgence in that window (flag clearly).
 - Get page-specific data by targeting domains with `allowed_domains`, e.g.
   `["steamdb.info"]`, `["gamalytic.com"]`, `["vginsights.com"]`, `["steampageanalyzer.com","raijin.gg","steampulse.org"]`,
   `["store.steampowered.com"]`, `["rolimons.com","romonitorstats.com"]`, `["appmagic.rocks","sensortower.com","foxdata.com"]`,
-  `["newsletter.gamediscover.co"]`, `["gamesradar.com","pcgamer.com","gamedeveloper.com","rockpapershotgun.com"]`.
+  `["newsletter.gamediscover.co"]`, `["gamesradar.com","pcgamer.com","gamedeveloper.com"]`.
+  (Do NOT use gamesindustry.biz or rockpapershotgun.com in allowed_domains — they return HTTP 400.)
+- There is a shared web-search budget across all agents. Be economical: ~5–8 searches per game, prefer
+  `standard` mode, and write each JSON file as soon as you have enough data. If searches start being refused, write what
+  you have (with "no data" where missing) and stop — never invent numbers.
 - Use `mode: "standard"` by default; use `"extended"` for niche/recent facts, or when standard results are thin.
 - Do **3–5 separate searches per game** before concluding a data point is unavailable.
 - Cross-check key numbers (units sold, revenue, downloads, peak CCU) in **≥2 independent sources** where possible.

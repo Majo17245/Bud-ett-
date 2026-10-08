@@ -1,0 +1,101 @@
+{
+  "id": "B16",
+  "group": "B",
+  "title": "Meowdoku! (Google Play: \"Meowdoku: Brain Puzzle Games\")",
+  "genre": "Puzzle / logic puzzle (Queens / Star Battle-style region-placement puzzle with cats; marketed as 'Sudoku x Minesweeper')",
+  "release_date": "2026-05-19 iOS first release (App Store, id6761760135) [CONFIRMED – App Store listing as cited by caller and an aggregator]; Android (com.oakever.meowdoku) live around the same time, scaling from late May 2026",
+  "early_access_date": "n/a (Forbes Argentina says the devs recruited Android testers for early builds before launch; Capermint blog claims a late-April 2026 launch – unverified)",
+  "window_note": "in window (launched May 2026). IMPORTANT: NOT a small-team indie – it is published by Oakever Games / Learnings, a large Chinese mobile publisher (~200–300 R&D staff, 1B+ cumulative downloads) and was scaled with very heavy paid UA. Included as requested, but treat it as a 'big-publisher, simple-hook' benchmark rather than a small-team viral case.",
+  "developer": "Oakever Games Pte. Ltd. (Singapore entity) – trades as Learnings (Beijing; also Vita Studio / Lexin Shengwen Technology per court filings)",
+  "team_size": "NOT A SMALL TEAM. Made and published by Learnings / Oakever Games, a large Chinese mobile publisher with a ~200–300 person R&D team [ESTIMATE – Gamigion/Matej Lancaric, unverified], 70M+ MAU and 1B+ cumulative users [CONFIRMED – company self-description, pocketgamer.biz profile]. Headcount of the Meowdoku pod itself: no data. Its growth was bought with heavy paid UA (~$500K/day) rather than organic virality. Treat as a counter-example to the small-team viral thesis.",
+  "country": "Singapore (legal entity) / China (Beijing HQ of Learnings) – the LinkedIn/Gamigion 'Chinese studio' label and the Singapore Pte. Ltd. registration are both correct",
+  "developer_background": "Learnings founded 2016 in Beijing; bootstrapped (no investors per Gamigion); 70M+ MAU and 1B+ accumulated users, 95% overseas [CONFIRMED – company self-description]; 1.7B+ downloads [ESTIMATE – Gamigion]. Previous hits: Vita Mahjong (237M+ lifetime downloads), Amaze Go (68M+), Paint By Number, Tile Explorer, Jigsawscapes, Zen Word, a $25M Merge-2 title. Claims to be the #1 Chinese game company by ad revenue on Meta and Google. Has faced cloning lawsuits: lost a copyright case to Block Blast maker Hungry Studio over QBlock (ruling 15 April 2026), and is defending an Avia Games suit (filed Dec 2025, San Jose federal court) alleging it copied 8 ad creatives.",
+  "publisher": "self-published (Oakever Games / Learnings)",
+  "platforms_and_store_links": "iOS: https://apps.apple.com/us/app/meowdoku/id6761760135 ; Google Play: https://play.google.com/store/apps/details?id=com.oakever.meowdoku ; Google Play Games on PC (Windows) ; many unofficial browser clones exist (meowdoku.gg, meowdoku.app, etc. – not by Oakever)",
+  "business_model": "F2P, ad-funded: ~80%+ interstitials, rewarded ads for hints/revives/boosters, banners after level 10; interstitial cooldown segmented by tenure (120 s on days 1–2, 100 s days 2–7, 90 s from day 7) [ESTIMATE/analysis – Gamigion, Felix Braberg]. Gamigion/Sett.ai say no IAP; Google Play lists 'Contains ads · In-app purchases' (probably a small remove-ads/hint pack) – IAP is negligible either way.",
+  "price_usd": "free",
+  "units_or_downloads": "Monthly installs (AppMagic, excl. China Android) [ESTIMATE]: June 2026 'over 10M' (mobilegamer.biz) vs 8.9M new installs (Sensor Tower, fastest-growing game of June); July 10.5M (#13 worldwide); August ~9M (#15, exact figure cut off – below Paper.io 2's 9.5M); September 11.5M (#8, best month). Early run-rate ~400k downloads/day (Gamigion, ~June–July). Cumulative: ~40–45M installs by early Oct 2026 [ESTIMATE – sum of AppMagic/Sensor Tower monthly figures]. Store-side: Google Play badge 10M+ downloads, 4.7★ from ~390k reviews (Oct 2026) [CONFIRMED – Google Play listing via search snippet]; AppBrain 18M Android installs, ~5M in last 30 days (Oct 2026) [ESTIMATE – AppBrain]. Forbes Argentina (June 2026) reported 500k+ Google Play downloads at that early point.",
+  "peak_concurrent_players": "no data (DAU: 1.7M early per Sensor Tower, 2M+ DAU in under 60 days [ESTIMATE – Gamigion/Sett.ai])",
+  "steam_reviews": "n/a",
+  "implied_review_multiplier": "n/a (mobile). For reference: AppMagic-sum ~40M installs vs ~390k Google Play reviews + ~140k–300k App Store ratings (≈600k–700k total) ⇒ ~60–70 installs per store rating [ESTIMATE – rough]",
+  "gross_revenue": "Ad revenue (publisher side): ~$200K/day at peak, early summer 2026 [ESTIMATE – Gamigion, Sett.ai]; ~$2.8M in July and ~$4M in August 2026 (+$1.2M MoM; ARPU/MAU $0.32→$0.36; covers only 19 markets and 8 ad networks, so a partial figure) [ESTIMATE – Gamigion 'Movers and Shakers' ad-revenue tracker]. Lifetime to early Oct 2026: ~$13M–$25M gross ad revenue [ESTIMATE – sum of June ~$2–4M, July ~$3–6M, Aug ~$4–6M, Sept ~$4–6M (record install month), early Oct ~$1M; low end = tracker figures, high end = $200K/day run-rate]. IAP ≈ $0.",
+  "net_revenue": "Ad revenue carries no Apple/Google store cut; tracker figures are already the publisher's share after the ad network's cut. Net before UA ≈ $12M–$23M (×0.93 for invalid traffic/clawbacks) [ESTIMATE]. BUT paid UA was estimated at ~$500K/day (vs ~$200K/day revenue) using ~10,000–14,000 mostly AI-generated ad creatives in 30 days [ESTIMATE – Sett.ai, Gamigion], so contribution after marketing was probably still negative or near break-even by Oct 2026; the bet is on long-tail retention. Profitability: no data.",
+  "production_cost": "no disclosed figure. Game build: a small pod inside a large studio, est. 5–10 people × 2–4 months × $3k/month ≈ $30k–$120k [ESTIMATE – spec method, China rate; team size assumed]. Marketing dwarfs this: ~$500K/day UA at peak [ESTIMATE – Sett.ai].",
+  "development_time": "no data (likely a few months; the publisher iterates rapidly on proven mechanics)",
+  "why_popular": "Takes the proven, viral LinkedIn 'Queens' (N-Queens/Star Battle) daily puzzle – one cat per colored region, row and column, no two cats touching even diagonally – and wraps it in cute cats with 5x5 to 10x10 boards and 3 'fish-cookie' lives. Instantly readable, 'pure logic' with no guessing, short sessions, broad female/older casual audience (heavy US and Japan share). The cat theme makes ad creatives very clickable.",
+  "marketing_channels": "Primarily massive paid user acquisition on Meta/Google/TikTok ad networks (~$500K/day; 10k–14k AI-generated creatives per month; some creatives used TikTok-comment overlays) [ESTIMATE – Gamigion, Sett.ai]. Organic: no evidence of an organic TikTok-driven breakout; Android Central's reviewer and friends discovered it via ads. Chart position (#1 Puzzle on Google Play globally / #1 Casual on iOS per a listing) and press (Forbes Argentina, Android Central) followed the paid push. Also spawned many web clones that drive search interest.",
+  "engine": "no data (not disclosed; no APK teardown found). Learnings' portfolio is typically Unity or Cocos – unverified.",
+  "art_style": "Flat, cute 2D cartoon cats on pastel colored-region grids; minimal UI",
+  "ai_feasibility_score": 5,
+  "ai_feasibility_justification": "AI can: write the whole puzzle logic, a constraint solver and procedural level generator with uniqueness checks (Star Battle/Queens is a well-documented CSP), the UI, ad mediation integration and analytics; generate cute 2D cat sprites/icons and SFX/music; open-source clones (e.g. github.com/pat-mw/meowdoku) prove the core is a few days of work. | AI cannot: replicate the actual success driver – a $500K/day UA machine, ad-creative testing at scale, LTV/ad-cadence tuning across millions of users, and store-featuring leverage; difficulty-curve design and 'feel' still need playtesting; IP risk if the theme/rules copy an existing branded game too closely. | Toolset: Claude Code + Unity 6 (or Godot 4 / Cocos Creator / Flutter Flame), AdMob/AppLovin MAX mediation, Firebase analytics, Retro Diffusion/Midjourney/Scenario for 2D cats, ElevenLabs SFX, Suno music; AI video tools for ad creatives.",
+  "solo_ai_mvp_cost_time": "1–3 weeks, $150–$400 (Claude Pro/Max, image-gen sub, Apple $99/yr, Google $25; excludes living costs)",
+  "solo_ai_polished_cost_time": "2–3 months, $1,500–$5,000 (tools, freelance art polish, small UA tests $1k–$3k). Reaching Meowdoku scale would require six-to-seven-figure UA budgets – not realistic solo.",
+  "sources": [
+    {
+      "title": "Meowdoku! – App Store (US)",
+      "url": "https://apps.apple.com/us/app/meowdoku/id6761760135"
+    },
+    {
+      "title": "Meowdoku: Brain Puzzle Games – Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.oakever.meowdoku&hl=en"
+    },
+    {
+      "title": "AppBrain – Meowdoku: Brain Puzzle Games (18M installs)",
+      "url": "https://www.appbrain.com/app/meowdoku-brain-puzzle-games/com.oakever.meowdoku"
+    },
+    {
+      "title": "Gamigion – Meowdoku makes $200K a day, fully from ADS!",
+      "url": "https://www.gamigion.com/meowdoku-makes-200k-a-day-fully-from-ads/"
+    },
+    {
+      "title": "Gamigion – Meowdoku Reaches 2 Million DAU in Under 60 Days",
+      "url": "https://www.gamigion.com/meowdoku-reaches-2-million-dau-in-under-60-days/"
+    },
+    {
+      "title": "Gamigion – Movers and Shakers in Mobile Gaming: August 2026",
+      "url": "https://www.gamigion.com/movers-and-shakers-in-mobile-gaming-august-2026/"
+    },
+    {
+      "title": "Sett.ai – Meowdoku: 2M Daily Players on Pure Ad Revenue",
+      "url": "https://www.sett.ai/content/meowdoku-2m-dau-pure-ad-revenue/"
+    },
+    {
+      "title": "Felix Braberg – Meowdoku Segments Users Ad Experience By Tenure",
+      "url": "https://felixbraberg.substack.com/p/meowdoku-segments-users-ad-experience"
+    },
+    {
+      "title": "mobilegamer.biz – Data digest: Meowdoku and Learnings' sudden rise",
+      "url": "https://mobilegamer.biz/data-digest-meowdoku-and-learnings-sudden-rise-honor-of-kings-disney-emoji-blitz-netflix-playground-more/"
+    },
+    {
+      "title": "mobilegamer.biz – Oakever Games fights cloning accusations",
+      "url": "https://mobilegamer.biz/vita-mahjong-amaze-go-and-meowdoku-maker-oakever-games-fights-cloning-accusations/"
+    },
+    {
+      "title": "mobilegamer.biz – July's top mobile game downloads",
+      "url": "https://mobilegamer.biz/julys-top-mobile-game-downloads-roblox-free-fire-arrows-block-blast-soccer-superstar-more/"
+    },
+    {
+      "title": "GameDevReports – AppMagic Top Mobile Games September 2026",
+      "url": "https://gamedevreports.substack.com/p/appmagic-top-mobile-games-by-revenue-2a7"
+    },
+    {
+      "title": "pocketgamer.biz – June 2026 mobile game charts: Meowdoku sweeps global installs",
+      "url": "https://www.pocketgamer.biz/june-2026-mobile-game-charts/"
+    },
+    {
+      "title": "Forbes Argentina – El fenómeno Meowdoku",
+      "url": "https://www.forbesargentina.com/lifestyle/el-fenomeno-meowdoku-rompecabezas-gatos-convirtio-exito-global-n92213"
+    },
+    {
+      "title": "Android Central – Meowdoku is sudoku but with cats…",
+      "url": "https://www.androidcentral.com/apps-software/meowdoku-is-sudoku-but-with-cats-and-it-is-highly-addictive-but-it-has-one-big-problem"
+    },
+    {
+      "title": "pocketgamer.biz – Learnings company profile",
+      "url": "https://www.pocketgamer.biz/industry/learnings/"
+    }
+  ],
+  "data_conflicts": "1) Small team vs big publisher: the brief frames Meowdoku as a small-team viral; evidence shows it is from Learnings/Oakever (200–300 R&D, 1B+ downloads) with ~$500K/day UA – it is a paid-UA hit, not an organic small-team viral. 2) Downloads: Google Play badge 10M+ vs AppBrain 18M (Android only) vs AppMagic monthly sums (~40M+ cross-platform by Sept); store badges are thresholds that lag – used the AppMagic sum for the total. June: 8.9M (Sensor Tower) vs 'over 10M' (AppMagic via mobilegamer.biz). 3) Revenue: $200K/day (~$6M/month) per Gamigion/Sett.ai vs ~$2.8M July / ~$4M August per Gamigion's ad-revenue tracker (19 markets, 8 networks only) – reported a range. 4) Ratings: brief says 288k+; one listing shows ~300k ratings, another ~139k (App Store), Google Play ~390k reviews – counts are moving targets, dates unclear. 5) Release date: 2026-05-19 (App Store) vs May 26 (aggregator) vs 'late April' (Capermint blog, likely soft launch). 6) IAP: Gamigion says none; Google Play label says 'In-app purchases'. 7) LinkedIn ~400k/day downloads and ~$200k/day: consistent with Gamigion/Sett.ai third-party estimates, so plausible but still [ESTIMATE].",
+  "notes": "COUNTER-EXAMPLE, NOT A SMALL-TEAM VIRAL: Meowdoku comes from Learnings/Oakever, a large publisher (~200–300 R&D, 1B+ downloads), and was scaled with ~$500K/day of paid UA and 10k–14k AI-generated ad creatives per month [ESTIMATE – Sett.ai, Gamigion]. Lesson for a solo creator: the mechanic (LinkedIn Queens) was already proven viral and is public-domain-style logic; the cat skin plus relentless creative testing made it scale. A solo dev can ship the game in weeks, but Meowdoku's trajectory was bought, not organic. Organic alternatives: a free web version with a daily puzzle + shareable results (Wordle/Queens model), then mobile. Beware IP/cloning risk – Oakever itself is in litigation over copying. Many free web clones (meowdoku.app, meowdoku.gg, an open-source PWA on GitHub) appeared within weeks, showing how fast simple puzzle hooks get copied."
+}
