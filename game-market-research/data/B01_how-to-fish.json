@@ -14,12 +14,12 @@
   "platforms_and_store_links": "Steam (PC, Steam Deck Verified): https://store.steampowered.com/app/4001890/How_to_Fish/ ; Consoles (PS5/Xbox) and Mac: planned, no date [CONFIRMED – dev FAQ/Olsson quote via Insider Gaming, Push Square, GamesRadar]",
   "business_model": "Premium, $7.99 list with 38% launch discount to $4.95 until 2026-08-27. Free content updates (v1.1.0 'Islet Update' 2026-09-28). A How to Fish + PEAK Steam bundle was added with v1.1.0. No DLC/MTX reported.",
   "price_usd": "$7.99 list; $4.95 launch price (-38%) 2026-08-20 to 2026-08-27 [CONFIRMED – Steam store / GamesRadar]",
-  "units_or_downloads": "1,000,000 copies by 2026-08-22, i.e. ~48 h after launch [CONFIRMED – dev Steam news post '1 MILLION FISHERMEN IN 2 DAYS', via GamesRadar, Sweden Game Arena, Dot Esports]. >6.3M units by end of Aug 2026 [ESTIMATE – GameDiscoverCo Aug-2026 report]. >8.5M units lifetime by end of Sep 2026 [ESTIMATE – GameDiscoverCo Sep-2026 report, Steam only, excludes keys]. Boxleiter cross-check: ~69,000 all-language reviews (late Sep 2026 snapshot) × 80 (implied ratio at the 1M milestone) ≈ 5.5M; × 120 ≈ 8.3M [ESTIMATE]. Steam Page Analyzer's low-multiplier model gives only ~593k (395k–791k), which the confirmed 1M already exceeds, so disregard it. Dev target had been ~200,000 copies [CONFIRMED – Olsson via Sweden Game Arena]. No dev-announced milestone beyond 1M found as of 2026-10-08.",
+  "units_or_downloads": "1,000,000 copies by 2026-08-22, i.e. ~48 h after launch [CONFIRMED – dev Steam news post '1 MILLION FISHERMEN IN 2 DAYS', via GamesRadar, Sweden Game Arena, Dot Esports]. 6.3M+ units sold in August 2026 alone, the month's #1 new PC/console release by units [ESTIMATE – GameDiscoverCo August-2026 readout, corroborated by two secondary reports (Cinevva, 2026-09-04)]. A later GameDiscoverCo September readout reportedly put lifetime Steam units above 8.5M [ESTIMATE – could NOT be independently re-verified in a 2026-10-08 cross-check; treat as an upper scenario]. Boxleiter cross-check: ~69,000 all-language reviews (late Sep 2026) × 80 (implied ratio at the 1M milestone) ≈ 5.5M [ESTIMATE]. Steam Page Analyzer's ~593k is below the confirmed 1M and is disregarded. The developers had targeted ~200,000 copies [CONFIRMED – Olsson via Sweden Game Arena]. No dev-announced milestone beyond 1M found as of 2026-10-08.",
   "peak_concurrent_players": "All-time peak 373,971 on ~2026-08-25/26 [CONFIRMED – SteamDB via GamesRadar and DLCompare; SteamCharts shows 373,887, Raijin 372,634]. Timeline: 22,076 within 24 h of launch (SteamDB via Dexerto); 170,759 earlier high; 268,101 on 2026-08-23; 341,691 on 2026-08-24 (SteamDB post on X). Post-peak, a later undated snapshot shows ~27,000 concurrent with a 24-h peak ~59,500 (DLCompare). Twitch: TheBurntPeanut was the top channel in week 1 with 330,829 hours watched [ESTIMATE – Streams Charts].",
   "steam_reviews": "~12,000–13,000 reviews (~94% positive) on ~2026-08-22/23 (Techlomedia 'nearly 12,000'; brief ~13k). 61,145 all-language, 95.1% positive on 2026-09-12 (review roundup citing Steam). 68,344–69,053 all-language, 95% positive at the latest indexed snapshot (Raijin; Steam store Norwegian capture; late Sep / early Oct 2026). English-only: 27,213, 95% 'Overwhelmingly Positive'; last 30 days 20,261, 94% 'Very Positive'. Exact count on 2026-10-08: no data (likely ~70k+).",
-  "implied_review_multiplier": "~77–83 at the 1M milestone (1,000,000 CONFIRMED units ÷ ~12,000–13,000 reviews on 2026-08-22/23). Use ~80 as the calibration point for cheap viral friendslop. If GameDiscoverCo's >8.5M (end Sep) is right, the ratio vs ~69k reviews is ~120+. That is an estimate on an estimate, but it suggests the ratio grows after the launch spike.",
-  "gross_revenue": ">$38M lifetime Steam gross through Sep 2026 [ESTIMATE – GameDiscoverCo Sep-2026 report]. GDCo August chart: ~$26M gross in Aug 2026, #2 new Steam release by revenue [ESTIMATE – GameDiscoverCo]. Spec method cross-check: 8.5M × ($7.99 × 0.75 = $5.99) ≈ $51M. That overstates the total because most units (≥6.3M of 8.5M) sold during the $4.95 launch week or under regional pricing. GDCo's figure implies ~$4.47 per unit, which is consistent with that. Chosen central value ≈ $38M (range $32M–$51M).",
-  "net_revenue": "≈ $26M [ESTIMATE] = $38M gross − Steam cut (30% on first $10M = $3.0M; 25% on next $28M = $7.0M) = $28.0M × 0.93 (refunds/chargebacks) ≈ $26.0M to Dazed Games + Evil Landfall combined. The revenue split with Evil Landfall is undisclosed. Swedish corporate tax is not deducted.",
+  "implied_review_multiplier": "~77–83 at the 1M milestone (1,000,000 CONFIRMED units ÷ ~12,000–13,000 reviews on 2026-08-22/23). Use ~80 as the calibration point for cheap viral friendslop. Versus ~61k reviews on 2026-09-12, GameDiscoverCo's 6.3M+ August units imply ≥100× [ESTIMATE].",
+  "gross_revenue": "≈ $26M Steam gross in August 2026 alone [ESTIMATE – GameDiscoverCo August readout, corroborated by secondary coverage]; implied ~$4.1 per unit, consistent with the $4.95 launch price plus regional pricing. Lifetime to early Oct 2026: ≈ $26M–$38M (the $38M upper value is GameDiscoverCo's reported September figure, not re-verified) [ESTIMATE]. Spec method (8.5M × $5.99 ≈ $51M) overstates it because most copies sold at $4.95 or regional prices. Working figure for this study: ≥ $26M (floor), central ~$30M.",
+  "net_revenue": "≈ $18M–$26M [ESTIMATE]. At $26M gross: Steam cut 30% of first $10M ($3.0M) + 25% of $16M ($4.0M) = $7.0M → $19.0M × 0.93 ≈ $17.7M. At $38M gross: cut $3.0M + $7.0M = $10.0M → $28.0M × 0.93 ≈ $26.0M. Goes to Dazed Games + Evil Landfall combined (split undisclosed); Swedish corporate tax not deducted.",
   "production_cost": "≈ $144k [ESTIMATE – 2 people × 12 months × $6k/month, W. Europe lean indie]. Evil Landfall's project investment amount is undisclosed; the label is reported to offer up to ~$1M per project. No paid marketing budget reported.",
   "development_time": "~12 months, Aug 2025 → Aug 2026 [CONFIRMED – founders via Sweden Game Arena: 'in August last year they started working on…How to Fish'; 'after a year of development']",
   "why_popular": "Simple, instantly readable hook: a calm fishing game that turns into chaos. You catch absurd sea creatures, then shoot or blow them up with SMGs, dynamite and brass knuckles; gamble your catch; fight seagulls and boss fish; sell the catch and upgrade your boat. It has physics-comedy moments built for clips, a 1–4 friend co-op 'friendslop' format (PEAK/R.E.P.O./Lethal Company lineage) and an impulse price ($4.95 launch, so friends buy 4-packs). Reviewed as 'perfect for killing time'. The Landfall/PEAK halo gave it credibility. Launched in late-summer school holidays.",
@@ -31,32 +31,107 @@
   "solo_ai_mvp_cost_time": "6–10 weeks, ~$300–$900 (Claude Max $100–$200/mo × 2–3 months, 3D gen $30–$60/mo, audio $10–$30/mo, asset packs $50–$200, Steam Direct $100). Excludes the developer's living costs.",
   "solo_ai_polished_cost_time": "6–10 months, ~$3,000–$12,000 (tools ~$250/mo, asset packs $300–$800, freelance polish for animation/trailer/key art $1,000–$5,000, playtest and creator outreach $500–$2,000, Steam $100). Excludes living costs. The market outcome depends heavily on months of short-form video marketing.",
   "sources": [
-    {"title": "Steam store – How to Fish (app 4001890)", "url": "https://store.steampowered.com/app/4001890/How_to_Fish/"},
-    {"title": "Steam news – '1 MILLION FISHERMEN IN 2 DAYS?!?!1?' (Dazed Games)", "url": "https://store.steampowered.com/news/app/4001890/view/711158520539514065"},
-    {"title": "GamesRadar – Latest Steam lottery winner How to Fish sells 1 million copies in 2 days", "url": "https://www.gamesradar.com/games/co-op/latest-steam-lottery-winner-how-to-fish-sells-1-million-copies-in-2-days-yes-well-be-adding-more-content/"},
-    {"title": "GamesRadar – $5 co-op fishing game hits 370,000 peak players on Steam in 5 days", "url": "https://www.gamesradar.com/games/co-op/amid-the-friendslop-renaissance-usd5-co-op-fishing-game-hits-370-000-peak-players-on-steam-in-5-days/"},
-    {"title": "GameDiscoverCo – August 2026's top new PC & console games", "url": "https://newsletter.gamediscover.co/p/august-2026s-top-new-pc-and-console"},
-    {"title": "GameDiscoverCo – September 2026's top new PC & console games", "url": "https://newsletter.gamediscover.co/p/september-2026s-top-new-pc-and-console"},
-    {"title": "Sweden Game Arena – Dazed Games hits one million copies sold in just two days", "url": "https://swedengamearena.com/en/news/dazed-games-hits-one-million-copies-sold-just-two-days/"},
-    {"title": "Sweden Game Arena – Dazed Games secures project investment and sets sights on 2026 launch", "url": "https://swedengamearena.com/en/news/dazed-games-secures-project-investment-and-sets-sights-2026-launch/"},
-    {"title": "Sweden Game Arena – Party game drew 180,000 players worldwide (Out of Hand)", "url": "https://swedengamearena.com/en/news/party-game-drew-180000-players-worldwide-now-a-new-version-launches/"},
-    {"title": "SteamDB on X – 341,691 concurrent players", "url": "https://x.com/SteamDB/status/2091916710781591912"},
-    {"title": "SteamCharts – How to Fish", "url": "https://steamcharts.com/app/4001890"},
-    {"title": "Raijin – How to Fish Steam stats", "url": "https://raijin.gg/app/4001890/How_to_Fish"},
-    {"title": "Steam Page Analyzer – How to Fish sales estimate", "url": "https://www.steampageanalyzer.com/games/4001890"},
-    {"title": "DLCompare – How To Fish player count drops", "url": "https://www.dlcompare.com/gaming-news/how-to-fish-player-count-drops-but-isn-t-that-normal"},
-    {"title": "TechTimes – How to Fish crosses 268K Steam players: Landfall model", "url": "https://www.techtimes.com/articles/325314/20260824/how-fish-crosses-268k-steam-players-landfall-model-beats-aaa-budgets-again.htm"},
-    {"title": "Game World Observer – Authors of Peak and Content Warning launch their own publishing house (Evil Landfall)", "url": "https://gameworldobserver.com/2026/04/08/the-authors-of-peak-and-content-warning-have-launched-their-own-publishing-house"},
-    {"title": "Steam Community – Unity error code thread (engine evidence)", "url": "https://steamcommunity.com/app/4001890/discussions/0/582805931178587798/"},
-    {"title": "PlayTracker – How to Fish", "url": "https://playtracker.net/insight/game/150696"},
-    {"title": "Streams Charts – How to Fish Twitch stats", "url": "https://streamscharts.com/games/how-to-fish"},
-    {"title": "Player Guidebook – How to Fish review roundup (61,145 reviews on 2026-09-12)", "url": "https://playerguidebook.com/how-to-fish/review"},
-    {"title": "Techlomedia – How to Fish sold 1 million copies in two days", "url": "https://techlomedia.in/2026/08/how-to-fish-sold-1-million-copies-in-two-days-and-its-numbers-explain-why-125854/"},
-    {"title": "Dexerto – New hit co-op game lets you shoot fish", "url": "https://www.dexerto.com/gaming/new-hit-co-op-game-lets-you-shoot-fish-gamble-your-catch-and-fight-seagulls-3400863/"},
-    {"title": "games.gg – How to Fish Islet Update (v1.1.0)", "url": "https://games.gg/news/how-to-fish-first-major-update/"},
-    {"title": "Insider Gaming – How to Fish consoles/platforms", "url": "https://insider-gaming.com/how-to-fish-xbox-playstation-nintendo-switch-consoles-platforms/"},
-    {"title": "Dazed Games TikTok – trailer / release-date clip", "url": "https://www.tiktok.com/@dazed_games/video/7637085327659863319"}
+    {
+      "title": "Steam store – How to Fish (app 4001890)",
+      "url": "https://store.steampowered.com/app/4001890/How_to_Fish/"
+    },
+    {
+      "title": "Steam news – '1 MILLION FISHERMEN IN 2 DAYS?!?!1?' (Dazed Games)",
+      "url": "https://store.steampowered.com/news/app/4001890/view/711158520539514065"
+    },
+    {
+      "title": "GamesRadar – Latest Steam lottery winner How to Fish sells 1 million copies in 2 days",
+      "url": "https://www.gamesradar.com/games/co-op/latest-steam-lottery-winner-how-to-fish-sells-1-million-copies-in-2-days-yes-well-be-adding-more-content/"
+    },
+    {
+      "title": "GamesRadar – $5 co-op fishing game hits 370,000 peak players on Steam in 5 days",
+      "url": "https://www.gamesradar.com/games/co-op/amid-the-friendslop-renaissance-usd5-co-op-fishing-game-hits-370-000-peak-players-on-steam-in-5-days/"
+    },
+    {
+      "title": "GameDiscoverCo – August 2026's top new PC & console games",
+      "url": "https://newsletter.gamediscover.co/p/august-2026s-top-new-pc-and-console"
+    },
+    {
+      "title": "GameDiscoverCo – September 2026's top new PC & console games",
+      "url": "https://newsletter.gamediscover.co/p/september-2026s-top-new-pc-and-console"
+    },
+    {
+      "title": "Sweden Game Arena – Dazed Games hits one million copies sold in just two days",
+      "url": "https://swedengamearena.com/en/news/dazed-games-hits-one-million-copies-sold-just-two-days/"
+    },
+    {
+      "title": "Sweden Game Arena – Dazed Games secures project investment and sets sights on 2026 launch",
+      "url": "https://swedengamearena.com/en/news/dazed-games-secures-project-investment-and-sets-sights-2026-launch/"
+    },
+    {
+      "title": "Sweden Game Arena – Party game drew 180,000 players worldwide (Out of Hand)",
+      "url": "https://swedengamearena.com/en/news/party-game-drew-180000-players-worldwide-now-a-new-version-launches/"
+    },
+    {
+      "title": "SteamDB on X – 341,691 concurrent players",
+      "url": "https://x.com/SteamDB/status/2091916710781591912"
+    },
+    {
+      "title": "SteamCharts – How to Fish",
+      "url": "https://steamcharts.com/app/4001890"
+    },
+    {
+      "title": "Raijin – How to Fish Steam stats",
+      "url": "https://raijin.gg/app/4001890/How_to_Fish"
+    },
+    {
+      "title": "Steam Page Analyzer – How to Fish sales estimate",
+      "url": "https://www.steampageanalyzer.com/games/4001890"
+    },
+    {
+      "title": "DLCompare – How To Fish player count drops",
+      "url": "https://www.dlcompare.com/gaming-news/how-to-fish-player-count-drops-but-isn-t-that-normal"
+    },
+    {
+      "title": "TechTimes – How to Fish crosses 268K Steam players: Landfall model",
+      "url": "https://www.techtimes.com/articles/325314/20260824/how-fish-crosses-268k-steam-players-landfall-model-beats-aaa-budgets-again.htm"
+    },
+    {
+      "title": "Game World Observer – Authors of Peak and Content Warning launch their own publishing house (Evil Landfall)",
+      "url": "https://gameworldobserver.com/2026/04/08/the-authors-of-peak-and-content-warning-have-launched-their-own-publishing-house"
+    },
+    {
+      "title": "Steam Community – Unity error code thread (engine evidence)",
+      "url": "https://steamcommunity.com/app/4001890/discussions/0/582805931178587798/"
+    },
+    {
+      "title": "PlayTracker – How to Fish",
+      "url": "https://playtracker.net/insight/game/150696"
+    },
+    {
+      "title": "Streams Charts – How to Fish Twitch stats",
+      "url": "https://streamscharts.com/games/how-to-fish"
+    },
+    {
+      "title": "Player Guidebook – How to Fish review roundup (61,145 reviews on 2026-09-12)",
+      "url": "https://playerguidebook.com/how-to-fish/review"
+    },
+    {
+      "title": "Techlomedia – How to Fish sold 1 million copies in two days",
+      "url": "https://techlomedia.in/2026/08/how-to-fish-sold-1-million-copies-in-two-days-and-its-numbers-explain-why-125854/"
+    },
+    {
+      "title": "Dexerto – New hit co-op game lets you shoot fish",
+      "url": "https://www.dexerto.com/gaming/new-hit-co-op-game-lets-you-shoot-fish-gamble-your-catch-and-fight-seagulls-3400863/"
+    },
+    {
+      "title": "games.gg – How to Fish Islet Update (v1.1.0)",
+      "url": "https://games.gg/news/how-to-fish-first-major-update/"
+    },
+    {
+      "title": "Insider Gaming – How to Fish consoles/platforms",
+      "url": "https://insider-gaming.com/how-to-fish-xbox-playstation-nintendo-switch-consoles-platforms/"
+    },
+    {
+      "title": "Dazed Games TikTok – trailer / release-date clip",
+      "url": "https://www.tiktok.com/@dazed_games/video/7637085327659863319"
+    }
   ],
-  "data_conflicts": "(1) Publisher: the brief says self-published, and Steam lists Dazed Games as publisher, but CBR/TechTimes say it was 'published with support from' or 'bankrolled by' Evil Landfall. Chosen: self-published with Evil Landfall project investment and no equity. (2) All-time peak: 373,971 (SteamDB per GamesRadar/DLCompare, dated Aug 25 '5 days after launch' vs Aug 26) vs 373,887 (SteamCharts) vs 372,634 (Raijin). Chosen 373,971 on ~Aug 25–26. (3) Date of the 1M announcement: Aug 22 (most outlets) vs '3 days after launch' (TURGAME). Chosen Aug 22. (4) Reviews at 1M: 'nearly 12,000' (Techlomedia) vs ~13k (brief), so the implied ratio is a range of 77–83. (5) GameDiscoverCo: Aug gross $26M + Sep gross $6.5M = $32.5M, which does not reconcile with the stated '>$38M LTD'. That could be a revision or different cut-off dates. Reported both and chose $38M as the latest. (6) Player count: the store says 1–4 players, while the wiki/patch notes say lobbies of up to 8 since 1.0.4. (7) Release plan: an April 2026 article said 'end of 2026' and the site said Q3 2026; the actual release was Aug 20. (8) Steam Page Analyzer's ~593k estimate is inconsistent with the confirmed 1M and was rejected.",
-  "notes": "Post-launch: patches 1.0.4 (lobby limit 4→8), 1.0.5 (private invite-only lobbies), 1.0.12 on 2026-09-04 (Steam Cloud saves, last bug-fix-only patch), v1.1.0 'Islet Update' on 2026-09-28 (mini islands, Manta mini-boss, bow weapon, new bait/creatures/NPC/outfit/achievements, PEAK bundle), then 1.1.2/1.1.3 on 2026-09-29. Takeaways for a solo creator: (a) the first game failed commercially but taught the team marketing; (b) the publisher-light model (project investment, keep IP) can still bring a big label's halo; (c) months of weekly TikTok feature clips built the audience before launch; (d) a sub-$5 launch price plus co-op multi-pack buying produced roughly 80 units per review at the start, rising later. RELATED PRECEDENTS: WEBFISHING (Steam 2024-10-11, $4.99; developer and publisher 'lamedeveloper' (one person, per Steam listing); a remake of an 8-day 2022 itch.io game-jam project; cosy social fishing chatroom). Reviews: ~70,252, 97% positive (Raijin, 2026-07-22) / 69,258, ~97.5% (Vaporlens); just under 5,000 reviews, 98% positive, in launch week (Inverse). All-time peak CCU 23,838 (Tracker.gg). Sales are unconfirmed by the dev, and tracker estimates disagree widely: ~1.3M copies / ~$5.6M gross (Raijin, 2026-07-22, medium confidence); 1–2M owners (SteamSpy); ~5.06M / ~$25.2M (Vaporlens) [all ESTIMATE]. Engine (Godot) is unverified; it was not confirmed in this session's searches. Sources: https://raijin.gg/app/3146520/WEBFISHING , https://steamspy.com/dev/lamedeveloper , https://tracker.gg/population/steam/3146520 , https://www.inverse.com/gaming/steam-webfishing-cozy-chatroom-game-animal-crossing . It is the direct ancestor of the social-fishing hook, but How to Fish's peak CCU was ~16× higher. Fisch (Roblox, 2024) and Cast n Chill (2025, cosy idle fishing in a small desktop window): unverified, from memory only. Fisch shows fishing progression loops can scale to Roblox's young audience; Cast n Chill shows the 'desktop companion' idle-fishing niche. How to Fish combines the social fishing of WEBFISHING with PEAK-style physics-comedy co-op and shooter chaos."
+  "data_conflicts": "(1) Publisher: the brief says self-published, and Steam lists Dazed Games as publisher, but CBR/TechTimes say it was 'published with support from' or 'bankrolled by' Evil Landfall. Chosen: self-published with Evil Landfall project investment and no equity. (2) All-time peak: 373,971 (SteamDB per GamesRadar/DLCompare, dated Aug 25 '5 days after launch' vs Aug 26) vs 373,887 (SteamCharts) vs 372,634 (Raijin). Chosen 373,971 on ~Aug 25–26. (3) Date of the 1M announcement: Aug 22 (most outlets) vs '3 days after launch' (TURGAME). Chosen Aug 22. (4) Reviews at 1M: 'nearly 12,000' (Techlomedia) vs ~13k (brief), so the implied ratio is a range of 77–83. (5) GameDiscoverCo: Aug gross $26M + Sep gross $6.5M = $32.5M, which does not reconcile with the stated '>$38M LTD'. That could be a revision or different cut-off dates. Reported both and chose $38M as the latest. (6) Player count: the store says 1–4 players, while the wiki/patch notes say lobbies of up to 8 since 1.0.4. (7) Release plan: an April 2026 article said 'end of 2026' and the site said Q3 2026; the actual release was Aug 20. (8) Steam Page Analyzer's ~593k estimate is inconsistent with the confirmed 1M and was rejected. CROSS-CHECK 2026-10-08: GameDiscoverCo's August figures (6.3M+ units, ~$26M) were corroborated by secondary reports; the September '>8.5M / >$38M' figures could not be re-found, so the study uses the August readout as a floor and the September figures as an upper scenario.",
+  "notes": "Post-launch: patches 1.0.4 (lobby limit 4→8), 1.0.5 (private invite-only lobbies), 1.0.12 on 2026-09-04 (Steam Cloud saves, last bug-fix-only patch), v1.1.0 'Islet Update' on 2026-09-28 (mini islands, Manta mini-boss, bow weapon, new bait/creatures/NPC/outfit/achievements, PEAK bundle), then 1.1.2/1.1.3 on 2026-09-29. Takeaways for a solo creator: (a) the first game failed commercially but taught the team marketing; (b) the publisher-light model (project investment, keep IP) can still bring a big label's halo; (c) months of weekly TikTok feature clips built the audience before launch; (d) a sub-$5 launch price plus co-op multi-pack buying produced roughly 80 units per review at the start, rising later. RELATED PRECEDENTS: WEBFISHING (Steam 2024-10-11, $4.99; developer and publisher 'lamedeveloper' (one person, per Steam listing); a remake of an 8-day 2022 itch.io game-jam project; cosy social fishing chatroom). Reviews: ~70,252, 97% positive (Raijin, 2026-07-22) / 69,258, ~97.5% (Vaporlens); just under 5,000 reviews, 98% positive, in launch week (Inverse). All-time peak CCU 23,838 (Tracker.gg). Sales are unconfirmed by the dev, and tracker estimates disagree widely: ~1.3M copies / ~$5.6M gross (Raijin, 2026-07-22, medium confidence); 1–2M owners (SteamSpy); ~5.06M / ~$25.2M (Vaporlens) [all ESTIMATE]. Engine (Godot) is unverified; it was not confirmed in this session's searches. Sources: https://raijin.gg/app/3146520/WEBFISHING , https://steamspy.com/dev/lamedeveloper , https://tracker.gg/population/steam/3146520 , https://www.inverse.com/gaming/steam-webfishing-cozy-chatroom-game-animal-crossing . It is the direct ancestor of the social-fishing hook, but How to Fish's peak CCU was ~16× higher. Fisch (Roblox, 2024; not researched in this study) and Cast n Chill (2025, cosy idle fishing in a small desktop window; see B11 in this dataset). Fisch shows fishing progression loops can scale to Roblox's young audience; Cast n Chill shows the 'desktop companion' idle-fishing niche. How to Fish combines the social fishing of WEBFISHING with PEAK-style physics-comedy co-op and shooter chaos."
 }

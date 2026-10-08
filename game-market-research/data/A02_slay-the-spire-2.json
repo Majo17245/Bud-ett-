@@ -7,7 +7,7 @@
   "early_access_date": "2026-03-05 (Steam)",
   "window_note": "in window (Early Access launch 2026-03-05)",
   "developer": "Mega Crit (founders Anthony Giovannetti and Casey Yano)",
-  "team_size": "core team of ~10 people plus contributors (remote) [CONFIRMED in substance – PCGamesN/GeekWire, per coordinator-verified lead]; an 8-person crew ran the Oct 2023 Godot test jam ('Dancing Duelists') [secondary source case study]",
+  "team_size": "core team of ~10 people plus contributors (remote) [CONFIRMED in substance – PCGamesN/GeekWire, re-confirmed in a cross-check search on 2026-10-08]; an 8-person crew ran the Oct 2023 Godot test jam ('Dancing Duelists') [secondary source case study]",
   "country": "USA (Seattle, remote team)",
   "developer_background": "Second game. Slay the Spire (EA 2017, full 2019) effectively defined the roguelike deckbuilder genre and sold millions; Mega Crit is also a publisher (Mega Crit Games label). StS2 was in development ~2 years in Unity before the studio switched to Godot after Unity's Sept 2023 runtime-fee announcement; game revealed at the Triple-I Initiative showcase in April 2024. Mega Crit is a major Godot Foundation sponsor.",
   "publisher": "self-published (Mega Crit)",
@@ -31,20 +31,62 @@
   "solo_ai_mvp_cost_time": "3–6 weeks, $150–$500 (1 character, ~60–80 cards, 20 relics, 1 act with 10–15 enemies + 1 boss; Claude Pro/Max, image gen, Steam Direct $100)",
   "solo_ai_polished_cost_time": "6–12 months, $3,000–$12,000 (3 characters, ~250 cards, 3 acts; freelance art cleanup/consistency pass $1.5–6k, composer $1–3k, localisation, playtest/marketing + Next Fest demo; excludes developer's own living costs)",
   "sources": [
-    {"title": "Slay the Spire 2 on Steam", "url": "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/"},
-    {"title": "SteamDB – Slay the Spire 2", "url": "https://steamdb.info/app/2868840/"},
-    {"title": "SteamCharts – Slay the Spire 2", "url": "https://steamcharts.com/app/2868840"},
-    {"title": "GosuGamers – Slay the Spire II sells 3.3 million copies, 25 million runs in first week", "url": "https://www.gosugamers.net/entertainment/news/78130-slay-the-spire-ii-sells-3-3-million-copies-as-players-attempt-25-million-runs-in-first-week"},
-    {"title": "FullCleared – Slay the Spire 2 confirms 3M sold in first week", "url": "https://fullcleared.com/news/slay-the-spire-2-confirms-3m-sold-in-first-week/"},
-    {"title": "GosuGamers – Slay the Spire II hits 574,000 concurrent players", "url": "https://www.gosugamers.net/entertainment/news/78102-slay-the-spire-ii-hits-574-000-concurrent-players-12-000-short-of-hollow-knight-silksong-s-record"},
-    {"title": "Insider Gaming – Slay the Spire 2 reportedly sells 5M copies", "url": "https://insider-gaming.com/slay-the-spire-2-reportedly-sells-5m-copies/"},
-    {"title": "Wccftech – StS2 best-selling Steam game March 2026, est. 5.3M copies", "url": "https://wccftech.com/slay-the-spire-2-reportedly-best-selling-game-on-steam-march-2026-beat-crimson-desert/"},
-    {"title": "FRVR – Slay the Spire 2 sales, best-selling on Steam", "url": "https://frvr.com/blog/slay-the-spire-2-sales-best-selling-steam/"},
-    {"title": "gamesmarket.global – strongest Steam launch of the year so far", "url": "https://www.gamesmarket.global/slay-the-spire-2-achieves-strongest-steam-launch-of-the-year-so-far/"},
-    {"title": "Raijin – Slay the Spire 2 Steam stats", "url": "https://raijin.gg/app/2868840/Slay_the_Spire_2"},
-    {"title": "VG Insights – Slay the Spire 2", "url": "https://vginsights.com/game/slay-the-spire-2"},
-    {"title": "Game Developer – Slay the Spire devs followed through on abandoning Unity", "url": "https://gamedeveloper.com/business/slay-the-spire-devs-followed-through-on-abandoning-unity"},
-    {"title": "Mein-MMO – Why Slay the Spire 2 has negative reviews", "url": "https://mein-mmo.de/en/slay-the-spire-2-negative-reviews-why,1557860"}
+    {
+      "title": "Slay the Spire 2 on Steam",
+      "url": "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/"
+    },
+    {
+      "title": "SteamDB – Slay the Spire 2",
+      "url": "https://steamdb.info/app/2868840/"
+    },
+    {
+      "title": "SteamCharts – Slay the Spire 2",
+      "url": "https://steamcharts.com/app/2868840"
+    },
+    {
+      "title": "GosuGamers – Slay the Spire II sells 3.3 million copies, 25 million runs in first week",
+      "url": "https://www.gosugamers.net/entertainment/news/78130-slay-the-spire-ii-sells-3-3-million-copies-as-players-attempt-25-million-runs-in-first-week"
+    },
+    {
+      "title": "FullCleared – Slay the Spire 2 confirms 3M sold in first week",
+      "url": "https://fullcleared.com/news/slay-the-spire-2-confirms-3m-sold-in-first-week/"
+    },
+    {
+      "title": "GosuGamers – Slay the Spire II hits 574,000 concurrent players",
+      "url": "https://www.gosugamers.net/entertainment/news/78102-slay-the-spire-ii-hits-574-000-concurrent-players-12-000-short-of-hollow-knight-silksong-s-record"
+    },
+    {
+      "title": "Insider Gaming – Slay the Spire 2 reportedly sells 5M copies",
+      "url": "https://insider-gaming.com/slay-the-spire-2-reportedly-sells-5m-copies/"
+    },
+    {
+      "title": "Wccftech – StS2 best-selling Steam game March 2026, est. 5.3M copies",
+      "url": "https://wccftech.com/slay-the-spire-2-reportedly-best-selling-game-on-steam-march-2026-beat-crimson-desert/"
+    },
+    {
+      "title": "FRVR – Slay the Spire 2 sales, best-selling on Steam",
+      "url": "https://frvr.com/blog/slay-the-spire-2-sales-best-selling-steam/"
+    },
+    {
+      "title": "gamesmarket.global – strongest Steam launch of the year so far",
+      "url": "https://www.gamesmarket.global/slay-the-spire-2-achieves-strongest-steam-launch-of-the-year-so-far/"
+    },
+    {
+      "title": "Raijin – Slay the Spire 2 Steam stats",
+      "url": "https://raijin.gg/app/2868840/Slay_the_Spire_2"
+    },
+    {
+      "title": "VG Insights – Slay the Spire 2",
+      "url": "https://vginsights.com/game/slay-the-spire-2"
+    },
+    {
+      "title": "Game Developer – Slay the Spire devs followed through on abandoning Unity",
+      "url": "https://gamedeveloper.com/business/slay-the-spire-devs-followed-through-on-abandoning-unity"
+    },
+    {
+      "title": "Mein-MMO – Why Slay the Spire 2 has negative reviews",
+      "url": "https://mein-mmo.de/en/slay-the-spire-2-negative-reviews-why,1557860"
+    }
   ],
   "data_conflicts": "Peak CCU: 'nearly 600,000' (gamesmarket.global/Insider Gaming) vs exact 574,638 (SteamDB via GosuGamers/SteamCharts) – used 574,638. Week-1 units: 'over 3M' vs '3.3M' in headlines – used 3M+ as the confirmed floor. The Sensor Tower '~7M' lead could not be tied to a source in this session; Alinea's 7.1M (2026-07-09) and VG Insights' 7.4M are consistent with it, while Raijin is lower (6.2M units, $92.4M). Review score: English-only snapshot 91% vs all-language 57–63% after the March 2026 review bombs – reported both. Team size: '~10 core + contributors' (PCGamesN/GeekWire) vs a blog claiming a 'two-person studio' (refers to the founders) – used ~10.",
   "notes": "Biggest roguelike-deckbuilder launch ever on Steam. Lessons: (1) Godot is now proven for a 500k+ CCU commercial hit, which matters for solo devs avoiding Unity licensing risk. (2) Balance changes in Early Access can trigger review bombs even on a beta branch; communicate patch intent clearly and use opt-in betas. (3) The deckbuilder format is very AI-friendly to build but content/balance-heavy; budget most time for design iteration and automated balance simulation."

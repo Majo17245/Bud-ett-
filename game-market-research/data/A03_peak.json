@@ -20,7 +20,7 @@
   "implied_review_multiplier": "~31–34 [ESTIMATE – 10–11M units ÷ ~326k reviews (June 2026); the 10M figure is from Aug 2025, so the true ratio at matching dates is likely somewhat higher]. Surprisingly low for a cheap viral co-op game; players clearly review a lot. Using 20M 'players' instead gives ~61 (players, not buyers).",
   "gross_revenue": "≈ $62M Steam gross [ESTIMATE – 11M units × $5.67 avg realised price, derived from Alinea's $55M ÷ 9.7M; heavy launch/sale discounting means 0.75 × list ($6.00) would overstate it slightly]. Trackers: $55M+ at 9.7M copies (Aug 2025) [ESTIMATE – Alinea]; $56.1M (2026-06-04) [ESTIMATE – Raijin]. Unsourced lead of $87–92M not confirmed.",
   "net_revenue": "≈ $44M [ESTIMATE – $62.4M gross; Steam tiered cut (30% first $10M, 25% $10–50M, 20% above) leaves $46.9M × 0.93 = $43.6M], shared between Aggro Crab and Landfall (split undisclosed).",
-  "production_cost": "< $200,000 total [CONFIRMED – Aggro Crab studio head Nick Kaman, GDC talk via Game Developer]. Cross-check: 7 people × ~1–4 months × $6k ≈ $42k–170k [ESTIMATE].",
+  "production_cost": "~$200,000 total [ESTIMATE/reported – a single secondary (Italian-language) press report of the developers' figure; the 'under $200k' wording and the GDC 2026 talk ('Putting the Friends in Friendslop', Nick Kaman) could not be confirmed as the source in a cross-check on 2026-10-08]. Cross-check: 7 people × ~1–4 months × $6k ≈ $42k–170k [ESTIMATE].",
   "development_time": "Core built in a ~4-week jam in Seoul starting Feb 2025; ~4 months total to launch 2025-06-16 [CONFIRMED – devs via PC Gamer/Game Developer]. Teaser went live only ~4 days before release; announce-to-launch about one week.",
   "why_popular": "Simple, instantly understandable goal (climb the mountain together) with stamina management, ragdoll physics and comedic failure; no monster, the climb is the antagonist; built for voice chat and teamwork (revives, ropes, shared food); extremely watchable for streamers; $8 price (under $5 at launch) made it an impulse buy for whole friend groups; daily changing maps; arrived as 'friendslop' (Lethal Company, Content Warning, R.E.P.O.) was peaking.",
   "marketing_channels": "Almost no pre-launch hype (only 29,384 wishlists at launch, teaser ~4 days before release); growth came after launch from Twitch/YouTube streamers and TikTok/short-form clips of ragdoll falls; existing Landfall/Aggro Crab audiences and social accounts; Steam top-seller/algorithm momentum; launch discount; summer sale and later $4.95 discounts plus content updates (Mesa) that set new CCU records. Valve advised against a Content Warning-style free day. Award nominations kept it visible (devs publicly rebutted false AI-use claims).",
@@ -31,20 +31,59 @@
   "solo_ai_mvp_cost_time": "6–10 weeks, $300–$900 (1 biome, 2–4 player online co-op climbing with stamina + ragdoll, Steam lobbies; tool subscriptions, asset packs for ragdoll/netcode $50–$200, Steam Direct $100)",
   "solo_ai_polished_cost_time": "4–8 months, $3,000–$12,000 (3–4 biomes, items, daily maps, cosmetics; freelance 3D/character polish $1–5k, playtest sessions, streamer outreach/key distribution and trailer; excludes developer's own living costs)",
   "sources": [
-    {"title": "PEAK on Steam", "url": "https://store.steampowered.com/app/3527290/PEAK/"},
-    {"title": "Raijin – PEAK Steam stats", "url": "https://raijin.gg/app/3527290/PEAK"},
-    {"title": "SteamPulse – PEAK analytics", "url": "https://steampulse.org/game/3527290"},
-    {"title": "Game Developer – How co-op climbing hit Peak achieved 2 million sales for less than $200,000", "url": "https://www.gamedeveloper.com/production/how-co-op-climbing-hit-peak-achieved-2-million-sales-for-less-than-200-000-"},
-    {"title": "Game Developer – 'Text is evil': How making Peak changed Aggro Crab", "url": "https://www.gamedeveloper.com/production/-text-is-evil-how-making-peak-changed-indie-studio-aggro-crab"},
-    {"title": "PC Gamer – Peak pitched in a Swedish hot tub, developed in a 4-week Korean game jam", "url": "https://www.pcgamer.com/games/sim/peak-devs-say-the-hit-comedy-climber-was-pitched-in-a-swedish-hot-tub-and-developed-in-a-frantic-4-week-korean-game-jam-we-brought-our-computers-to-an-airbnb-in-hongdae-and-locked-tf-in-for-a-month/"},
-    {"title": "GameDiscoverCo – How Peak sold 4.5m copies in less than a month", "url": "https://newsletter.gamediscover.co/p/how-peak-sold-45m-copies-in-less"},
-    {"title": "Alinea Analytics – PEAK sold 1.7 million copies last week", "url": "https://alineaanalytics.substack.com/p/peak-sold-18-million-copies-last"},
-    {"title": "TweakTown – PEAK confirmed to have sold more than 10 million copies", "url": "https://www.tweaktown.com/news/107179/peak-confirmed-to-have-sold-more-than-10-million-copies/index.html"},
-    {"title": "GamesRadar – After a few months of work led to 11 million copies sold on Steam", "url": "https://www.gamesradar.com/games/co-op/after-a-few-months-of-work-led-to-11-million-copies-sold-on-steam-peak-devs-embrace-what-many-companies-refuse-to-learn-were-not-going-to-continually-have-a-graph-go-up/"},
-    {"title": "Insider Gaming – Peak passes 20 million players", "url": "https://insider-gaming.com/peak-20-million-players/"},
-    {"title": "Notebookcheck – Viral indie hit Peak tops Steam sales charts (Aug 2025 CCU record)", "url": "https://www.notebookcheck.net/Viral-indie-hit-game-Peaks-in-August-tops-Steam-sales-charts-with-massive-margin.1114932.0.html"},
-    {"title": "How To Market A Game – Is Friendslop saturated?", "url": "https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/"}
+    {
+      "title": "PEAK on Steam",
+      "url": "https://store.steampowered.com/app/3527290/PEAK/"
+    },
+    {
+      "title": "Raijin – PEAK Steam stats",
+      "url": "https://raijin.gg/app/3527290/PEAK"
+    },
+    {
+      "title": "SteamPulse – PEAK analytics",
+      "url": "https://steampulse.org/game/3527290"
+    },
+    {
+      "title": "Game Developer – How co-op climbing hit Peak achieved 2 million sales for less than $200,000",
+      "url": "https://www.gamedeveloper.com/production/how-co-op-climbing-hit-peak-achieved-2-million-sales-for-less-than-200-000-"
+    },
+    {
+      "title": "Game Developer – 'Text is evil': How making Peak changed Aggro Crab",
+      "url": "https://www.gamedeveloper.com/production/-text-is-evil-how-making-peak-changed-indie-studio-aggro-crab"
+    },
+    {
+      "title": "PC Gamer – Peak pitched in a Swedish hot tub, developed in a 4-week Korean game jam",
+      "url": "https://www.pcgamer.com/games/sim/peak-devs-say-the-hit-comedy-climber-was-pitched-in-a-swedish-hot-tub-and-developed-in-a-frantic-4-week-korean-game-jam-we-brought-our-computers-to-an-airbnb-in-hongdae-and-locked-tf-in-for-a-month/"
+    },
+    {
+      "title": "GameDiscoverCo – How Peak sold 4.5m copies in less than a month",
+      "url": "https://newsletter.gamediscover.co/p/how-peak-sold-45m-copies-in-less"
+    },
+    {
+      "title": "Alinea Analytics – PEAK sold 1.7 million copies last week",
+      "url": "https://alineaanalytics.substack.com/p/peak-sold-18-million-copies-last"
+    },
+    {
+      "title": "TweakTown – PEAK confirmed to have sold more than 10 million copies",
+      "url": "https://www.tweaktown.com/news/107179/peak-confirmed-to-have-sold-more-than-10-million-copies/index.html"
+    },
+    {
+      "title": "GamesRadar – After a few months of work led to 11 million copies sold on Steam",
+      "url": "https://www.gamesradar.com/games/co-op/after-a-few-months-of-work-led-to-11-million-copies-sold-on-steam-peak-devs-embrace-what-many-companies-refuse-to-learn-were-not-going-to-continually-have-a-graph-go-up/"
+    },
+    {
+      "title": "Insider Gaming – Peak passes 20 million players",
+      "url": "https://insider-gaming.com/peak-20-million-players/"
+    },
+    {
+      "title": "Notebookcheck – Viral indie hit Peak tops Steam sales charts (Aug 2025 CCU record)",
+      "url": "https://www.notebookcheck.net/Viral-indie-hit-game-Peaks-in-August-tops-Steam-sales-charts-with-massive-margin.1114932.0.html"
+    },
+    {
+      "title": "How To Market A Game – Is Friendslop saturated?",
+      "url": "https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/"
+    }
   ],
-  "data_conflicts": "Units: 10M+ (Aug 2025, Keighley/Alinea) and '11M on Steam' (GamesRadar 2026 headline) vs Raijin's ~7M (June 2026), which is clearly an underestimate; used 10–11M. The lead of 15.7M units / $87–92M could not be found in any source and was not used. '20M players' (June 2026, Aggro Crab) counts players, not purchases. Price: list $7.99 but launched at 38% off (~$4.95) and frequently discounted, so used Alinea's implied ~$5.67 realised price instead of 0.75 × list. Dev time: '4 weeks' (core jam) vs '~4 months' (total) – both reported. Peak CCU: 169,910–171k across trackers; used SteamDB-reported 170,759.",
+  "data_conflicts": "Units: 10M+ (Aug 2025, Keighley/Alinea) and '11M on Steam' (GamesRadar 2026 headline) vs Raijin's ~7M (June 2026), which is clearly an underestimate; used 10–11M. The lead of 15.7M units / $87–92M could not be found in any source and was not used. '20M players' (June 2026, Aggro Crab) counts players, not purchases. Price: list $7.99 but launched at 38% off (~$4.95) and frequently discounted, so used Alinea's implied ~$5.67 realised price instead of 0.75 × list. Dev time: '4 weeks' (core jam) vs '~4 months' (total) – both reported. Peak CCU: 169,910–171k across trackers; used SteamDB-reported 170,759. CROSS-CHECK 2026-10-08: the production-cost figure was downgraded from CONFIRMED to reported/ESTIMATE because no English-language primary source was found.",
   "notes": "Most relevant Group A case for a solo/AI creator: <$200k cost, ~4 months, tiny team, no pre-launch marketing (29k wishlists), cheap price, built for streamers and friend groups. But the team had deep prior co-op/physics tech (Landfall) and existing audiences. Friendslop is now crowded (How To Market A Game, July 2026: top titles take >50% of the player base then fade to ~10% within 3–9 months), so design the hook for clip-ability and keep scope tiny. Aggro Crab has since announced another co-op online game, Crashout Crew."
 }

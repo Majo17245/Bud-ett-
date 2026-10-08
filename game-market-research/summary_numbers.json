@@ -48,7 +48,7 @@
   "dev_months": 4,
   "ai_score": 3,
   "mvp_weeks": "6-10",
-  "comment": "Built in a ~4-week jam; production cost < $200k CONFIRMED."
+  "comment": "Core built in a ~4-week jam; ~$200k production cost (reported, single secondary source)."
  },
  "A04": {
   "group": "A",
@@ -167,7 +167,7 @@
   "dev_months": 2.25,
   "ai_score": 3,
   "mvp_weeks": "6-10",
-  "comment": "Built in ~9 weeks while the rest of the studio was on holiday; ~$54k est. cost."
+  "comment": "Reportedly built by 4 devs in ~9 weeks while the rest of the studio was on holiday (single-source); ~$54k est. cost."
  },
  "A11": {
   "group": "A",
@@ -192,12 +192,12 @@
   "release": "2026-08-20",
   "team": "2",
   "price_usd": 7.99,
-  "units_m": 8.5,
-  "units_label": "ESTIMATE (GameDiscoverCo, end Sep 2026); 1M CONFIRMED in 2 days",
+  "units_m": 6.3,
+  "units_label": "ESTIMATE floor (GameDiscoverCo Aug 2026, corroborated); up to ~8.5M by end Sep (unverified); 1M CONFIRMED in 2 days",
   "peak_ccu_k": 374.0,
-  "gross_musd": 38,
-  "gross_label": "ESTIMATE (GameDiscoverCo)",
-  "net_musd": 26,
+  "gross_musd": 26,
+  "gross_label": "ESTIMATE floor (Aug 2026 only); up to ~$38M lifetime (unverified)",
+  "net_musd": 17.7,
   "dev_months": 12,
   "ai_score": 3,
   "mvp_weeks": "6-10",
