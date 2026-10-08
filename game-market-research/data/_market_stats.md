@@ -3,9 +3,7 @@
 Research date: 2026-10-08. Every figure below came from WebSearch result summaries, because WebFetch and curl are blocked.
 Labels: **[CONFIRMED]** means an official platform, developer or publisher statement. **[ESTIMATE]** means a third-party tracker or analyst figure, or one computed here.
 
-> **COVERAGE WARNING.** The shared WebSearch budget (200 calls per turn across all agents) ran out partway through this task.
-> Sections 1–9 are researched. Sections 10–12 (Roblox, browser portals, AI use) could **not** be researched.
-> They hold only clearly marked *unverified leads* that need a follow-up search before anyone cites them.
+> **Coverage:** all 12 sections are researched. Sections 1–9 were done in the first pass; sections 10–12 (Roblox, browser portals, AI) were added in a second pass on the same date. No unverified "from memory" figures remain.
 
 ---
 
@@ -344,34 +342,149 @@ Sources:
 
 ---
 
-## 10. Roblox creator earnings – NOT RESEARCHED (search budget exhausted)
-**no data** gathered in this session.
+## 10. Roblox creator earnings
+**Distribution, 12 months to 2026-06-30** (figures Roblox presented at its 2026 Developers Conference; reported by Dexerto, TweakTown, IBTimes and SAYS) [CONFIRMED – Roblox RDC 2026, via press]:
+- **Top 10 creators averaged $65.7M each in DevEx payouts**, nearly double the **$33.9M** average in the previous year's report.
+- **Top 100 averaged $10.8M; top 1,000 averaged $1.4M.**
+- **More than 42,000 creators** take part in DevEx; **the median received ~$1,500.**
+- **Total DevEx ≈ $1.7B, up ~50% YoY.** Cumulative payouts since 2013 now exceed **$5B**.
+- The top 10 took **~39%** of the pool [ESTIMATE – IBTimes calculation].
+- Caveat: these are DevEx payouts per creator account. Many top "creators" are studios or teams, not individuals.
 
-Unverified leads to check in a follow-up. These come from model background knowledge, no URL was checked, and they must **not** be cited as-is:
-- [UNVERIFIED LEAD] Roblox's annual Economic Impact Report (2025) said creators earned about **$923M via DevEx in 2024**, up from roughly $740M in 2023.
-- [UNVERIFIED LEAD] At RDC in Sept 2025, Roblox raised the DevEx rate by ~8.5% to **$0.0038 per Robux** (this rate is already used in the spec). It also cited **>$1B** in creator earnings over the trailing 12 months.
-- Still needed: the number of creators or teams earning $1M+ and $10M+ per year (Roblox publishes this in its economic report), the 2025 full-year DevEx total, and concentration (share earned by the top 10 or top 1,000).
+**Derived [ESTIMATE, this report]: how many creators earn $1M+?**
+- Top 1,000 total ≈ $1.4B; top 100 total ≈ $1.08B. So ranks 101–1,000 share ≈ $0.32B, an average of ~$356k each.
+- Ranks 11–100 average ≈ $4.7M.
+- So **roughly 100–250 creator accounts earned ≥ $1M** in the 12 months to June 2026, against a median of ~$1.5k among 42,000+ DevEx participants.
+- This is a sharper winner-takes-all curve than Steam.
 
-## 11. Browser portals (Poki, CrazyGames, etc.) – NOT RESEARCHED (search budget exhausted)
-**no data** on earnings per 1,000 plays was gathered.
-The only reference available is the spec's revenue-share terms: Poki pays ~50% of ad revenue on portal-sourced traffic; CrazyGames pays ~60% of ads and 70% of IAP (2026 terms).
-Still needed: developer-reported revenue per 1,000 plays (eCPM-equivalent) for Poki and CrazyGames, and an exclusivity premium if any.
+**Annual DevEx totals and rates**
+- **2024: $923M** paid to creators [CONFIRMED – Roblox figure, via secondary coverage of the Sept 2025 RDC]. By Sept 2025, creators had earned **> $1B** over the trailing 12 months.
+- **2025 full year: > $1.5B** paid to creators. **Q4 2025 alone: $477M, +70% YoY**, partly due to the DevEx rate rise [CONFIRMED – Roblox Q4 2025 earnings call transcript, via AOL / Fintool; not checked against the 10-K].
+- **DevEx rate +8.5%, from $0.0035 to $0.0038 per Robux, for Robux earned from 2025-09-05.** Older Robux are still cashed out at $0.0035 first [CONFIRMED – Roblox RDC 2025 announcement, via Roblox press release on Placera / gamewave.fr / games.gg].
+- Not re-verified in this session: the coordinator-supplied figure that from 2026-06-08 the creator payout share is **37.8% (up from 26.6%) for age-verified US 18+ spend in 17+/R15 experiences** (source given: netinfluencer.com). Treat it as a coordinator lead.
 
-## 12. AI use in indie games and player reaction – NOT RESEARCHED (search budget exhausted)
-**no data** gathered in this session, apart from the existence of HTMAG's 2026-07-13 article "Did AI Slop ruin Steam Next Fest June 2026?" (https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/), which was not read.
-
-Unverified leads to check (model background knowledge; must **not** be cited as-is):
-- [UNVERIFIED LEAD] Valve introduced the Steam generative-AI disclosure in **January 2024**. It has two categories: "pre-generated" content and "live-generated" content, the latter needing guardrails. Reportedly the form was revised in early 2026 to focus on AI content players see, not AI-assisted dev tools.
-- [UNVERIFIED LEAD] Totally Human Software (Ichiro Lambe) tracked the number of Steam games with AI disclosures. It reported roughly **~8,000 titles by mid-2025** and about **1 in 5 new 2025 releases** disclosing AI use. A 2026 update is needed.
-- [UNVERIFIED LEAD] Backlash examples to verify:
-  - Clair Obscur: Expedition 33 had an Indie Game Awards honour withdrawn in Dec 2025 over leftover AI-generated placeholder textures.
-  - Arc Raiders (Nov 2025) drew criticism for AI-generated voices but still sold strongly.
-  - Several small Steam games were review-bombed over AI key art or capsules.
-- Still needed: the share of new Steam games disclosing AI in 2025 and 2026, survey data on player attitudes, and specific review-bomb cases with before/after review scores.
+Sources:
+- https://www.dexerto.com/roblox/robloxs-top-creators-average-65-7-million-a-year-but-most-make-far-less-3408675/
+- https://www.tweaktown.com/news/113585/robloxs-top-10-creators-averaged-65-7-million-each-while-the-median-made-1-500-and-roblox-everywhere-is-the-fix/index.html
+- https://www.ibtimes.co.uk/roblox-top-creators-devex-payouts-2026-1819403
+- https://says.com/my/tech/roblox-creators-earn-1-7-billion-developer-payouts
+- https://respawn.outlookindia.com/gaming/gaming-news/robloxs-top-developers-average-339-million-in-annual-earnings
+- https://www.aol.com/articles/roblox-rblx-q4-2025-earnings-224200551.html
+- https://www.placera.se/pressmeddelanden/roblox-a-roblox-unveils-ai-monetization-and-performance-innovations-for-creators-20250905
+- https://gamewave.fr/roblox/roblox-augmente-les-revenus-des-createurs-et-devoile-de-nouveaux-outils/
+- https://www.shanethegamer.com/research/roblox-creator-economy-analysis/
 
 ---
 
-## Key takeaways for the risk section (all from sections 1–9)
+## 11. Browser portals (Poki, CrazyGames and others): earnings per 1,000 plays
+**No portal publishes a revenue-per-1,000-plays figure.** CrazyGames' own docs name "revenue per 1,000 plays" as the key developer metric but give no benchmark. What exists:
+
+- **Revenue shares:**
+  - Poki: **100% on traffic you bring, 50% on Poki-sourced traffic** [CONFIRMED – Poki developer portal, via Cinevva].
+  - CrazyGames: **60% ads / 70% IAP** (2026 jam terms; not stated in its main docs) [ESTIMATE – Cinevva].
+  - Others: GameMonetize 45%; Playgama Bridge 80%; GameDistribution 33% of net; Y8 50%; itch.io 90% default [ESTIMATE – Cinevva comparison table].
+- **Ad rates (gross, per 1,000 ad views, not per play):** rewarded video ~**$15–28 eCPM in the US, $8–15 in the EU, $1–3 in tier-3 markets**. Banners pay a small fraction of that [ESTIMATE – Playgama 2026 breakdown via Cinevva].
+- **The only hard per-play data point is old:** one developer earned **€556.92 from 451,327 CrazyGames plays across 8 WebGL games, ≈ €1.20 per 1,000 plays** (games launched ~2018) [ESTIMATE – developer-reported, via Cinevva]. It is not a 2026 benchmark.
+- **Income ranges:**
+  - A well-performing casual game on a major portal earns **~$200–$2,000/month** [ESTIMATE – Cinevva guides]. Another guide gives ~$500–$3,000/month for a first web game.
+  - Poki says its **top developers earn $50k–$1M per year**, with top-developer revenue up ~10× in five years [CONFIRMED – Poki press release, Dec 2025; the lower bound has a typo in the original].
+- **Scale:**
+  - Poki had **625M players in 2025**, ~100M monthly players, **1B gameplays in a single month**, 1,500+ curated titles and 600+ developers [CONFIRMED – Poki].
+  - CrazyGames reports **250M+ gameplays/month** [CONFIRMED – CrazyGames press].
+  - Example: Emolingo Games (2 founders, now 5 people): 8 Poki games, each > 10M plays; Rainbow Obby has 100M plays; ~800k plays/day across its titles. Revenue was not disclosed [CONFIRMED – Poki blog, 2025-07-17].
+- **Derived [ESTIMATE, this report]: developer revenue ≈ $0.5–$4 per 1,000 plays, ~$1–2 as a central case.**
+  - Method: 1–2 ad impressions per play, at a blended global eCPM of ~$2–8, after a 50–60% portal share.
+  - Cross-check: a studio at Emolingo's ~800k plays/day (~290M/yr) would gross ~$0.3–1.2M/yr at $1–4 per 1,000 plays. That is consistent with Poki's "top developers $50k–$1M" range.
+  - Implication: **about 1M plays ≈ $500–$4,000** for the developer. Web portals make money at volume, not per game.
+
+Sources:
+- https://docs.crazygames.com/resources/ad-monetization-guide/
+- https://app.cinevva.com/guides/web-game-monetization
+- https://app.cinevva.com/guides/publish-game-poki
+- https://app.cinevva.com/guides/publish-game-crazygames
+- https://sdk.poki.com/
+- https://poki.com/blog/poki-wins-dutch-game-awards-2025
+- https://poki.com/blog/how-emolingo-games-built-business-html5-web-games-poki
+- https://gamespress.westeu-v2.propressroom.com/DEVELOPER-FIRST-BROWSER-GAME-PLATFORM-CRAZYGAMES-CELEBRATES-TENTH-ANNI
+
+---
+
+## 12. AI use in indie games and player reaction
+**Steam AI-disclosure policy**
+- Valve introduced a mandatory generative-AI disclosure on Steam in **January 2024** [CONFIRMED – Valve; see the Haro census and PC Gamer coverage].
+- **The form was revised in January 2026.** Developers now disclose AI only if it "ships with your game, and is consumed by players", including store-page, community and marketing assets [CONFIRMED – Valve form change, via Game Developer / PCGamesN / Notebookcheck / Dexerto].
+  - It asks separately about **pre-rendered** AI content and **live-generated** AI content or code during gameplay.
+  - Behind-the-scenes tools (coding assistants like Copilot, bug checkers, office tools) are now **exempt**.
+  - Developers must still guard against illegal or infringing output; uncontrolled live-generated AI can get a game removed.
+
+**Share of games that disclose AI**
+- **Totally Human (Ichiro Lambe), 2025-07-13** [ESTIMATE – Steam API analysis, via VGC / Insider Gaming / WN Hub]:
+  - **7,818 of ~114,126 Steam games (~7%)** disclose AI, up from 1.1% in Apr 2024.
+  - **~1 in 5 (≈ 20%) of 2025 releases** disclose AI.
+  - ~60% of disclosed uses are visual assets.
+  - Disclosure counts are a floor: some developers don't disclose, and others word disclosures defensively.
+- **Sulka Haro census (~53,600 releases, mid-2023 to mid-2026)** [ESTIMATE – via PC Gamer, the fragwyz Substack and Cinevva]:
+  - **10.9% of 2024 releases, 19.9% of 2025 releases, 30.8% of 2026 releases (YTD, July 2026)** carry an AI disclosure.
+  - That is ~530 AI-flagged launches per month vs ~1,320 non-AI.
+  - On trend, the share would pass **50% of releases in 2027–28**.
+  - AI-disclosed games are ~⅓ of releases but only **~10–27% of estimated sales**.
+  - ~22% of significant-revenue AI games added the flag *after* launch.
+  - A later snapshot put the share at ~33%.
+
+**Player attitudes (surveys)**
+- **GameDiscoverCo survey of ~3,800 engaged Steam users** [ESTIMATE – GameDiscoverCo, via Gamereactor / WN Hub / games.gg]:
+  - only **8.1%** won't consider any game that uses AI under any circumstances
+  - **23.4%** have "absolutely no problem" with it
+  - 19.6% are "fine" with it
+- **Circana PlayerPulse, Dec 2025 (US):** just over **25%** say knowing a game used genAI for art, dialogue, text or music makes them less likely to buy it, or unwilling to buy it (up from ~22% in Mar 2024). **< 10%** say it makes them more interested [ESTIMATE – Circana, via Outlook Respawn].
+- **Quantic Foundry (N = 1,799, Oct–Dec 2025, self-selected):** **85%** negative about genAI in games; 63% chose the most negative option [ESTIMATE – Quantic Foundry, via GamesMarket / Boing Boing].
+- **Developers:** **52%** of GDC 2026 State of the Industry respondents see genAI as having a negative impact on the industry, up from 30% in 2025 and 18% in 2024 [ESTIMATE – GDC survey, via search summary].
+
+**Backlash examples**
+- **Clair Obscur: Expedition 33** won Indie Game of the Year and Best Debut at the Indie Game Awards on 2025-12-18. Both were **rescinded around Dec 20–22, 2025** after leftover AI placeholder textures (newspaper-style backgrounds) were found.
+  - The awards went to Blue Prince (GOTY) and Sorry We're Closed (Debut). The IGA rules bar any genAI use [CONFIRMED – IGA decision, via AV Club / Malay Mail / SAYS / Gfinity].
+- **Crimson Desert (Pearl Abyss, 2026):** players spotted an AI-generated battle painting with no Steam AI disclosure. The studio apologised on X and added a disclosure [CONFIRMED – Pearl Abyss statement, via TweakTown / Thred].
+- **1666: Amsterdam (Panache Games):** AI-looking art in the free prologue drew backlash. All AI assets were removed before its 25 August Early Access launch. Its Steam score sits at **66% "Mixed"** [CONFIRMED – co-founder Patrice Désilets, via FinalBoss / welcome.ai].
+- **Vapor World:** AI-generated cutscenes replaced its in-engine ones and drew backlash. It opened at **36% positive on 64 reviews**, and the studio pledged to remove all AI cutscenes [CONFIRMED – director statement, via Everything Edinburgh].
+- **Shrine's Legacy (indie RPG):** hit by negative reviews after *false* "AI slop" accusations; the developers state it is human-made [CONFIRMED – developer statement, via Outlook Respawn]. Small teams face suspicion even without AI.
+- **Storefront fatigue:** PC Gamer's "Steam Week in Review" calls spammy AI capsule art "a pox" on browsing.
+  - A Game Oracle claim that "AI stigma" cuts sales by up to 50% for disclosing games could **not** be verified.
+  - HTMAG asked "Did AI Slop ruin Steam Next Fest June 2026?" (2026-07-13; not read in detail).
+
+**Risk read for a solo developer using AI:**
+- Disclosure is mandatory for anything players see.
+- AI-disclosed games now make up ~⅓ of releases but under-index on sales.
+- Only ~8% of engaged Steam buyers reject AI outright, but ~25% of US players are less likely to buy.
+- Backlash targets *visible* AI art, cutscenes and capsules most.
+- **Safest approach:** use AI for code and tools (exempt from disclosure since Jan 2026), and keep visible art, key art and capsule human-made or heavily human-edited.
+
+Sources:
+- https://www.videogameschronicle.com/news/steam-games-disclosing-generative-ai-use-are-up-800-this-year/
+- https://insider-gaming.com/nearly-20-of-new-steam-games-in-2025-use-generative-ai/
+- https://wnhub.io/news/analytics/item-48275
+- https://wnhub.io/news/stores-and-publishing/item-48292
+- https://www.pcgamer.com/gaming-industry/steam-week-in-review-take-cover-because-it-looks-like-more-than-half-of-steam-games-will-have-an-ai-disclosure-by-2027-2028/
+- https://fragwyz.substack.com/p/three-years-of-ai-on-steam
+- https://app.cinevva.com/news/2026-07-20-steam-ai-disclosure-study
+- https://gamedeveloper.com/business/valve-tweaks-and-clarifies-ai-disclosure-rules-for-steam
+- https://www.pcgamesn.com/steam/new-gen-ai-disclosure-form
+- https://www.notebookcheck.net/Steam-updates-AI-disclosure-form-requiring-developers-to-report-visible-and-in-game-AI-but-not-background-tools.1206103.0.html
+- https://www.dexerto.com/gaming/steam-makes-major-change-to-ai-rules-for-games-3306274
+- https://www.gamereactor.eu/only-8-of-steam-users-say-they-wouldnt-buy-a-game-if-it-contained-ai-1745073/
+- https://respawn.outlookindia.com/gaming/gaming-news/do-gamers-care-about-genai-new-data-reveals-a-silent-majority
+- https://www.gamesmarket.global/quantic-foundry-most-gamers-are-negative-about-the-use-of-gen-ai-in-video-games
+- https://www.avclub.com/clair-obscur-genai-iga-awards-rescinded
+- https://www.malaymail.com/news/tech-gadgets/2025/12/21/indie-game-awards-rescinds-honours-from-clair-obscur-expedition-33-for-genai-use/202718
+- https://thred.com/tech/crimson-desert-developers-apologise-for-using-ai-art/
+- https://finalboss.io/1666-amsterdam-removes-ai-art-after-demo-backlash-what-players-should-check-next
+- https://everythingedinburgh.com/games/news/vapor-world-steam-ai-cutscene-backlash/
+- https://respawn.outlookindia.com/gaming/gaming-news/shrines-legacy-devs-deny-ai-slop-chatgpt-rumors
+- https://pcgamer.com/gaming-industry/steam-week-in-review-spammy-ai-generated-capsule-art-is-a-pox-and-it-makes-browsing-steam-less-fun/
+- https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/
+
+---
+
+## Key takeaways for the risk section
 1. About **20,000+ Steam releases per year**: ~19k in 2024, ~20.3k in 2025, and 20.2k already by 1 Oct 2026 (2026 is on track for a record ~24–27k).
 2. **Median 2025 release grossed ~$249. ~66% grossed < $1k and ~40% < $100.** Only **~8% passed $100k** and **0.5–1.5% passed $1M** (~95–300 games).
 3. Only **608 of 20,282 (2.99%)** 2025 releases reached 1,000 reviews, and about half have fewer than 10.
@@ -381,3 +494,6 @@ Unverified leads to check (model background knowledge; must **not** be cited as-
 7. Friendslop demand is real: genre-wide concurrent players hit a record ~350k in June 2026. But each hit fades from > 50% to ~10% of genre players within 3–9 months.
 8. Next Fest breakouts are rare: 3–5 games per fest reach 45k+ wishlists. Bombanana (675k fest players, 230k wishlists, 6M demo players) is an extreme outlier.
 9. Mobile paid UA is getting more expensive: hybrid-casual Android CPI is up ~75% in a year to ~$0.95 globally, and US casual iOS costs $2–4. Organic short-form video and playables matter more than paid installs for a solo developer.
+10. **Roblox is even more top-heavy than Steam:** the top 10 creators averaged $65.7M, while the median DevEx creator got ~$1,500 (12 months to June 2026, ~$1.7B total). Only ~100–250 accounts earned $1M+.
+11. **Browser portals pay ~$0.5–4 per 1,000 plays** (derived estimate), so 1M plays ≈ $500–$4,000. Poki's top developers earn $50k–$1M a year.
+12. **AI disclosure is now mainstream but under-sells:** ~31% of 2026 Steam releases disclose AI, but they take ~10–27% of sales. 8% of engaged Steam users reject AI games outright, and ~25% of US players are less likely to buy. Backlash concentrates on visible AI art.
