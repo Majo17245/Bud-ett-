@@ -1,6 +1,6 @@
 {
-  "id": "B24",
-  "group": "B (provisional: GamesRadar names 4 developers; TENSTACK's LinkedIn credits 3 developers plus separate art, audio and marketing people, so total contributors may exceed 5)",
+  "id": "B19",
+  "group": "B",
   "title": "Gamble With Your Friends",
   "genre": "Online co-op 'casino crawler' / friendslop: 1–6 players share one bank account and one massive debt, gamble through 16 casino games and climb a casino tower to meet a loan shark's quota within 5 minutes",
   "release_date": "2026-05-01 (Steam, PC; one listing says May 2)",
@@ -31,19 +31,55 @@
   "solo_ai_mvp_cost_time": "4–6 weeks for ~5 casino games plus a shared wallet and online lobby, ~$200–$600 (Claude Pro/Max, asset packs $50–$200, Steam Direct $100). Excludes living costs.",
   "solo_ai_polished_cost_time": "3–6 months for 15+ games, items, tower progression and 6-player stability, ~$2,000–$6,000 (tools, asset packs, freelance art/trailer, playtests, creator outreach). Excludes living costs.",
   "sources": [
-    {"title": "Steam store – Gamble With Your Friends (app 3892270)", "url": "https://store.steampowered.com/app/3892270/Gamble_With_Your_Friends/"},
-    {"title": "Raijin – Gamble With Your Friends Steam stats", "url": "https://raijin.gg/app/3892270/Gamble_With_Your_Friends"},
-    {"title": "Gamalytic – Gamble With Your Friends", "url": "https://gamalytic.com/game/3892270"},
-    {"title": "SteamCharts – Gamble With Your Friends", "url": "https://steamcharts.com/app/3892270"},
-    {"title": "SteamPulse (VG Insights data) – app 3892270", "url": "https://edge-test.steampulse.org/game/3892270"},
-    {"title": "GamesRadar (via inkl) – Gamble With Your Friends sells 500k copies in 3 days", "url": "https://www.inkl.com/news/another-friendslop-hit-prints-money-on-steam-as-gamble-with-your-friends-sells-500k-copies-in-3-days-speechless"},
-    {"title": "KitGuru – New indie hit reaches 1 million sales on Steam", "url": "https://www.kitguru.net/gaming/joao-silva/new-indie-hit-reaches-1-million-sales-on-steam/"},
-    {"title": "Gamereactor – Gamble With Your Friends sells a million copies", "url": "https://www.gamereactor.eu/the-latest-friendslop-hit-is-here-as-gamble-with-your-friends-sells-a-million-copies-in-less-than-two-weeks-1716843/"},
-    {"title": "GosuGamers – Sells one million copies in a week", "url": "https://www.gosugamers.net/entertainment/news/78409-gamble-with-your-friends-sells-one-million-copies-in-a-week"},
-    {"title": "WN Hub – Sales exceeded 2 million copies", "url": "https://wnhub.io/news/finance/item-51060"},
-    {"title": "Automaton (JP) – 700k sales", "url": "https://automaton-media.com/articles/newsjp/20260507-441590/"},
-    {"title": "TENSTACK on LinkedIn", "url": "https://www.linkedin.com/company/tenstack"}
+    {
+      "title": "Steam store – Gamble With Your Friends (app 3892270)",
+      "url": "https://store.steampowered.com/app/3892270/Gamble_With_Your_Friends/"
+    },
+    {
+      "title": "Raijin – Gamble With Your Friends Steam stats",
+      "url": "https://raijin.gg/app/3892270/Gamble_With_Your_Friends"
+    },
+    {
+      "title": "Gamalytic – Gamble With Your Friends",
+      "url": "https://gamalytic.com/game/3892270"
+    },
+    {
+      "title": "SteamCharts – Gamble With Your Friends",
+      "url": "https://steamcharts.com/app/3892270"
+    },
+    {
+      "title": "SteamPulse (VG Insights data) – app 3892270",
+      "url": "https://edge-test.steampulse.org/game/3892270"
+    },
+    {
+      "title": "GamesRadar (via inkl) – Gamble With Your Friends sells 500k copies in 3 days",
+      "url": "https://www.inkl.com/news/another-friendslop-hit-prints-money-on-steam-as-gamble-with-your-friends-sells-500k-copies-in-3-days-speechless"
+    },
+    {
+      "title": "KitGuru – New indie hit reaches 1 million sales on Steam",
+      "url": "https://www.kitguru.net/gaming/joao-silva/new-indie-hit-reaches-1-million-sales-on-steam/"
+    },
+    {
+      "title": "Gamereactor – Gamble With Your Friends sells a million copies",
+      "url": "https://www.gamereactor.eu/the-latest-friendslop-hit-is-here-as-gamble-with-your-friends-sells-a-million-copies-in-less-than-two-weeks-1716843/"
+    },
+    {
+      "title": "GosuGamers – Sells one million copies in a week",
+      "url": "https://www.gosugamers.net/entertainment/news/78409-gamble-with-your-friends-sells-one-million-copies-in-a-week"
+    },
+    {
+      "title": "WN Hub – Sales exceeded 2 million copies",
+      "url": "https://wnhub.io/news/finance/item-51060"
+    },
+    {
+      "title": "Automaton (JP) – 700k sales",
+      "url": "https://automaton-media.com/articles/newsjp/20260507-441590/"
+    },
+    {
+      "title": "TENSTACK on LinkedIn",
+      "url": "https://www.linkedin.com/company/tenstack"
+    }
   ],
   "data_conflicts": "(1) Developer credit: TEAM GWYF (Steam) vs SkyBrave (GosuGamers) vs the four handles (GamesRadar) vs the three named devs plus contributors (TENSTACK LinkedIn). Used TEAM GWYF and ~4 core devs. (2) 500k date: May 4 vs May 5. (3) Release: May 1 vs May 2. (4) Peak CCU: 42,488 (Raijin) vs 24,666 (SteamCharts, likely stale). Chose Raijin. (5) Player cap: 1–6 (Steam) vs up to 4 (MacGamingDB). Chose 6. (6) Group A/B is borderline, because the total contributor count may exceed 5.",
-  "notes": "This is part of a cluster of Swedish friendslop hits in 2026 (Sledding Game, How to Fish, Gamble With Your Friends), cross-bundled on Steam, which suggests label/collective networks (TENSTACK, Evil Landfall) matter. The rapid sequence of milestone posts (500k/600k/700k within days) was itself a marketing tactic. The theme is simulated gambling with no real money, so watch platform and age-rating policies if you build something similar."
+  "notes": "Group note: Provisional Group B – GamesRadar names 4 developers; TENSTACK's LinkedIn credits 3 developers plus separate art, audio and marketing people, so total contributors may exceed 5. This is part of a cluster of Swedish friendslop hits in 2026 (Sledding Game, How to Fish, Gamble With Your Friends), cross-bundled on Steam, which suggests label/collective networks (TENSTACK, Evil Landfall) matter. The rapid sequence of milestone posts (500k/600k/700k within days) was itself a marketing tactic. The theme is simulated gambling with no real money, so watch platform and age-rating policies if you build something similar."
 }

@@ -1,5 +1,5 @@
 {
-  "id": "B19",
+  "id": "B16",
   "group": "B",
   "title": "Wplace (wplace.live)",
   "genre": "Browser collaborative pixel-art canvas / social sandbox (r/place-style 'paint the world' on a world map)",
@@ -31,13 +31,34 @@
   "solo_ai_mvp_cost_time": "2–4 weeks, $100–$400 (Claude Pro/Max, domain, small VPS/Cloudflare plan; excludes living costs)",
   "solo_ai_polished_cost_time": "2–4 months, $2,000–$15,000+ (mostly infrastructure/bandwidth at scale, anti-bot tooling, moderation help); costs grow with virality, so set up monetization and rate limits before launch",
   "sources": [
-    {"title": "Wikipedia – Wplace", "url": "https://en.wikipedia.org/wiki/Wplace"},
-    {"title": "Know Your Meme – What is Wplace? The viral Reddit Place copycat explained", "url": "https://knowyourmeme.com/editorials/guides/what-is-wplace-the-viral-reddit-place-copycat-that-lets-you-draw-on-the-world-map-explained"},
-    {"title": "Know Your Meme – Wplace", "url": "https://knowyourmeme.com/memes/sites/wplace"},
-    {"title": "ScreenHub – Wplace is a new online map where gamers are 'painting the world'", "url": "https://www.screenhub.com.au/news/games/wplace-online-map-gamers-2675690/"},
-    {"title": "Click2Houston (AP) – Welcome to Wplace, a chaotic collaborative digital canvas", "url": "https://www.click2houston.com/business/2025/09/03/welcome-to-wplace-a-chaotic-collaborative-digital-canvas-where-users-paint-the-world/"},
-    {"title": "Gigazine – OpenFreeMap survived 100,000 requests/second from wplace.live", "url": "https://gigazine.net/news/20250812-openfreemap-survived-100000-requests-wplace-live/"},
-    {"title": "Know Your Meme – Deltarune Sprite Art on Wplace", "url": "https://knowyourmeme.com/memes/deltarune-sprite-art-on-wplace"}
+    {
+      "title": "Wikipedia – Wplace",
+      "url": "https://en.wikipedia.org/wiki/Wplace"
+    },
+    {
+      "title": "Know Your Meme – What is Wplace? The viral Reddit Place copycat explained",
+      "url": "https://knowyourmeme.com/editorials/guides/what-is-wplace-the-viral-reddit-place-copycat-that-lets-you-draw-on-the-world-map-explained"
+    },
+    {
+      "title": "Know Your Meme – Wplace",
+      "url": "https://knowyourmeme.com/memes/sites/wplace"
+    },
+    {
+      "title": "ScreenHub – Wplace is a new online map where gamers are 'painting the world'",
+      "url": "https://www.screenhub.com.au/news/games/wplace-online-map-gamers-2675690/"
+    },
+    {
+      "title": "Click2Houston (AP) – Welcome to Wplace, a chaotic collaborative digital canvas",
+      "url": "https://www.click2houston.com/business/2025/09/03/welcome-to-wplace-a-chaotic-collaborative-digital-canvas-where-users-paint-the-world/"
+    },
+    {
+      "title": "Gigazine – OpenFreeMap survived 100,000 requests/second from wplace.live",
+      "url": "https://gigazine.net/news/20250812-openfreemap-survived-100000-requests-wplace-live/"
+    },
+    {
+      "title": "Know Your Meme – Deltarune Sprite Art on Wplace",
+      "url": "https://knowyourmeme.com/memes/deltarune-sprite-art-on-wplace"
+    }
   ],
   "data_conflicts": "1) Team size: only a single named creator found; one search summary could not confirm the creator's name, Wikipedia does – used Wikipedia. 2) Monetization: sources describe earned droplets only; the developer's 'pay to win' Reddit response (27 Aug 2025) implies paid options – real-money pricing left as no data. 3) User numbers: only the '1M users in 4 days' launch figure found; no later totals.",
   "notes": "Shows that a 'permanent, global version of a beloved limited event' can go viral with zero marketing, but also that viral web projects carry infrastructure, moderation and anti-bot costs that a solo dev must plan for (OpenFreeMap was hit with 3B requests/day). For a solo + AI creator: ship the MVP fast, but build rate limits, CDN caching and a monetization path (cosmetics, supporter perks) before launch. Other candidates checked: Dragonsweeper (Daniel Benmergui, free itch.io browser game, Jan 2025 – outside window, no Steam version found; copycats 'DungeonSweeper' appeared on Steam in 2026); Internet Roadtrip (Neal Agarwal, neal.fun, launched 2025-05-06, solo, ~1,000 simultaneous drivers)."

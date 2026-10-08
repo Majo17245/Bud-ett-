@@ -1,6 +1,6 @@
 {
-  "id": "B20",
-  "group": "A",
+  "id": "C04",
+  "group": "C",
   "title": "BOMBANANA!",
   "genre": "3-player online co-op party game / asymmetric-communication bomb defusal (the three monkeys are 'blind, deaf and mute', i.e. see-, hear- and speak-no-evil), in the spirit of Keep Talking and Nobody Explodes",
   "release_date": "2026-09-02 (Steam, PC) [CONFIRMED – Steam store page / publisher press release on Game Developer]",
@@ -31,25 +31,79 @@
   "solo_ai_mvp_cost_time": "[ESTIMATE – spec method] 4–8 weeks, $250–$700 (Claude Pro/Max, 3D gen, audio subscriptions, $100 Steam Direct fee); excludes the developer's living costs",
   "solo_ai_polished_cost_time": "[ESTIMATE – spec method] 3–6 months, $2,500–$8,000 (subscriptions, asset packs, freelance character animation polish, playtest/Next Fest/creator outreach budget); excludes the developer's living costs. Matching Bombanana's reach would additionally need a publisher-level creator campaign.",
   "sources": [
-    {"title": "BOMBANANA! on Steam", "url": "https://store.steampowered.com/app/4656000/BOMBANANA/"},
-    {"title": "BOMBANANA! Demo on Steam", "url": "https://store.steampowered.com/app/4747510/BOMBANANA_Demo/"},
-    {"title": "Raijin – BOMBANANA! estimates", "url": "https://raijin.gg/app/4656000/BOMBANANA"},
-    {"title": "Insider Gaming – Bombanana surpassed 1 million sales in 10 days", "url": "https://insider-gaming.com/bombanana-surpassed-1-million-sales-in-10-days/"},
-    {"title": "GamesBeat – Türkiye's indie PC scene breaks out as Bombanana! sells one million copies in 10 days", "url": "https://gamesbeat.com/turkiyes-indie-pc-scene-breaks-out-as-bombanana-sells-one-million-copies-in-10-days/"},
-    {"title": "Mobidictum – Turkish-made BOMBANANA! sells 1 million copies in 10 days", "url": "https://mobidictum.com/turkish-made-bombanana-1-million-copies-10-days/"},
-    {"title": "Game Developer (press release) – BOMBANANA! celebrates 1 million wishlists, release date 2 September 2026", "url": "https://www.gamedeveloper.com/press-release/bombanana-celebrate-1-million-wishlists-by-announcing-release-date-set-your-countdown-for-2-september-2026-"},
-    {"title": "Chip.com.tr – BOMBANANA! üç günde 500 bin satışa ulaştı", "url": "https://www.chip.com.tr/haber/kuresel-capta-turk-basarisi-bombanana-uc-gunde-500-bin-satisa-ulasti_183593.html"},
-    {"title": "Haber Hürriyeti – Türk yapımı Bombanana 10 günde 1 milyon satış", "url": "https://www.haberhurriyeti.com/haber/28860508/turk-yapimi-bombanana-dunyayi-salladi-10-gunde-1-milyon-satis"},
-    {"title": "Inven Global – Bombanana reaches 1 million players in two weeks", "url": "https://www.invenglobal.com/articles/26215/bombanana-reaches-1-million-players-in-two-weeks"},
-    {"title": "80.lv – Chaotic monkey puzzle co-op Bombanana launches on Steam to positive reviews", "url": "https://80.lv/articles/chaotic-monkey-puzzle-co-op-bombanana-launches-on-steam-to-positive-reviews"},
-    {"title": "Co-Optimus – 3-Player Bomb-Defusing Game BOMBANANA! Arrives on Steam", "url": "https://www.co-optimus.com/article/17868/3-player-bomb-defusing-game-bombanana-arrives-on-steam.html"},
-    {"title": "Notebookcheck – Blind, deaf and mute: New Steam hit (96% positive) has three monkeys defusing bombs", "url": "https://www.notebookcheck.net/Blind-deaf-and-mute-New-Steam-hit-96-positive-has-three-monkeys-defusing-bombs.1391805.0.html"},
-    {"title": "GamesBeat – Bombanana! becomes first Steam-native party game with an official Roblox adaptation", "url": "https://gamesbeat.com/steam-hit-bombanana-becomes-first-steam-native-party-game-with-an-official-roblox-adaptation/"},
-    {"title": "Hypertext – Bombanana was the most-played demo during Steam Next Fest", "url": "https://htxt.co.za/2026/06/monkey-bomb-defusal-game-bombanana-was-the-most-played-demo-during-steam-next-fest/"},
-    {"title": "Univers Simu – BOMBANANA: 6 million players on the demo", "url": "https://en.univers-simu.com/news/bombanana-6-millions-joueurs-demo-sortie-steam-127856/"},
-    {"title": "Rhys Elliott (Alinea) on X – top Next Fest games by new wishlisters", "url": "https://x.com/superhys/status/2069429624136683688"},
-    {"title": "RoWatcher – Bombanana (Roblox)", "url": "https://rowatcher.com/games/10753487407/bombanana"}
+    {
+      "title": "BOMBANANA! on Steam",
+      "url": "https://store.steampowered.com/app/4656000/BOMBANANA/"
+    },
+    {
+      "title": "BOMBANANA! Demo on Steam",
+      "url": "https://store.steampowered.com/app/4747510/BOMBANANA_Demo/"
+    },
+    {
+      "title": "Raijin – BOMBANANA! estimates",
+      "url": "https://raijin.gg/app/4656000/BOMBANANA"
+    },
+    {
+      "title": "Insider Gaming – Bombanana surpassed 1 million sales in 10 days",
+      "url": "https://insider-gaming.com/bombanana-surpassed-1-million-sales-in-10-days/"
+    },
+    {
+      "title": "GamesBeat – Türkiye's indie PC scene breaks out as Bombanana! sells one million copies in 10 days",
+      "url": "https://gamesbeat.com/turkiyes-indie-pc-scene-breaks-out-as-bombanana-sells-one-million-copies-in-10-days/"
+    },
+    {
+      "title": "Mobidictum – Turkish-made BOMBANANA! sells 1 million copies in 10 days",
+      "url": "https://mobidictum.com/turkish-made-bombanana-1-million-copies-10-days/"
+    },
+    {
+      "title": "Game Developer (press release) – BOMBANANA! celebrates 1 million wishlists, release date 2 September 2026",
+      "url": "https://www.gamedeveloper.com/press-release/bombanana-celebrate-1-million-wishlists-by-announcing-release-date-set-your-countdown-for-2-september-2026-"
+    },
+    {
+      "title": "Chip.com.tr – BOMBANANA! üç günde 500 bin satışa ulaştı",
+      "url": "https://www.chip.com.tr/haber/kuresel-capta-turk-basarisi-bombanana-uc-gunde-500-bin-satisa-ulasti_183593.html"
+    },
+    {
+      "title": "Haber Hürriyeti – Türk yapımı Bombanana 10 günde 1 milyon satış",
+      "url": "https://www.haberhurriyeti.com/haber/28860508/turk-yapimi-bombanana-dunyayi-salladi-10-gunde-1-milyon-satis"
+    },
+    {
+      "title": "Inven Global – Bombanana reaches 1 million players in two weeks",
+      "url": "https://www.invenglobal.com/articles/26215/bombanana-reaches-1-million-players-in-two-weeks"
+    },
+    {
+      "title": "80.lv – Chaotic monkey puzzle co-op Bombanana launches on Steam to positive reviews",
+      "url": "https://80.lv/articles/chaotic-monkey-puzzle-co-op-bombanana-launches-on-steam-to-positive-reviews"
+    },
+    {
+      "title": "Co-Optimus – 3-Player Bomb-Defusing Game BOMBANANA! Arrives on Steam",
+      "url": "https://www.co-optimus.com/article/17868/3-player-bomb-defusing-game-bombanana-arrives-on-steam.html"
+    },
+    {
+      "title": "Notebookcheck – Blind, deaf and mute: New Steam hit (96% positive) has three monkeys defusing bombs",
+      "url": "https://www.notebookcheck.net/Blind-deaf-and-mute-New-Steam-hit-96-positive-has-three-monkeys-defusing-bombs.1391805.0.html"
+    },
+    {
+      "title": "GamesBeat – Bombanana! becomes first Steam-native party game with an official Roblox adaptation",
+      "url": "https://gamesbeat.com/steam-hit-bombanana-becomes-first-steam-native-party-game-with-an-official-roblox-adaptation/"
+    },
+    {
+      "title": "Hypertext – Bombanana was the most-played demo during Steam Next Fest",
+      "url": "https://htxt.co.za/2026/06/monkey-bomb-defusal-game-bombanana-was-the-most-played-demo-during-steam-next-fest/"
+    },
+    {
+      "title": "Univers Simu – BOMBANANA: 6 million players on the demo",
+      "url": "https://en.univers-simu.com/news/bombanana-6-millions-joueurs-demo-sortie-steam-127856/"
+    },
+    {
+      "title": "Rhys Elliott (Alinea) on X – top Next Fest games by new wishlisters",
+      "url": "https://x.com/superhys/status/2069429624136683688"
+    },
+    {
+      "title": "RoWatcher – Bombanana (Roblox)",
+      "url": "https://rowatcher.com/games/10753487407/bombanana"
+    }
   ],
   "data_conflicts": "1) Units: developer says 1M+ copies in 10 days (2026-09-22) and 500k in 3 days. Raijin estimates ~110k (2026-10-04). Reviews (≤3.5k) imply ~140k–355k with normal multipliers. Inven Global's headline says '1 million players'. The developer number is reported as CONFIRMED-claimed, but it looks inflated relative to reviews; it probably counts pack, gifted or key copies or players. Gross revenue is given as a $1M–$4.5M range. 2) Peak CCU: 17k (2 days, SteamDB via 80.lv), 21,294 (2026-09-04, SteamDB via Univers Simu) and 22,811 (Raijin all-time); 22,811 is used as the latest all-time figure. 3) Next Fest players: 675k (developer) vs >1M (Venn Studios). 4) Roblox visits: 13M→16M (TARK) vs 3.7M (RoWatcher). 5) Earlier coverage gave release dates of 15 June / August; the Steam store and press release confirm 2026-09-02.",
-  "notes": "Group A because team size is unverified (see window_note). Lessons for a solo creator: (1) A one-line asymmetric co-op hook (each player has a different handicap) is extremely streamable and drives organic sharing. (2) A free Next Fest demo kept live after the fest can snowball: 6M demo players → 1M+ wishlists. (3) Paid conversion is much weaker than demo hype: 22.8k paid peak vs ~31k demo peak, and only ~3.5k reviews a month after launch despite 1M+ wishlists. This is consistent with the 0.10–0.15× wishlist-to-week-1 benchmark if units are ~110k–215k. (4) A publisher (TARK) supplied financing, creator relations and a Roblox adaptation; a solo developer would have to replace that with their own streamer outreach."
+  "notes": "Group C = context case: team size could not be verified (described only as a 'small independent team' with publisher TARK financing), and the developer's 1M-copies claim conflicts with tracker estimates (~110k) and a very low review count (~3.5k). Kept for its Next Fest lesson. Group A because team size is unverified (see window_note). Lessons for a solo creator: (1) A one-line asymmetric co-op hook (each player has a different handicap) is extremely streamable and drives organic sharing. (2) A free Next Fest demo kept live after the fest can snowball: 6M demo players → 1M+ wishlists. (3) Paid conversion is much weaker than demo hype: 22.8k paid peak vs ~31k demo peak, and only ~3.5k reviews a month after launch despite 1M+ wishlists. This is consistent with the 0.10–0.15× wishlist-to-week-1 benchmark if units are ~110k–215k. (4) A publisher (TARK) supplied financing, creator relations and a Roblox adaptation; a solo developer would have to replace that with their own streamer outreach."
 }

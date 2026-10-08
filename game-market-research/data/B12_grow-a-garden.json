@@ -1,5 +1,5 @@
 {
-  "id": "B13",
+  "id": "B12",
   "group": "B",
   "title": "Grow a Garden",
   "genre": "Roblox idle/AFK farming simulator / social collect-and-trade (plant, harvest, sell, mutate crops, pets, trading, stealing)",
@@ -31,26 +31,86 @@
   "solo_ai_mvp_cost_time": "1–3 weeks, ~$50–$300 (Claude Pro/Max $20–$100/mo, optional 3D/image gen $20–$60, Roblox Studio free, no store fee; excludes the developer's own living costs)",
   "solo_ai_polished_cost_time": "2–4 months to a live-ops-ready version (pets, trading, weather/mutations, events, anti-exploit), ~$1,500–$8,000 (AI tools $60–$250/mo, freelance thumbnail/icon art $200–$1,000, Roblox Ads/Sponsored Experiences test budget $500–$5,000, TikTok/YouTube creator promos optional). Ongoing: weekly updates are mandatory to hold algorithmic placement. Excludes own living costs.",
   "sources": [
-    {"title": "Wikipedia – Grow a Garden", "url": "https://en.wikipedia.org/wiki/Grow_a_Garden"},
-    {"title": "GamesBeat – How Grow a Garden took off on Roblox (Janzen 'Jandel' Madsen interview)", "url": "https://gamesbeat.com/janzen-madsen-interview/"},
-    {"title": "GameDiscoverCo – What Grow A Garden's 8.9 million CCU tells us about game discovery", "url": "https://newsletter.gamediscover.co/p/what-grow-a-gardens-89-million-ccu"},
-    {"title": "GameFile – A new Roblox gardening game is hotter than anything on Steam", "url": "https://www.gamefile.news/p/grow-a-garden-roblox-interview"},
-    {"title": "PC Gamer – Roblox farming game made by a teenager 'in like three days' had 8.9 million players online", "url": "https://www.pcgamer.com/games/survival-crafting/a-roblox-farming-game-made-by-a-teenager-in-like-three-days-had-8-9-million-players-online-at-the-same-time-steam-peaked-at-11-5-million-across-all-games-on-the-same-day/"},
-    {"title": "Calcalist – Grow a Garden: How a teenager's Roblox game became the world's most popular title ($12M May 2025)", "url": "https://www.calcalistech.com/ctechnews/article/dj4lxef8r"},
-    {"title": "Fortune – Video game created by a 16-year-old in a few days shatters records", "url": "https://fortune.com/2025/07/30/roblox-video-game-grow-a-garden-viral-summer-hit/"},
-    {"title": "Game Developer – Grow a Garden had nearly 22 million concurrent users in July", "url": "https://www.gamedeveloper.com/business/roblox-s-grow-a-garden-had-nearly-22-million-concurrent-users-in-july"},
-    {"title": "RTC on X – 22,346,725 concurrent players record", "url": "https://x.com/Roblox_RTC/status/1959281995453706447"},
-    {"title": "Rolimons – Grow a Garden stats", "url": "https://www.rolimons.com/game/126884695634066"},
-    {"title": "RoMonitor Stats – Grow a Garden", "url": "https://romonitorstats.com/experience/126884695634066/"},
-    {"title": "profitable.app – Grow a Garden revenue model", "url": "https://profitable.app/roblox/games/grow-a-garden"},
-    {"title": "Roblox Q2 2025 earnings call transcript", "url": "https://s27.q4cdn.com/984876518/files/doc_financials/2025/q2/Q2-2025-Earnings-Conference-Call-Transcript.pdf"},
-    {"title": "RNZ – Millions going mad for NZ made garden game", "url": "https://www.rnz.co.nz/life/screens/games/gaming-world-going-mad-for-nz-made-garden-game"},
-    {"title": "Rova – Kiwi behind 'Grow a Garden' Roblox game making millions", "url": "https://www.rova.nz/articles/kiwi-behind-grow-a-garden-roblox-game"},
-    {"title": "PC Gamer – Grow a Garden shifting into a 'new era' after disappointing updates", "url": "https://www.pcgamer.com/games/survival-crafting/robloxs-top-experience-grow-a-garden-is-shifting-into-a-new-era-and-promises-deeper-farming-after-a-series-of-disappointing-updates-i-hope-the-community-can-see-this-change-as-a-positive-attempt-to-keep-the-game-fresh-and-enjoyable-for-everyone/"},
-    {"title": "Gamepressure – Did Jandel sell Grow a Garden?", "url": "https://www.gamepressure.com/newsroom/did-jandel-sell-grow-a-garden-heres-the-story-so-far/z186ab"},
-    {"title": "Rolimons – Grow a Garden 2", "url": "https://www.rolimons.com/game/97598239454123"},
-    {"title": "GosuGamers – Grow A Garden 2 has launched on Roblox", "url": "https://www.gosugamers.net/entertainment/news/78614-grow-a-garden-2-has-launched-on-roblox-here-s-everything-new-added-in-this-sequel"},
-    {"title": "HowManyArePlaying – Grow a Garden 2 player count", "url": "https://howmanyareplaying.com/roblox/experience/10200395747"}
+    {
+      "title": "Wikipedia – Grow a Garden",
+      "url": "https://en.wikipedia.org/wiki/Grow_a_Garden"
+    },
+    {
+      "title": "GamesBeat – How Grow a Garden took off on Roblox (Janzen 'Jandel' Madsen interview)",
+      "url": "https://gamesbeat.com/janzen-madsen-interview/"
+    },
+    {
+      "title": "GameDiscoverCo – What Grow A Garden's 8.9 million CCU tells us about game discovery",
+      "url": "https://newsletter.gamediscover.co/p/what-grow-a-gardens-89-million-ccu"
+    },
+    {
+      "title": "GameFile – A new Roblox gardening game is hotter than anything on Steam",
+      "url": "https://www.gamefile.news/p/grow-a-garden-roblox-interview"
+    },
+    {
+      "title": "PC Gamer – Roblox farming game made by a teenager 'in like three days' had 8.9 million players online",
+      "url": "https://www.pcgamer.com/games/survival-crafting/a-roblox-farming-game-made-by-a-teenager-in-like-three-days-had-8-9-million-players-online-at-the-same-time-steam-peaked-at-11-5-million-across-all-games-on-the-same-day/"
+    },
+    {
+      "title": "Calcalist – Grow a Garden: How a teenager's Roblox game became the world's most popular title ($12M May 2025)",
+      "url": "https://www.calcalistech.com/ctechnews/article/dj4lxef8r"
+    },
+    {
+      "title": "Fortune – Video game created by a 16-year-old in a few days shatters records",
+      "url": "https://fortune.com/2025/07/30/roblox-video-game-grow-a-garden-viral-summer-hit/"
+    },
+    {
+      "title": "Game Developer – Grow a Garden had nearly 22 million concurrent users in July",
+      "url": "https://www.gamedeveloper.com/business/roblox-s-grow-a-garden-had-nearly-22-million-concurrent-users-in-july"
+    },
+    {
+      "title": "RTC on X – 22,346,725 concurrent players record",
+      "url": "https://x.com/Roblox_RTC/status/1959281995453706447"
+    },
+    {
+      "title": "Rolimons – Grow a Garden stats",
+      "url": "https://www.rolimons.com/game/126884695634066"
+    },
+    {
+      "title": "RoMonitor Stats – Grow a Garden",
+      "url": "https://romonitorstats.com/experience/126884695634066/"
+    },
+    {
+      "title": "profitable.app – Grow a Garden revenue model",
+      "url": "https://profitable.app/roblox/games/grow-a-garden"
+    },
+    {
+      "title": "Roblox Q2 2025 earnings call transcript",
+      "url": "https://s27.q4cdn.com/984876518/files/doc_financials/2025/q2/Q2-2025-Earnings-Conference-Call-Transcript.pdf"
+    },
+    {
+      "title": "RNZ – Millions going mad for NZ made garden game",
+      "url": "https://www.rnz.co.nz/life/screens/games/gaming-world-going-mad-for-nz-made-garden-game"
+    },
+    {
+      "title": "Rova – Kiwi behind 'Grow a Garden' Roblox game making millions",
+      "url": "https://www.rova.nz/articles/kiwi-behind-grow-a-garden-roblox-game"
+    },
+    {
+      "title": "PC Gamer – Grow a Garden shifting into a 'new era' after disappointing updates",
+      "url": "https://www.pcgamer.com/games/survival-crafting/robloxs-top-experience-grow-a-garden-is-shifting-into-a-new-era-and-promises-deeper-farming-after-a-series-of-disappointing-updates-i-hope-the-community-can-see-this-change-as-a-positive-attempt-to-keep-the-game-fresh-and-enjoyable-for-everyone/"
+    },
+    {
+      "title": "Gamepressure – Did Jandel sell Grow a Garden?",
+      "url": "https://www.gamepressure.com/newsroom/did-jandel-sell-grow-a-garden-heres-the-story-so-far/z186ab"
+    },
+    {
+      "title": "Rolimons – Grow a Garden 2",
+      "url": "https://www.rolimons.com/game/97598239454123"
+    },
+    {
+      "title": "GosuGamers – Grow A Garden 2 has launched on Roblox",
+      "url": "https://www.gosugamers.net/entertainment/news/78614-grow-a-garden-2-has-launched-on-roblox-here-s-everything-new-added-in-this-sequel"
+    },
+    {
+      "title": "HowManyArePlaying – Grow a Garden 2 player count",
+      "url": "https://howmanyareplaying.com/roblox/experience/10200395747"
+    }
   ],
   "data_conflicts": "Peak CCU: 22,346,725 (RTC) vs 22.3M (Wikipedia/GamesBeat) vs ~22.4M (Rolimons) vs 22,375,597 (fan guide) – chose 22.35M on 2025-08-23. June record: 21,334,520 / 21.3M (RTC/Fortune) vs 21.6M (Roblox) – trackers differ in sampling. Release date: 2025-03-26 (Wikipedia/GamesBeat) vs 2025-03-25 (Notebookcheck). Stake date: April 2025 (Wikipedia) vs a blog's 'April 2026' (clearly a typo). Splitting Point entry point: ~500 CCU (GamesBeat) vs ~1,000 CCU (Wikipedia/GameDiscoverCo). Team: ~12 devs on the game (GameDiscoverCo, mid-2025) vs company totals of 19 devs / later 50+ staff. Revenue: estimates span $381K–$1.75M/month (2026 trackers) to $12M (May 2025) and unverified ~$20M/month peaks; profitable.app's $286.8M lifetime is a generic visits-based model and looks high versus the $12M/month anchor – I used my own range and labelled it ESTIMATE. Ownership after 2026: reports that Jandel stepped back from the 'owner' role (Discord) and that someone else (names 'Adrian'/'DevNamedDavid' circulate) runs the original game are unverified fan/blog claims. Grow a Garden 2 developer: Rolimons lists 'Strawberreh Squad'; some blogs say Splitting Point/Jandel is behind it, others say there is no evidence – unresolved.",
   "notes": "Grow a Garden 2 (sequel): released ~2026-05-21 per tracker listings (some coverage says late May/June 2026; Jandel publicly teased a sequel end of May 2026); developer group listed as 'Strawberreh Squad'; >400k CCU within 20 minutes of launch (GosuGamers); all-time peak 929,371 (Rolimons) / 971,967 on 2026-06-18 (HowManyArePlaying) / ~976k (RoWatcher) / 687,572 (GGAID); ~1.68B visits, 663,258 favourites, 87.87% rating (Rolimons, ~Oct 2026); steep decline since (down ~91% over 30 days by Sep 2026, ~2.7k CCU on 2026-09-27 per profitable.app). The sequel peaked at ~4% of the original's record – sequels do not reliably recapture a viral moment. Other: won 'Best New Experience' at the 2025 Roblox Innovation Awards; film adaptation announced with Story Kitchen (2025-11-05); Roblox toy line. Lessons for a solo creator: (1) the viral seed was a 3-day solo prototype – the value was in the hook (offline growth + mutations + social flex); (2) the scale came from an experienced operator adding weekly live-ops, events and algorithm optimisation – a solo dev should either commit to weekly updates or be open to partnering with a Roblox operator studio (Splitting Point, Do Big, etc.) that takes equity; (3) Roblox payouts mean only ~25–30% of player spend reaches creators; (4) DevEx requires age 13+, ID verification and a minimum earned-Robux balance; (5) clones appear within days, so first-mover speed and update cadence are the moat."

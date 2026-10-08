@@ -1,5 +1,5 @@
 {
-  "id": "B18",
+  "id": "B15",
   "group": "B",
   "title": "Brainrot Puzzle",
   "genre": "Casual puzzle / picture tile-swap puzzle (meme-themed)",
@@ -31,15 +31,42 @@
   "solo_ai_mvp_cost_time": "3–10 days, $30–$150 (Claude Pro, image-gen sub; Poki submission is free; excludes living costs)",
   "solo_ai_polished_cost_time": "3–6 weeks, $150–$600 (more levels/characters, localization, rewarded-ad hooks, playtest iterations)",
   "sources": [
-    {"title": "Poki – Brainrot Puzzle", "url": "https://poki.com/en/g/brainrot-puzzle"},
-    {"title": "Poki DE – Brainrot Puzzle (rating, release date)", "url": "https://poki.com/de/g/brainrot-puzzle"},
-    {"title": "Medium (@playrea, Artem Lanin) – From hobby to 67 Million Gameplays on Poki in 2025", "url": "https://medium.com/@playrea/from-hobby-to-67-million-gameplays-on-poki-in-2025-df2c147cfb27"},
-    {"title": "Poki – Brainrot Merge (Playrea, Oct 2025)", "url": "https://poki.com/en/g/brainrot-merge"},
-    {"title": "Poki – Pizza Day (Playrea, Dec 2025)", "url": "https://poki.com/en/g/pizza-day"},
-    {"title": "itch.io – playrea_official", "url": "https://playrea-official.itch.io"},
-    {"title": "Poki blog – Poki wins Dutch Game Awards 2025 (developer earnings context)", "url": "https://poki.com/blog/poki-wins-dutch-game-awards-2025"},
-    {"title": "Cinevva – How to Get Your Game on Poki (2026) (revenue share and earnings ranges)", "url": "https://app.cinevva.com/guides/publish-game-poki"},
-    {"title": "Poki SDK documentation", "url": "https://sdk.poki.com/"}
+    {
+      "title": "Poki – Brainrot Puzzle",
+      "url": "https://poki.com/en/g/brainrot-puzzle"
+    },
+    {
+      "title": "Poki DE – Brainrot Puzzle (rating, release date)",
+      "url": "https://poki.com/de/g/brainrot-puzzle"
+    },
+    {
+      "title": "Medium (@playrea, Artem Lanin) – From hobby to 67 Million Gameplays on Poki in 2025",
+      "url": "https://medium.com/@playrea/from-hobby-to-67-million-gameplays-on-poki-in-2025-df2c147cfb27"
+    },
+    {
+      "title": "Poki – Brainrot Merge (Playrea, Oct 2025)",
+      "url": "https://poki.com/en/g/brainrot-merge"
+    },
+    {
+      "title": "Poki – Pizza Day (Playrea, Dec 2025)",
+      "url": "https://poki.com/en/g/pizza-day"
+    },
+    {
+      "title": "itch.io – playrea_official",
+      "url": "https://playrea-official.itch.io"
+    },
+    {
+      "title": "Poki blog – Poki wins Dutch Game Awards 2025 (developer earnings context)",
+      "url": "https://poki.com/blog/poki-wins-dutch-game-awards-2025"
+    },
+    {
+      "title": "Cinevva – How to Get Your Game on Poki (2026) (revenue share and earnings ranges)",
+      "url": "https://app.cinevva.com/guides/publish-game-poki"
+    },
+    {
+      "title": "Poki SDK documentation",
+      "url": "https://sdk.poki.com/"
+    }
   ],
   "data_conflicts": "1) The 67M gameplays figure covers all 5 Poki games in 2025, not Brainrot Puzzle alone; the per-game split is not published – Brainrot Puzzle total is an estimate. 2) Poki vote counts vary slightly across locales (~134.5k–134.8k) because snapshots differ. 3) Revenue: no disclosed figure; per-1,000-gameplay rates for Poki are not public, so a wide range is given. 4) Identity: the 'Playrea' handle and the Medium byline Artem Lanin are assumed to be the same person; the itch.io page says 'Making mobile games!'.",
   "notes": "Strong template for a solo + AI creator: (1) watch TikTok/Shorts meme trends, (2) ship a dead-simple, instantly understood web game within days, (3) put it on Poki/CrazyGames where kids already search for the trend, (4) follow up with sister games (Brainrot Merge) to keep the traffic (~200k plays/day across the portfolio). Trend games decay fast, so a portfolio approach matters. Poki's Web Fit Test and Playtests tools were key to the developer's learning curve."

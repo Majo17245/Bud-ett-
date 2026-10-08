@@ -1,5 +1,5 @@
 {
-  "id": "B14",
+  "id": "B13",
   "group": "B",
   "title": "Steal a Brainrot",
   "genre": "Roblox idle tycoon / collect-and-steal (buy meme characters off a conveyor, they generate income in your base, steal others' characters, lock your base)",
@@ -31,21 +31,66 @@
   "solo_ai_mvp_cost_time": "1–2 weeks, ~$50–$300 (Claude Pro/Max $20–$100/mo, optional 3D/image gen $20–$60; Roblox Studio free, no store fee; excludes the developer's own living costs)",
   "solo_ai_polished_cost_time": "1.5–3 months, ~$1,500–$8,000 (AI tools $60–$250/mo, freelance character modelling/thumbnail art $300–$2,000, Roblox Ads/Sponsored Experiences test budget $500–$5,000, optional creator promos). Weekly events needed afterwards. Excludes own living costs.",
   "sources": [
-    {"title": "Wikipedia – Steal a Brainrot", "url": "https://en.wikipedia.org/wiki/Steal_a_Brainrot"},
-    {"title": "Simple English Wikipedia – Steal a Brainrot", "url": "https://simple.wikipedia.org/wiki/Steal_a_Brainrot"},
-    {"title": "Rolimons – [Steal a Brainrot] game stats", "url": "https://www.rolimons.com/game/109983668079237"},
-    {"title": "RoWatcher – Steal a Brainrot stats and revenue estimate", "url": "https://rowatcher.com/games/7709344486/steal-a-brainrot"},
-    {"title": "RoWatcher – Is the Brainrot Trend Dying? CCU data", "url": "https://rowatcher.com/news/is-the-brainrot-trend-dying-what-ccu-data-from-three-top-games-reveals"},
-    {"title": "profitable.app – Steal a Brainrot revenue model", "url": "https://profitable.app/roblox/games/steal-a-brainrot"},
-    {"title": "PocketGamer.biz – Steal a Brainrot becomes first game to surpass 25m concurrent players", "url": "https://www.pocketgamer.biz/robloxs-steal-a-brainrot-becomes-first-game-to-surpass-25m-concurrent-players/"},
-    {"title": "PocketGamer.biz – Roblox peak CCU hits record 47.4m as Steal a Brainrot and Grow a Garden compete", "url": "https://www.pocketgamer.biz/robloxs-peak-concurrent-user-count-hits-record-474m-as-steal-a-brainrot-and-grow-a-garden-compete/"},
-    {"title": "PC Gamer – Brainrot Roblox game takes Fortnite game to court for being 'a copy'", "url": "https://www.pcgamer.com/games/a-brainrot-themed-roblox-game-is-taking-a-brainrot-themed-fortnite-game-to-court-for-being-a-copy/"},
-    {"title": "OpenCritic – Steal A Brainrot devs sue Fortnite's Stealing Brainrots dev", "url": "https://opencritic.com/news/22635/robloxs-steal-a-brainrot-devs-sue-fortnites-stealing-brainrots-dev-over-allegedly-stolen-content"},
-    {"title": "Story Kitchen – partnering with Steal A Brainrot creators on feature adaptation", "url": "https://www.story-kitchen.com/news/story-kitchen-partnering-with-steal-a-brainrot-creators-on-feature-adaptation-of-roblox-game"},
-    {"title": "mobilegamer.biz – Everything you always wanted to know about Roblox brainrot", "url": "https://mobilegamer.biz/everything-you-always-wanted-to-know-about-roblox-brainrot-but-were-afraid-to-ask/"},
-    {"title": "L'Essentiel de l'Éco – Steal a Brainrot, le phénomène Roblox (cites Bloomberg >$64M)", "url": "https://lessentieldeleco.fr/4671-steal-a-brainrot-le-phenomene-roblox/"},
-    {"title": "Tecnobits – Steal a Brainrot: qué es y por qué enloquece a millones de niños", "url": "https://tecnobits.net/?p=83977"},
-    {"title": "Crunchbase – Do Big Studios", "url": "https://www.crunchbase.com/organization/do-big-studios"}
+    {
+      "title": "Wikipedia – Steal a Brainrot",
+      "url": "https://en.wikipedia.org/wiki/Steal_a_Brainrot"
+    },
+    {
+      "title": "Simple English Wikipedia – Steal a Brainrot",
+      "url": "https://simple.wikipedia.org/wiki/Steal_a_Brainrot"
+    },
+    {
+      "title": "Rolimons – [Steal a Brainrot] game stats",
+      "url": "https://www.rolimons.com/game/109983668079237"
+    },
+    {
+      "title": "RoWatcher – Steal a Brainrot stats and revenue estimate",
+      "url": "https://rowatcher.com/games/7709344486/steal-a-brainrot"
+    },
+    {
+      "title": "RoWatcher – Is the Brainrot Trend Dying? CCU data",
+      "url": "https://rowatcher.com/news/is-the-brainrot-trend-dying-what-ccu-data-from-three-top-games-reveals"
+    },
+    {
+      "title": "profitable.app – Steal a Brainrot revenue model",
+      "url": "https://profitable.app/roblox/games/steal-a-brainrot"
+    },
+    {
+      "title": "PocketGamer.biz – Steal a Brainrot becomes first game to surpass 25m concurrent players",
+      "url": "https://www.pocketgamer.biz/robloxs-steal-a-brainrot-becomes-first-game-to-surpass-25m-concurrent-players/"
+    },
+    {
+      "title": "PocketGamer.biz – Roblox peak CCU hits record 47.4m as Steal a Brainrot and Grow a Garden compete",
+      "url": "https://www.pocketgamer.biz/robloxs-peak-concurrent-user-count-hits-record-474m-as-steal-a-brainrot-and-grow-a-garden-compete/"
+    },
+    {
+      "title": "PC Gamer – Brainrot Roblox game takes Fortnite game to court for being 'a copy'",
+      "url": "https://www.pcgamer.com/games/a-brainrot-themed-roblox-game-is-taking-a-brainrot-themed-fortnite-game-to-court-for-being-a-copy/"
+    },
+    {
+      "title": "OpenCritic – Steal A Brainrot devs sue Fortnite's Stealing Brainrots dev",
+      "url": "https://opencritic.com/news/22635/robloxs-steal-a-brainrot-devs-sue-fortnites-stealing-brainrots-dev-over-allegedly-stolen-content"
+    },
+    {
+      "title": "Story Kitchen – partnering with Steal A Brainrot creators on feature adaptation",
+      "url": "https://www.story-kitchen.com/news/story-kitchen-partnering-with-steal-a-brainrot-creators-on-feature-adaptation-of-roblox-game"
+    },
+    {
+      "title": "mobilegamer.biz – Everything you always wanted to know about Roblox brainrot",
+      "url": "https://mobilegamer.biz/everything-you-always-wanted-to-know-about-roblox-brainrot-but-were-afraid-to-ask/"
+    },
+    {
+      "title": "L'Essentiel de l'Éco – Steal a Brainrot, le phénomène Roblox (cites Bloomberg >$64M)",
+      "url": "https://lessentieldeleco.fr/4671-steal-a-brainrot-le-phenomene-roblox/"
+    },
+    {
+      "title": "Tecnobits – Steal a Brainrot: qué es y por qué enloquece a millones de niños",
+      "url": "https://tecnobits.net/?p=83977"
+    },
+    {
+      "title": "Crunchbase – Do Big Studios",
+      "url": "https://www.crunchbase.com/organization/do-big-studios"
+    }
   ],
   "data_conflicts": "Peak CCU: 25,836,222 on 2025-10-11 (Rolimons; RoWatcher 25.8M 'Yin Yang' event) vs 25.4M on 2025-10-07 and 25.2M (PocketGamer.biz, which also dates the 25M+ mark to September in other pieces) – chose Rolimons' 25.84M as the all-time peak and noted PocketGamer's figure as the earlier record report. Release: 2025-05-16 (Rolimons, en.Wikipedia) vs 2025-05-15 (Simple Wikipedia). Developer: Wikipedia names SpyderSammy with DoBig as owner; Tecnobits names two creators (do_small + SpyderSammy). Do Big headcount: 18 vs 21–50 (automated data sites). Revenue: Bloomberg ≥$64M (lifetime-to-date, 2025) vs RoWatcher $1.43M/month vs profitable.app $574.6M lifetime / $6.9M per 30 days (Jul 2026) – the trackers disagree by an order of magnitude; I used my own range and labelled it ESTIMATE. Recent CCU: Rolimons 30-day peak 1.59M (~Sep/Oct 2026) vs RoWatcher article ~215k ('99.2% below peak') vs profitable.app 135.8k on 2026-07-30 – these are different metrics (peak vs point-in-time) and dates. A low-quality source claimed Epic 'licensed' the game into Fortnite; PC Gamer/Kotaku show Fortnite's 'Steal the Brainrot' is a separate creator-made island – I treat it as a copycat.",
   "notes": "Legal/IP: (1) Spyder Games sued Thomas Van Der Voort, creator of Fortnite's 'Stealing Brainrots', for copying UI, objects, artwork, level design and animations (~Oct 2025; outcome: no data). (2) The headline character Tung Tung Tung Sahur was voluntarily removed in early Sept 2025 after a licensing dispute with its creator Noxa and brand agency Mementum Lab, and returned in Nov 2025; a Mementum Lab vs DoBig lawsuit over ownership of the character was reported (Wikipedia). Lesson: meme IP is not free to use once it becomes valuable. Fortnite's separate 'Steal the Brainrot' island (July 2025) became one of Fortnite's most popular UEFN games and sold 200-V-Bucks prize-wheel spins after Epic allowed in-island transactions (Jan 2026), followed by an Epic rule change restricting them. Story Kitchen film deal with DoBig Studios and Spyder Games. Lessons for a solo creator: timing a live meme + a simple social 'steal' mechanic beat polish; small 8-player servers concentrate interaction; an operator studio (DoBig) bought in and scaled monetization; the brainrot trend is cooling (RoWatcher), so copying the theme now is late – copy the structure (idle income + raid/defend + rarity chase) with an original, ownable theme."

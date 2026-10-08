@@ -51,7 +51,7 @@ COLUMNS = [
     ("sources", "Sources", 70),
 ]
 
-GROUP_FILL = {"A": "DCE6F1", "B": "E2EFDA"}
+GROUP_FILL = {"A": "DCE6F1", "B": "E2EFDA", "C": "F2F2F2"}
 
 
 def load_games():

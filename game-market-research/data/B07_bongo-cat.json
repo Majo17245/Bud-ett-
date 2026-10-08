@@ -1,5 +1,5 @@
 {
-  "id": "B08",
+  "id": "B07",
   "group": "B",
   "title": "Bongo Cat",
   "genre": "Desktop companion / idle clicker ('desktop pet' overlay) with Steam item drops and cosmetics",
@@ -31,21 +31,66 @@
   "solo_ai_mvp_cost_time": "2–4 weeks, $150–$400 (Claude Pro/Max 1 month $20–$200, image gen $10–$30, Steam Direct $100). Excludes the developer's own living costs.",
   "solo_ai_polished_cost_time": "2–4 months, $1,000–$4,000 (subscriptions for 3–4 months, freelance character art/animation polish for an original mascot $500–$2,000, cosmetic sets, macOS signing/notarisation $99/yr, small marketing/playtest budget). Excludes living costs. Note: the revenue upside of this model is small (Bongo Cat earned ~$3k/month net at ~170k CCU); its value is as a funnel or marketing tool.",
   "sources": [
-    {"title": "Bongo Cat on Steam", "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/"},
-    {"title": "Bongo Cat · SteamDB", "url": "https://steamdb.info/app/3419430/"},
-    {"title": "Bongo Cat - Steam Charts", "url": "https://steamcharts.com/app/3419430"},
-    {"title": "Bongo Cat Overview & Player Stats - SteamPulse", "url": "https://steampulse.org/game/3419430"},
-    {"title": "Bongo Cat - Raijin.gg", "url": "https://raijin.gg/app/3419430/Bongo_Cat"},
-    {"title": "Top-10 Steam game Bongo Cat is 'actually losing us money' says dev - PC Gamer", "url": "https://www.pcgamer.com/gaming-industry/game-development/top-10-steam-game-bongo-cat-is-actually-losing-us-money-says-dev-which-is-fine-because-its-been-great-for-business-before-we-knocked-on-50-doors-now-they-are-coming-to-us/"},
-    {"title": "Viral Steam Hit Bongo Cat Doesn't Actually Make Any Money - GameSpot", "url": "https://www.gamespot.com/articles/viral-steam-hit-bongo-cat-doesnt-actually-make-any-money/1100-6532777/"},
-    {"title": "Steam's fourth most popular game isn't really a game at all - GamesRadar", "url": "https://www.gamesradar.com/games/simulation/steams-fourth-most-popular-game-isnt-really-a-game-at-all-but-its-doubling-as-a-marketing-tool-so-effective-its-devs-dont-mind-that-its-actually-losing-us-money/"},
-    {"title": "Bongo Cat is on Its Way to 6 Million Players - GamesMarkt", "url": "https://www.gamesmarket.global/bongo-cat-is-on-its-way-to-6-million-players/"},
-    {"title": "Bongo Cat: Kurioses 'Spiel' aus Bayern dominiert AAA-Games auf Steam - WinFuture", "url": "https://winfuture.de/news,150473.html"},
-    {"title": "Bongo Cat demo / licensing question - Game*Spark", "url": "https://www.gamespark.jp/article/2025/02/07/149249.html"},
-    {"title": "Bongo Cat earnings / marketing effect - Automaton", "url": "https://automaton-media.com/articles/newsjp/bongo-cat-20250627-346431/"},
-    {"title": "bongo cat - Know Your Meme", "url": "https://knowyourmeme.com/memes/bongo-cat"},
-    {"title": "What Is Bongo Cat? (drop rates) - esports.net", "url": "https://www.esports.net/news/bongo-cat-steam-popularity"},
-    {"title": "Bongo Cat Mecha Pack - DekuDeals", "url": "https://www.dekudeals.com/items/bongo-cat-mecha-pack"}
+    {
+      "title": "Bongo Cat on Steam",
+      "url": "https://store.steampowered.com/app/3419430/Bongo_Cat/"
+    },
+    {
+      "title": "Bongo Cat · SteamDB",
+      "url": "https://steamdb.info/app/3419430/"
+    },
+    {
+      "title": "Bongo Cat - Steam Charts",
+      "url": "https://steamcharts.com/app/3419430"
+    },
+    {
+      "title": "Bongo Cat Overview & Player Stats - SteamPulse",
+      "url": "https://steampulse.org/game/3419430"
+    },
+    {
+      "title": "Bongo Cat - Raijin.gg",
+      "url": "https://raijin.gg/app/3419430/Bongo_Cat"
+    },
+    {
+      "title": "Top-10 Steam game Bongo Cat is 'actually losing us money' says dev - PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/top-10-steam-game-bongo-cat-is-actually-losing-us-money-says-dev-which-is-fine-because-its-been-great-for-business-before-we-knocked-on-50-doors-now-they-are-coming-to-us/"
+    },
+    {
+      "title": "Viral Steam Hit Bongo Cat Doesn't Actually Make Any Money - GameSpot",
+      "url": "https://www.gamespot.com/articles/viral-steam-hit-bongo-cat-doesnt-actually-make-any-money/1100-6532777/"
+    },
+    {
+      "title": "Steam's fourth most popular game isn't really a game at all - GamesRadar",
+      "url": "https://www.gamesradar.com/games/simulation/steams-fourth-most-popular-game-isnt-really-a-game-at-all-but-its-doubling-as-a-marketing-tool-so-effective-its-devs-dont-mind-that-its-actually-losing-us-money/"
+    },
+    {
+      "title": "Bongo Cat is on Its Way to 6 Million Players - GamesMarkt",
+      "url": "https://www.gamesmarket.global/bongo-cat-is-on-its-way-to-6-million-players/"
+    },
+    {
+      "title": "Bongo Cat: Kurioses 'Spiel' aus Bayern dominiert AAA-Games auf Steam - WinFuture",
+      "url": "https://winfuture.de/news,150473.html"
+    },
+    {
+      "title": "Bongo Cat demo / licensing question - Game*Spark",
+      "url": "https://www.gamespark.jp/article/2025/02/07/149249.html"
+    },
+    {
+      "title": "Bongo Cat earnings / marketing effect - Automaton",
+      "url": "https://automaton-media.com/articles/newsjp/bongo-cat-20250627-346431/"
+    },
+    {
+      "title": "bongo cat - Know Your Meme",
+      "url": "https://knowyourmeme.com/memes/bongo-cat"
+    },
+    {
+      "title": "What Is Bongo Cat? (drop rates) - esports.net",
+      "url": "https://www.esports.net/news/bongo-cat-steam-popularity"
+    },
+    {
+      "title": "Bongo Cat Mecha Pack - DekuDeals",
+      "url": "https://www.dekudeals.com/items/bongo-cat-mecha-pack"
+    }
   ],
   "data_conflicts": "Release date: the brief said ~May–June 2025; Steam/SteamDB say 2025-03-05 (May–June 2025 was the viral/press peak). All-time CCU peak: 193,859 (SteamCharts, May 2025) vs 194,508 on 2025-05-04 (Steambase); I used ~194k. SteamDB's own recorded peak (187,909 on 2026-07-15) only covers its data since July 2026. Player counts: Irox's 5.7M total players (CONFIRMED, ~Mar 2026) vs VG Insights 5.2–5.4M 'units' vs Raijin 2.82M units / ~265k–297k 'owners'. Raijin's owner model is unreliable for F2P, so I used the official figure. Bots: the CEO estimates ~50% of concurrents are bots, so CCU overstates real human play. Engine: Unity 6 per a third-party listing, not confirmed by the developer. Developer credit: some listings name only Krüger or only Zurawka; Steam/SteamDB list both.",
   "notes": "Key lesson for a solo creator: massive CCU does not mean revenue. ~170k concurrents earned only ~$3k/month net in 2025 because the drops are free and the publisher fee on market trades is small. Its real value was as a marketing funnel: Irox went from pitching 50 publishers to being approached, and it now pushes wishlists for its other games via item rewards. The desktop-companion/idle-overlay niche (Bongo Cat, Rusty's Retirement, Cast n Chill, Tap Tap Loot, Desktop Mate) is very AI-friendly and cheap to build, but monetising it needs paid cosmetics or a premium price. Avoid unlicensed meme IP: StrayRogue's terms require credit, and Bongo Cat's licensing was publicly questioned. Related lead: Tap Tap Loot (Turtle Knight Games, published by Irox), a Bongo Cat-style idle typing game, also charted high on Steam (GamesMarkt: 'Two German Typing Games Conquered Steam')."

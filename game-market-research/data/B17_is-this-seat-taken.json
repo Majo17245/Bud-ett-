@@ -1,5 +1,5 @@
 {
-  "id": "B21",
+  "id": "B17",
   "group": "B",
   "title": "Is This Seat Taken?",
   "genre": "Cozy logic puzzle / seating-arrangement puzzler (place quirky passengers and guests according to their preferences)",
@@ -31,20 +31,62 @@
   "solo_ai_mvp_cost_time": "[ESTIMATE – spec method] 3–5 weeks, $150–$400 (Claude Pro/Max, image gen, audio, $100 Steam Direct fee); excludes the developer's living costs",
   "solo_ai_polished_cost_time": "[ESTIMATE – spec method] 4–8 months, $2,000–$7,000 (subscriptions, freelance illustrator pass for a consistent character set, Apple $99/yr + Google $25, Switch port via a porting partner extra, playtest/marketing budget); excludes the developer's living costs",
   "sources": [
-    {"title": "Steam – Is This Seat Taken?", "url": "https://store.steampowered.com/app/3035120/Is_This_Seat_Taken/"},
-    {"title": "Gamalytic – Is This Seat Taken? Steam stats", "url": "https://gamalytic.com/game/3035120"},
-    {"title": "Raijin – Is This Seat Taken? Steam stats & charts", "url": "https://raijin.gg/app/3035120/Is_This_Seat_Taken"},
-    {"title": "SteamCharts – Is This Seat Taken?", "url": "https://steamcharts.com/app/3035120"},
-    {"title": "Steambase – Is This Seat Taken? Steam charts", "url": "https://steambase.io/games/is-this-seat-taken/steam-charts"},
-    {"title": "Gamereactor – Is This Seat Taken? developers thought the game would fail at first", "url": "https://www.gamereactor.eu/is-this-seat-taken-developers-thought-the-game-would-fail-at-first-1649983/"},
-    {"title": "Thinky Games – interview with the developers", "url": "https://thinkygames.com/features/make-sure-everyones-happy-in-the-new-demo-for-is-this-seat-taken-an-interview-with-the-developers/"},
-    {"title": "Gematsu – Is This Seat Taken? now available for Switch, PC, iOS, and Android", "url": "https://www.gematsu.com/2025/08/puzzle-game-is-this-seat-taken-now-available-for-switch-pc-ios-and-android"},
-    {"title": "Wikipedia – Is This Seat Taken?", "url": "https://en.wikipedia.org/wiki/Is_This_Seat_Taken%3F"},
-    {"title": "Mancunion – review (two-man studio)", "url": "https://mancunion.com/2025/09/03/is-this-seat-taken-review-a-charming-and-fun-seating-puzzler/"},
-    {"title": "Indie Arena Booth – Gamescom 2025 profile", "url": "https://indiearenabooth.de/gamescom2025/games/show/19072"},
-    {"title": "Apple Developer – Hello Developer, August 2026 (meet the creators of Is This Seat Taken?)", "url": "https://developer.apple.com/hello/august26"},
-    {"title": "Boiling Steam – New Steam games playable on Steam Deck, 2025-08-10", "url": "https://boilingsteam.com/new-steam-games-playable-on-the-steam-deck-2025-08-10-edition/"},
-    {"title": "Pocket Tactics – Is This Seat Taken? launches on Switch, mobile, and PC", "url": "https://www.pockettactics.com/is-this-seat-taken/release-date"}
+    {
+      "title": "Steam – Is This Seat Taken?",
+      "url": "https://store.steampowered.com/app/3035120/Is_This_Seat_Taken/"
+    },
+    {
+      "title": "Gamalytic – Is This Seat Taken? Steam stats",
+      "url": "https://gamalytic.com/game/3035120"
+    },
+    {
+      "title": "Raijin – Is This Seat Taken? Steam stats & charts",
+      "url": "https://raijin.gg/app/3035120/Is_This_Seat_Taken"
+    },
+    {
+      "title": "SteamCharts – Is This Seat Taken?",
+      "url": "https://steamcharts.com/app/3035120"
+    },
+    {
+      "title": "Steambase – Is This Seat Taken? Steam charts",
+      "url": "https://steambase.io/games/is-this-seat-taken/steam-charts"
+    },
+    {
+      "title": "Gamereactor – Is This Seat Taken? developers thought the game would fail at first",
+      "url": "https://www.gamereactor.eu/is-this-seat-taken-developers-thought-the-game-would-fail-at-first-1649983/"
+    },
+    {
+      "title": "Thinky Games – interview with the developers",
+      "url": "https://thinkygames.com/features/make-sure-everyones-happy-in-the-new-demo-for-is-this-seat-taken-an-interview-with-the-developers/"
+    },
+    {
+      "title": "Gematsu – Is This Seat Taken? now available for Switch, PC, iOS, and Android",
+      "url": "https://www.gematsu.com/2025/08/puzzle-game-is-this-seat-taken-now-available-for-switch-pc-ios-and-android"
+    },
+    {
+      "title": "Wikipedia – Is This Seat Taken?",
+      "url": "https://en.wikipedia.org/wiki/Is_This_Seat_Taken%3F"
+    },
+    {
+      "title": "Mancunion – review (two-man studio)",
+      "url": "https://mancunion.com/2025/09/03/is-this-seat-taken-review-a-charming-and-fun-seating-puzzler/"
+    },
+    {
+      "title": "Indie Arena Booth – Gamescom 2025 profile",
+      "url": "https://indiearenabooth.de/gamescom2025/games/show/19072"
+    },
+    {
+      "title": "Apple Developer – Hello Developer, August 2026 (meet the creators of Is This Seat Taken?)",
+      "url": "https://developer.apple.com/hello/august26"
+    },
+    {
+      "title": "Boiling Steam – New Steam games playable on Steam Deck, 2025-08-10",
+      "url": "https://boilingsteam.com/new-steam-games-playable-on-the-steam-deck-2025-08-10-edition/"
+    },
+    {
+      "title": "Pocket Tactics – Is This Seat Taken? launches on Switch, mobile, and PC",
+      "url": "https://www.pockettactics.com/is-this-seat-taken/release-date"
+    }
   ],
   "data_conflicts": "Steam units: Gamalytic ~428k (283k–573k) vs Raijin ~166k–176k; the Boxleiter midpoint (~275k–367k) sits between them, so a range of ~170k–430k with ~300k as the central case is used. Gross: $1.4M (Raijin) vs $3.4M (Gamalytic). Peak CCU: 984 (Raijin) / 1,301 (SteamCharts) / 1,696 (Tracker.gg). Studio name appears as 'Poti Poti Studio' (Apple, Wikipedia) and 'Poti Poti Studios' (Gamereactor). Team: '2 people' refers to the co-founders; credits include freelance writers and a composer.",
   "notes": "Strong template for a solo or duo AI-assisted creator: a 2D puzzle game built on one universally relatable social situation, with low production scope, launched day-one on every platform at $9.99 with a cozy-focused publisher (Wholesome Games). Lower Steam concurrent players (~1–1.7k) but ~9k reviews at 97%: success came from broad multi-platform reach and platform featuring (Nintendo Indie World, Apple editorial), not friendslop-style streaming. The developers noted that post-launch promotion consumed all their time and delayed the next game. Viral TikTok spread is not verified; the game is better described as a 'breakout cozy hit' than a meme-viral hit."

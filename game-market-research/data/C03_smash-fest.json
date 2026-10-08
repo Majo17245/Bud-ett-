@@ -1,6 +1,6 @@
 {
-  "id": "B17",
-  "group": "B",
+  "id": "C03",
+  "group": "C",
   "title": "Smash Fest! (soft-launched as \"Cannon Fest\")",
   "genre": "Hybrid-casual puzzle / physics 'smash puzzle' (fire colored cannonballs to shatter matching cans/jars on platforms)",
   "release_date": "Global launch early June 2026 (iOS + Android) [CONFIRMED/ESTIMATE – Gamigion and FoxData describe a June 2026 global release]; entered the US iOS top 50 in 62 markets by 2026-06-12 and the US iOS top 3 on 2026-06-15 [ESTIMATE – FoxData]",
@@ -31,18 +31,51 @@
   "solo_ai_mvp_cost_time": "3–6 weeks, $200–$600 (Claude Pro/Max, 3D/2D gen subs, Apple $99/yr, Google $25; excludes living costs)",
   "solo_ai_polished_cost_time": "3–5 months, $3,000–$12,000 (tools, freelance VFX/art polish, 200+ levels, LiveOps basics, $2k–$8k UA/creative tests)",
   "sources": [
-    {"title": "Smash Fest! – App Store (US) via AppFollow", "url": "https://apps.appfollow.io/ios/smash-fest/6748084174?country=us"},
-    {"title": "FoxData – How Smash Fest! hit #1 on the US App Store with zero paid UA (CN edition)", "url": "https://foxdata.com/cn/blogs/how-smash-fest-hit-1-on-the-us-app-store-with-zero-paid-uaand-what-it-means-for-hybrid-casual/"},
-    {"title": "FoxData – Global Mobile Game Rankings July 2026", "url": "https://foxdata.com/en/blogs/global-mobile-game-rankings-july-2026-top-15-downloads-revenue/"},
-    {"title": "FoxData – Global Mobile Game Rankings August 2026", "url": "https://foxdata.com/en/blogs/global-mobile-game-rankings-august-2026-top-15-downloads-revenue/"},
-    {"title": "Gamigion – 3 Turkish games cracked the charts this summer!", "url": "https://www.gamigion.com/3-turkish-games-cracked-the-charts-this-summer/"},
-    {"title": "Gamigion – Smash Fest!: Casual LiveOps Turned Into Genre-Wide Trend", "url": "https://www.gamigion.com/smash-fest-casual-liveops-turned-into-genre-wide-trend/"},
-    {"title": "Gamigion – Inside Smash Fest's $4M Playtest", "url": "https://www.gamigion.com/inside-smash-fests-4m-playtest/"},
-    {"title": "Gamigion – Smash Fest: 38 Clones, $5M Revenue, Old Mechanic, New Drama!", "url": "https://www.gamigion.com/smash-fest-38-clones-5m-revenue-old-mechanic-new-drama/"},
-    {"title": "mobilegamer.biz – Data digest: … Smash Fest stats …", "url": "https://mobilegamer.biz/data-digest-miniclip-learnings-and-tripledot-top-julys-us-ad-revenue-chart-smash-fest-stats-fundraising-news-more/"},
-    {"title": "36Kr – Smash Fest coverage (Chinese)", "url": "https://www.36kr.com/p/3878540336279809"},
-    {"title": "Baijing – Smash Fest coverage (Chinese)", "url": "https://www.baijing.cn/article/55993"}
+    {
+      "title": "Smash Fest! – App Store (US) via AppFollow",
+      "url": "https://apps.appfollow.io/ios/smash-fest/6748084174?country=us"
+    },
+    {
+      "title": "FoxData – How Smash Fest! hit #1 on the US App Store with zero paid UA (CN edition)",
+      "url": "https://foxdata.com/cn/blogs/how-smash-fest-hit-1-on-the-us-app-store-with-zero-paid-uaand-what-it-means-for-hybrid-casual/"
+    },
+    {
+      "title": "FoxData – Global Mobile Game Rankings July 2026",
+      "url": "https://foxdata.com/en/blogs/global-mobile-game-rankings-july-2026-top-15-downloads-revenue/"
+    },
+    {
+      "title": "FoxData – Global Mobile Game Rankings August 2026",
+      "url": "https://foxdata.com/en/blogs/global-mobile-game-rankings-august-2026-top-15-downloads-revenue/"
+    },
+    {
+      "title": "Gamigion – 3 Turkish games cracked the charts this summer!",
+      "url": "https://www.gamigion.com/3-turkish-games-cracked-the-charts-this-summer/"
+    },
+    {
+      "title": "Gamigion – Smash Fest!: Casual LiveOps Turned Into Genre-Wide Trend",
+      "url": "https://www.gamigion.com/smash-fest-casual-liveops-turned-into-genre-wide-trend/"
+    },
+    {
+      "title": "Gamigion – Inside Smash Fest's $4M Playtest",
+      "url": "https://www.gamigion.com/inside-smash-fests-4m-playtest/"
+    },
+    {
+      "title": "Gamigion – Smash Fest: 38 Clones, $5M Revenue, Old Mechanic, New Drama!",
+      "url": "https://www.gamigion.com/smash-fest-38-clones-5m-revenue-old-mechanic-new-drama/"
+    },
+    {
+      "title": "mobilegamer.biz – Data digest: … Smash Fest stats …",
+      "url": "https://mobilegamer.biz/data-digest-miniclip-learnings-and-tripledot-top-julys-us-ad-revenue-chart-smash-fest-stats-fundraising-news-more/"
+    },
+    {
+      "title": "36Kr – Smash Fest coverage (Chinese)",
+      "url": "https://www.36kr.com/p/3878540336279809"
+    },
+    {
+      "title": "Baijing – Smash Fest coverage (Chinese)",
+      "url": "https://www.baijing.cn/article/55993"
+    }
   ],
   "data_conflicts": "1) Paid UA: FoxData headline says 'zero paid UA' and credits organic TikTok/Reels; Gamigion analysis says it scaled via ~50 creatives and one playable, ~90% on AppLovin – reported both; organic virality likely started it, paid UA likely amplified it. 2) Downloads: 15M+ by end July (AppMagic) vs 14.2M / 14.7M (other trackers/dates). 3) IAP revenue: $3.5M vs $4M vs $5M headline – different dates/trackers; used a $5–6M range for early Oct. 4) LinkedIn claim of ~$500K/day is far above tracker figures – treated as unreliable. 5) Team size and the 'veterans of Good Job/Peak/Dream/Grand' detail: only Peak Games background found in search results; headcount unknown. 6) Soft-launch timeline (Dec 2025 as Cannon Fest, renamed May 2026) comes from the caller's lead; the iOS id (6748084174) points to a store record created around mid-2025.",
-  "notes": "Key lesson: the hook was a proven mechanic hidden inside a top-grossing game's LiveOps event, extracted into a standalone game and shown in 3-second, instantly readable clips. But the IP risk was real: the game was pulled from Google Play (reportedly a DMCA by Peak Games) right as it peaked, and dozens of clones (Royal Smash ~7–9M installs) eroded it within weeks. A solo creator can prototype this kind of 'satisfying physics clip' game quickly, but should take inspiration from public-domain mechanics, build a differentiating twist, and move fast on iOS + Android at once. Not confirmed as a 1–5 person team."
+  "notes": "Group C = context/counter-example: popular, but the 1–5 person team test failed or could not be verified. Kept for comparison, not counted in Group B. Key lesson: the hook was a proven mechanic hidden inside a top-grossing game's LiveOps event, extracted into a standalone game and shown in 3-second, instantly readable clips. But the IP risk was real: the game was pulled from Google Play (reportedly a DMCA by Peak Games) right as it peaked, and dozens of clones (Royal Smash ~7–9M installs) eroded it within weeks. A solo creator can prototype this kind of 'satisfying physics clip' game quickly, but should take inspiration from public-domain mechanics, build a differentiating twist, and move fast on iOS + Android at once. Not confirmed as a 1–5 person team."
 }

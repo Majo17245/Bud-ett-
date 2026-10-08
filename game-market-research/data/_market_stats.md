@@ -256,6 +256,9 @@ Sources:
 - **675,000+ players during the fest, 230,000+ new wishlists, 30,000+ peak concurrent players** [CONFIRMED – Lefto Studio, via Univers Simu]. Venn Studios estimates > 1,000,000 unique players [ESTIMATE].
 - **6M+ demo players by early August 2026; > 1M wishlists before release** [CONFIRMED – Lefto Studio via Univers Simu].
 - Paid launch: SteamDB recorded a record **21,294 concurrent players on 2026-09-04** [ESTIMATE – SteamDB via Univers Simu].
+- Launch details: released **2026-09-02** at $7.99 ($4.95 launch price), published by TARK Games (Istanbul).
+  - Developer-claimed sales: **1M+ copies in 10 days** [CONFIRMED – Lefto via Insider Gaming/GamesBeat].
+  - Raijin estimates only ~110k copies, and there were ~3.5k reviews at 96% by early Oct 2026. Demo hype converted far less than the headline suggests. See B20_bombanana.json.
 - The demo was a free, high-concept co-op bomb-defusal game in the spirit of Keep Talking and Nobody Explodes.
 
 **Typical Next Fest outcomes**

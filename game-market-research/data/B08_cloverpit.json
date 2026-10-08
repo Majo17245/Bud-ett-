@@ -1,5 +1,5 @@
 {
-  "id": "B09",
+  "id": "B08",
   "group": "B",
   "title": "CloverPit",
   "genre": "Roguelite deckbuilder-like / slot-machine roguelike with psychological horror (a Balatro-like, pitched as 'the demonic lovechild of Balatro and Buckshot Roulette')",
@@ -31,22 +31,70 @@
   "solo_ai_mvp_cost_time": "3–5 weeks, $150–$400 (Claude Pro/Max $20–$200, image/3D gen $20–$60, Steam Direct $100). Excludes the developer's own living costs.",
   "solo_ai_polished_cost_time": "4–8 months, $2,000–$8,000 (subscriptions, freelance art/audio polish $1,000–$4,000, playtests, trailer, festival/marketing budget). Excludes living costs. Balancing and content variety (100+ charms) are the main time sinks.",
   "sources": [
-    {"title": "CloverPit on Steam", "url": "https://store.steampowered.com/app/3314790/CloverPit/"},
-    {"title": "CloverPit - Steam Charts", "url": "https://steamcharts.com/app/3314790"},
-    {"title": "CloverPit Steam Charts - Steambase", "url": "https://steambase.io/games/cloverpit/steam-charts"},
-    {"title": "CloverPit Reviews - Steambase", "url": "https://steambase.io/games/cloverpit/reviews"},
-    {"title": "CloverPit Steam Stats - Raijin", "url": "https://raijin.gg/app/3314790/CloverPit"},
-    {"title": "CloverPit - VG Insights", "url": "https://vginsights.com/game/cloverpit"},
-    {"title": "CloverPit has sold 500,000 units in eight days - Game Developer", "url": "https://www.gamedeveloper.com/business/cloverpit-has-sold-500-000-units-in-eight-days"},
-    {"title": "Slot machine roguelite CloverPit tops 1 million sales - Game Developer", "url": "https://www.gamedeveloper.com/business/slot-machine-roguelite-cloverpit-tops-1-million-sales"},
-    {"title": "Slot machine roguelike CloverPit sells 1 million copies - PC Gamer", "url": "https://www.pcgamer.com/games/roguelike/slot-machine-roguelike-cloverpit-sells-1-million-copies-and-its-developer-celebrates-the-payout-by-adding-its-most-requested-feature-yet/"},
-    {"title": "750,000 copies sold: how CloverPit beat Future Friends' best-case predictions - GamesMarkt", "url": "https://www.gamesmarket.global/business/750000-copies-sold-how-cloverpit-completely-beat-future-friends-best-case-predictions-6bf7f63be1546a7ae7f40eef3ef99379"},
-    {"title": "CloverPit sales exceeded 750,000 copies in two weeks - WN Hub", "url": "https://wnhub.io/news/finance/item-49053"},
-    {"title": "Xbox Partner Preview: a deep dive into CloverPit - Xbox Wire", "url": "https://news.xbox.com/en-us/2025/11/20/clover-pit-xbox-partner-preview/"},
-    {"title": "CloverPit launches September 3 [Update: Delayed to September 26] - Gematsu", "url": "https://www.gematsu.com/2025/08/cloverpit-launches-september-3"},
-    {"title": "CloverPit coming to PS5, Switch 2, PS4 and Switch on August 13 - Gematsu", "url": "https://www.gematsu.com/2026/07/cloverpit-coming-to-ps5-switch-2-ps4-and-switch-on-august-13"},
-    {"title": "CloverPit - Wikipedia", "url": "https://en.wikipedia.org/wiki/CloverPit"},
-    {"title": "Yellow Taxi Goes Vroom - Wikipedia", "url": "https://en.wikipedia.org/wiki/Yellow_Taxi_Goes_Vroom"}
+    {
+      "title": "CloverPit on Steam",
+      "url": "https://store.steampowered.com/app/3314790/CloverPit/"
+    },
+    {
+      "title": "CloverPit - Steam Charts",
+      "url": "https://steamcharts.com/app/3314790"
+    },
+    {
+      "title": "CloverPit Steam Charts - Steambase",
+      "url": "https://steambase.io/games/cloverpit/steam-charts"
+    },
+    {
+      "title": "CloverPit Reviews - Steambase",
+      "url": "https://steambase.io/games/cloverpit/reviews"
+    },
+    {
+      "title": "CloverPit Steam Stats - Raijin",
+      "url": "https://raijin.gg/app/3314790/CloverPit"
+    },
+    {
+      "title": "CloverPit - VG Insights",
+      "url": "https://vginsights.com/game/cloverpit"
+    },
+    {
+      "title": "CloverPit has sold 500,000 units in eight days - Game Developer",
+      "url": "https://www.gamedeveloper.com/business/cloverpit-has-sold-500-000-units-in-eight-days"
+    },
+    {
+      "title": "Slot machine roguelite CloverPit tops 1 million sales - Game Developer",
+      "url": "https://www.gamedeveloper.com/business/slot-machine-roguelite-cloverpit-tops-1-million-sales"
+    },
+    {
+      "title": "Slot machine roguelike CloverPit sells 1 million copies - PC Gamer",
+      "url": "https://www.pcgamer.com/games/roguelike/slot-machine-roguelike-cloverpit-sells-1-million-copies-and-its-developer-celebrates-the-payout-by-adding-its-most-requested-feature-yet/"
+    },
+    {
+      "title": "750,000 copies sold: how CloverPit beat Future Friends' best-case predictions - GamesMarkt",
+      "url": "https://www.gamesmarket.global/business/750000-copies-sold-how-cloverpit-completely-beat-future-friends-best-case-predictions-6bf7f63be1546a7ae7f40eef3ef99379"
+    },
+    {
+      "title": "CloverPit sales exceeded 750,000 copies in two weeks - WN Hub",
+      "url": "https://wnhub.io/news/finance/item-49053"
+    },
+    {
+      "title": "Xbox Partner Preview: a deep dive into CloverPit - Xbox Wire",
+      "url": "https://news.xbox.com/en-us/2025/11/20/clover-pit-xbox-partner-preview/"
+    },
+    {
+      "title": "CloverPit launches September 3 [Update: Delayed to September 26] - Gematsu",
+      "url": "https://www.gematsu.com/2025/08/cloverpit-launches-september-3"
+    },
+    {
+      "title": "CloverPit coming to PS5, Switch 2, PS4 and Switch on August 13 - Gematsu",
+      "url": "https://www.gematsu.com/2026/07/cloverpit-coming-to-ps5-switch-2-ps4-and-switch-on-august-13"
+    },
+    {
+      "title": "CloverPit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CloverPit"
+    },
+    {
+      "title": "Yellow Taxi Goes Vroom - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yellow_Taxi_Goes_Vroom"
+    }
   ],
   "data_conflicts": "Price: Steam list price is $9.99; Raijin shows $6.99 at release (probably a sale/regional snapshot), so I used $9.99. The '1 million' figure: press framed it as 1M sales within two months, while the July 2026 console press release says 'a million copies across Steam and Game Pass', so it may include Xbox. Reveal date: 2025-04-10 (Wikipedia) vs 04-11 (Japanese press; time zones). Unholy Fusion DLC: Wikipedia lists 2026-04-09 (likely PC); the console announcement lists 2026-08-13 for console platforms. Peak CCU differs by <100 across trackers (25,114–25,190). The '5 million players across PC and mobile' (Jul 2026) mixes paid copies with mobile/Game Pass players and is not a unit figure. Engine: not found.",
   "notes": "Strong benchmark for a 2-person team: a single-room 3D scene, one core loop (pull the lever) and deep data-driven synergies produced a 1M+ seller at $9.99 within two months. The key lessons: ride a proven genre wave (Balatro-likes) with a twist that is legible in a 5-second clip; release a demo early (5+ months before launch) and stack showcases/Next Fest; avoid launching against giants (they moved from Sept 3 to Sept 26 for Silksong); then extend the tail with Game Pass, mobile, consoles and DLC. A publisher (Future Friends) handled PR, ports and showcase slots."

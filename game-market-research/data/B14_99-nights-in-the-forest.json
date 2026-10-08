@@ -1,5 +1,5 @@
 {
-  "id": "B15",
+  "id": "B14",
   "group": "B",
   "title": "99 Nights in the Forest",
   "genre": "Roblox co-op survival horror / crafting & base defence (survive 99 nights around a campfire, rescue lost children, classes)",
@@ -31,21 +31,66 @@
   "solo_ai_mvp_cost_time": "3–6 weeks, ~$100–$500 (Claude Pro/Max $20–$100/mo, 3D gen $20–$60/mo, audio $10–$30/mo; Roblox Studio free, no store fee; excludes the developer's own living costs)",
   "solo_ai_polished_cost_time": "3–6 months, ~$2,000–$10,000 (AI tools $60–$250/mo, freelance monster/character modelling and animation $500–$3,000, thumbnail art $200–$1,000, Roblox Ads/Sponsored Experiences and creator promos $1,000–$5,000). Weekly updates expected after launch. Excludes own living costs.",
   "sources": [
-    {"title": "Rolimons – 99 Nights in the Forest stats", "url": "https://www.rolimons.com/game/79546208627805"},
-    {"title": "RoMonitor Stats – 99 Nights in the Forest", "url": "https://romonitorstats.com/experience/79546208627805/"},
-    {"title": "RoWatcher – 99 Nights in the Forest (revenue estimate)", "url": "https://rowatcher.com/games/7326934954/99-nights-in-the-forest"},
-    {"title": "profitable.app – 99 Nights in the Forest revenue model", "url": "https://profitable.app/roblox/games/99-nights-in-the-forest"},
-    {"title": "PC Gamer – With a peak player count of 14.2 million, 99 Nights in the Forest has an audience other multiplayer games would kill for", "url": "https://www.pcgamer.com/games/survival-crafting/with-a-peak-player-count-of-14-2-million-99-nights-in-the-forest-has-an-audience-other-multiplayer-games-would-kill-for-to-find-these-behemoth-playerbases-you-need-to-be-on-a-platform-like-roblox/"},
-    {"title": "Stuff – Kiwi mates' Roblox game drew 14 million players. Now Disney is turning it into a movie", "url": "https://www.stuff.co.nz/business/361035297/what-14-million-people-kim-kardashian-and-three-kiwi-friends-have-common"},
-    {"title": "NZ Herald – Kiwi team behind Roblox hit 99 Nights in the Forest lands movie deal", "url": "https://www.nzherald.co.nz/nz/kiwi-team-behind-roblox-hit-99-nights-in-the-forest-land-movie-deal/DYAPEWGMP5E7TL7JYGE2KJJHCY/"},
-    {"title": "NZ Herald – 99 Nights in the Forest makers star as NZ video game industry clocks its first $1 billion year", "url": "https://www.nzherald.co.nz/business/99-nights-in-the-forest-makers-star-as-nz-video-game-industry-clocks-its-first-1-billion-year/EUYBADUN65ZLDL2KC6VBPRF4LI/"},
-    {"title": "Deadline – Roblox's '99 Nights In The Forest' game in works as movie (April 2026)", "url": "https://deadline.com/2026/04/99-nights-in-the-forest-movie-1236859433/"},
-    {"title": "Variety – '99 Nights in the Forest' movie in the works at 20th Century Studios", "url": "https://variety.com/2026/film/news/99-nights-in-the-forest-movie-20th-century-studios-1236720515/"},
-    {"title": "Deadline – 99 Nights in the Forest movie from Josh Cooley & Sam Raimi (Sept 2026)", "url": "https://deadline.com/2026/09/99-nights-in-the-forest-movie-josh-cooley-sam-raimi-20th-1237106669/"},
-    {"title": "Wikipedia – List of Roblox games", "url": "https://en.wikipedia.org/wiki/List_of_Roblox_games"},
-    {"title": "GamesBeat – From Roblox to Fortnite: 99 Nights crossover", "url": "https://gamesbeat.com/from-roblox-to-fortnite-99-nights-crossover-tests-whether-ugc-fandom-can-cross-platforms/"},
-    {"title": "GameDev Reports – Newzoo: Top Roblox Games in 2025", "url": "https://gamedevreports.substack.com/p/newzoo-top-roblox-games-in-2025"},
-    {"title": "PC Gamer – 99 Nights in the Forest Christmas update", "url": "https://www.pcgamer.com/roblox/99-nights-in-the-forest-christmas-update/"}
+    {
+      "title": "Rolimons – 99 Nights in the Forest stats",
+      "url": "https://www.rolimons.com/game/79546208627805"
+    },
+    {
+      "title": "RoMonitor Stats – 99 Nights in the Forest",
+      "url": "https://romonitorstats.com/experience/79546208627805/"
+    },
+    {
+      "title": "RoWatcher – 99 Nights in the Forest (revenue estimate)",
+      "url": "https://rowatcher.com/games/7326934954/99-nights-in-the-forest"
+    },
+    {
+      "title": "profitable.app – 99 Nights in the Forest revenue model",
+      "url": "https://profitable.app/roblox/games/99-nights-in-the-forest"
+    },
+    {
+      "title": "PC Gamer – With a peak player count of 14.2 million, 99 Nights in the Forest has an audience other multiplayer games would kill for",
+      "url": "https://www.pcgamer.com/games/survival-crafting/with-a-peak-player-count-of-14-2-million-99-nights-in-the-forest-has-an-audience-other-multiplayer-games-would-kill-for-to-find-these-behemoth-playerbases-you-need-to-be-on-a-platform-like-roblox/"
+    },
+    {
+      "title": "Stuff – Kiwi mates' Roblox game drew 14 million players. Now Disney is turning it into a movie",
+      "url": "https://www.stuff.co.nz/business/361035297/what-14-million-people-kim-kardashian-and-three-kiwi-friends-have-common"
+    },
+    {
+      "title": "NZ Herald – Kiwi team behind Roblox hit 99 Nights in the Forest lands movie deal",
+      "url": "https://www.nzherald.co.nz/nz/kiwi-team-behind-roblox-hit-99-nights-in-the-forest-land-movie-deal/DYAPEWGMP5E7TL7JYGE2KJJHCY/"
+    },
+    {
+      "title": "NZ Herald – 99 Nights in the Forest makers star as NZ video game industry clocks its first $1 billion year",
+      "url": "https://www.nzherald.co.nz/business/99-nights-in-the-forest-makers-star-as-nz-video-game-industry-clocks-its-first-1-billion-year/EUYBADUN65ZLDL2KC6VBPRF4LI/"
+    },
+    {
+      "title": "Deadline – Roblox's '99 Nights In The Forest' game in works as movie (April 2026)",
+      "url": "https://deadline.com/2026/04/99-nights-in-the-forest-movie-1236859433/"
+    },
+    {
+      "title": "Variety – '99 Nights in the Forest' movie in the works at 20th Century Studios",
+      "url": "https://variety.com/2026/film/news/99-nights-in-the-forest-movie-20th-century-studios-1236720515/"
+    },
+    {
+      "title": "Deadline – 99 Nights in the Forest movie from Josh Cooley & Sam Raimi (Sept 2026)",
+      "url": "https://deadline.com/2026/09/99-nights-in-the-forest-movie-josh-cooley-sam-raimi-20th-1237106669/"
+    },
+    {
+      "title": "Wikipedia – List of Roblox games",
+      "url": "https://en.wikipedia.org/wiki/List_of_Roblox_games"
+    },
+    {
+      "title": "GamesBeat – From Roblox to Fortnite: 99 Nights crossover",
+      "url": "https://gamesbeat.com/from-roblox-to-fortnite-99-nights-crossover-tests-whether-ugc-fandom-can-cross-platforms/"
+    },
+    {
+      "title": "GameDev Reports – Newzoo: Top Roblox Games in 2025",
+      "url": "https://gamedevreports.substack.com/p/newzoo-top-roblox-games-in-2025"
+    },
+    {
+      "title": "PC Gamer – 99 Nights in the Forest Christmas update",
+      "url": "https://www.pcgamer.com/roblox/99-nights-in-the-forest-christmas-update/"
+    }
   ],
   "data_conflicts": "Peak CCU: 14,153,173 on 2025-10-04 (Rolimons) vs 14.2M (PC Gamer/Wikipedia) vs ~14M (NZ Herald) – same peak, rounded differently; chose 14.15M. Release date: Rolimons place-creation date 2025-03-04 vs 'March 2025' in press; the exact public launch day was not found (creation date ≠ public launch). Visits: 26B (Apr 2026) → 28.6B (Jul 2026, profitable.app) → 29.9B (~Oct 2026, Rolimons) – consistent growth, not a conflict. Revenue: RoWatcher ~$15M/yr vs profitable.app $228M lifetime / $4.2M per 30 days – an order-of-magnitude gap between trackers; I used my own range labelled ESTIMATE. A '$1 billion' figure in NZ coverage refers to the whole NZ games industry, not this game or the film deal. Recent CCU: Rolimons 30-day peak 1.78M vs RoMonitor 1.84M range peak (different windows).",
   "notes": "Film: 20th Century Studios (Disney) won the theatrical rights in a competitive bid (announced April 2026); Josh Cooley attached to write and Sam Raimi to produce (Deadline, Sept 2026); founders are executive producers. Awards: Best Adventure Experience and Best Horror Experience, 2025 Roblox Innovation Awards. Cross-platform: a 99 Nights crossover into Fortnite (Fortnite Override) met mixed reactions. Strongest 'tiny team' story of the three Group B Roblox titles: 3 self-published friends, no operator studio stake, a one-week fun project → 14M CCU and a Hollywood deal. Lessons for a solo creator: (1) a numeric goal in the title ('99 nights') is a hook by itself; (2) co-op horror with friends creates shareable moments without needing PvP; (3) weekly updates mattered early, but retention held even after they stopped; (4) Roblox's audience scale ('kids are on Roblox') beats Steam for this genre; (5) expect clones within days – Rolimons lists many '99 Nights' tycoons, modded and roleplay copies."

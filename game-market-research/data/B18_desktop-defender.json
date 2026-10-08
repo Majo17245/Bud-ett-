@@ -1,0 +1,85 @@
+{
+  "id": "B18",
+  "group": "B",
+  "title": "Desktop Defender",
+  "genre": "Desktop-companion idle auto-battler / omnidirectional idle shooter-defence that sits in a corner of your screen while you work (the 'desktop idle' trend of Rusty's Retirement and Bongo Cat)",
+  "release_date": "2025-11-04 (Steam, PC) [CONFIRMED – Steam store/Dekudeals; an earlier announcement said 2025-10-31; Automaton reports 5 Nov Japan time]",
+  "early_access_date": "n/a (free demo; Steam Next Fest 2025-10-13 to 2025-10-20)",
+  "window_note": "In window (Next Fest Oct 2025, release Nov 2025).",
+  "developer": "Conradical Games (developer 'Conrad')",
+  "team_size": "1 [ESTIMATE – press consistently describes a single developer: Galaxus headline 'Der Walliser Game-Entwickler…' ('the Valais game developer'), Shazoo 'indie developer in shock', Mein-MMO quoting the developer's own X posts. No explicit headcount found; a publisher (Poysky Productions) is also involved]",
+  "country": "Switzerland (canton of Valais/Wallis per Galaxus headline) [CONFIRMED – Mein-MMO 'small Swiss indie studio'; Valais from Galaxus]",
+  "developer_background": "no data on prior games. Studio motto: making 'the games that nobody else makes' [press-kit wording via Mein-MMO]. Before Next Fest the demo had only ~3 concurrent players [CONFIRMED – developer on X, via Mein-MMO/Shazoo/Automaton].",
+  "publisher": "Poysky Productions",
+  "platforms_and_store_links": "Steam: https://store.steampowered.com/app/3772810/Desktop_Defender/ ; Steam demo: https://store.steampowered.com/app/3778500/Desktop_Defender_Demo/",
+  "business_model": "Premium $4.99; launch discount 15% until 2025-11-19 [Automaton]; all-time low $3.49 (-30%) [Dekudeals]. Free demo kept online after Next Fest at Valve's encouragement.",
+  "price_usd": "$4.99",
+  "units_or_downloads": "No official sales figure found. Boxleiter: 1,770 reviews (~Sep 2026) × 50 (cheap <$10 idle game; mass-market buyers review less) ≈ 88,500 copies (range ×35–60: 62k–106k) [ESTIMATE]. Next Fest: ~20,000 wishlists gained during the October 2025 fest [ESTIMATE – How To Market A Game analysis]; one of the 50 most-played demos of the fest [CONFIRMED – developer via Mein-MMO].",
+  "peak_concurrent_players": "Paid game: 2,673 all-time peak [ESTIMATE – SteamCharts]; monthly average 1,125 (Nov 2025) falling to 209 (Feb 2026); a later 30-day window showed an average of 458 / peak 1,112 [SteamCharts, dates approximate]. Demo: from ~3 to ~1,000 in 3 days, then 1,548 on 2025-10-18 [ESTIMATE – SteamDB via Mein-MMO/EGW]. For a desktop idle game, concurrent players are inflated because players leave it running.",
+  "steam_reviews": "1,770 reviews, 92% positive ('Very Positive'), ~Sep 2026 [Steam store snapshot]; earlier snapshots 1,319 (94%), 1,705 (92%), 1,746 (1,620 positive / 126 negative). Demo: 283 reviews, 98% positive.",
+  "implied_review_multiplier": "n/a (no confirmed unit figure)",
+  "gross_revenue": "[ESTIMATE – Boxleiter] 62k–106k copies × ($4.99 × 0.75 ≈ $3.74) ≈ $230k–$400k Steam gross to ~Sep 2026; central ~$330k. No Gamalytic/Raijin figure was retrieved.",
+  "net_revenue": "[ESTIMATE] gross × 0.70 × 0.93 ≈ $150k–$260k (central ~$215k) to developer + publisher; the Conradical/Poysky split is not disclosed.",
+  "production_cost": "no data disclosed. [ESTIMATE] If one developer worked ~6–12 months at ~$6k/month (Switzerland is far above this; opportunity cost ≈ $8–10k/month), the cost is ≈ $36k–$72k at the spec rate, or $50k–$120k in Swiss opportunity cost. Publisher marketing spend unknown.",
+  "development_time": "no data (announced July 2025, released Nov 2025; total development time not reported)",
+  "why_popular": "Rides the 'desktop companion / idle-while-you-work' trend: a tiny always-on-top window in the screen corner where a turret auto-defends against waves while you work, study or stream. Zero-friction, low-attention, satisfying number-go-up progression. Very cheap ($4.99). Novelty of a game that 'lives on your desktop' is easy to show in a short clip. The Next Fest demo's jump from ~3 players to a top-50 demo produced press stories ('Valve wants the demo to stay') that compounded discovery. [Qualitative, from Mein-MMO, Automaton, Shazoo, EGW, Galaxus coverage]",
+  "marketing_channels": "Steam Next Fest October 2025 (top-50 most-played demo, ~20k wishlists); demo kept live afterwards at Valve's suggestion; developer posting milestones on X, which was picked up by German, Japanese, Russian and Swiss press; publisher Poysky Productions (press release positioning it as 'Rusty's Retirement meets Tower Defense'); Steam 'More like this' for the desktop-idle cluster (Rusty's Retirement, Bongo Cat). Streamer/TikTok role not verified.",
+  "engine": "no data",
+  "art_style": "Minimal 2D pixel/vector art in a small transparent overlay strip; clean UI with upgrade panels",
+  "ai_feasibility_score": 5,
+  "ai_feasibility_justification": "AI can: write the whole idle loop (waves, auto-targeting, upgrades, prestige, offline progress), save system, and the tricky platform bit, a transparent, always-on-top, click-through overlay window (Godot 4 per-pixel transparency / borderless window flags, or Unity + Win32 calls via Claude Code); generate small 2D sprites/icons (Retro Diffusion/Scenario), SFX (ElevenLabs) and lo-fi loops (Suno). | AI cannot: balance idle progression curves so they stay satisfying for weeks, judge how unobtrusive the overlay must be, nail the 'cozy but compulsive' feel through playtesting, or create the Next Fest/press momentum. | Toolset: Claude Code + Godot 4 (transparent window + always-on-top) + GodotSteam (achievements, Steam overlay), Retro Diffusion/Aseprite, ElevenLabs, Suno. Score 5: 2D, single-player, one core loop, small content.",
+  "solo_ai_mvp_cost_time": "[ESTIMATE – spec method] 2–4 weeks, $120–$300 (Claude Pro/Max, image gen, audio subscriptions, $100 Steam Direct fee); excludes the developer's living costs",
+  "solo_ai_polished_cost_time": "[ESTIMATE – spec method] 2–5 months, $1,000–$4,000 (subscriptions, optional pixel-art freelancer polish, multi-monitor/OS testing, Next Fest/press outreach budget); excludes the developer's living costs",
+  "sources": [
+    {
+      "title": "Steam – Desktop Defender",
+      "url": "https://store.steampowered.com/app/3772810/Desktop_Defender/"
+    },
+    {
+      "title": "Steam – Desktop Defender Demo",
+      "url": "https://store.steampowered.com/app/3778500/Desktop_Defender_Demo/"
+    },
+    {
+      "title": "SteamCharts – Desktop Defender",
+      "url": "https://steamcharts.com/app/3772810"
+    },
+    {
+      "title": "Mein-MMO – Unassuming game on Steam is so successful during Next Fest that even Valve wants the demo to stay",
+      "url": "https://mein-mmo.de/en/desktop-defender-steam-next-fest-erfolg,1532985"
+    },
+    {
+      "title": "Galaxus – Der Walliser Game-Entwickler, dessen Demo so erfolgreich ist, dass Valve sich bei ihm meldet",
+      "url": "https://www.galaxus.at/de/page/der-walliser-game-entwickler-dessen-demo-so-erfolgreich-ist-dass-valve-sich-bei-ihm-meldet-40519"
+    },
+    {
+      "title": "Automaton – Desktop Defender breaks out from 'just 3 players'",
+      "url": "https://automaton-media.com/articles/newsjp/desktop-defender-20251106-364969/"
+    },
+    {
+      "title": "Shazoo – 'A week ago there were only three people in the game'",
+      "url": "https://shazoo.ru/2025/10/22/174586/nedeliu-nazad-v-igre-bylo-vsego-tri-celoveka-indi-razrabotcik-v-soke-ot-neozidannogo-uspexa-na-steam-next-fest"
+    },
+    {
+      "title": "EGW News – Steam Next Fest sends Desktop Defender from obscurity to 1,500 players",
+      "url": "https://egw.news/gaming/news/30195/steam-next-fest-sends-desktop-defender-from-obscur-5Uls-ozrW"
+    },
+    {
+      "title": "Gamespress – Desktop Defender: Rusty's Retirement meets Tower Defense (press release)",
+      "url": "https://www.gamespress.com/Desktop-Defender---Rustys-Retirement-meets-Tower-Defense"
+    },
+    {
+      "title": "CogConnected – Desktop Defender is coming to Steam in October",
+      "url": "https://cogconnected.com/2025/07/desktop-defender-is-coming-to-steam-in-october-this-year/"
+    },
+    {
+      "title": "Dekudeals – Desktop Defender price history",
+      "url": "https://www.dekudeals.com/items/desktop-defender"
+    },
+    {
+      "title": "How To Market A Game – Steam Next Fest October 2025: checking in on the games that broke through",
+      "url": "https://howtomarketagame.com/2025/10/20/steam-next-fest-october-2025-checking-in-on-the-games-that-broke-through/"
+    }
+  ],
+  "data_conflicts": "Release date: 2025-10-31 (July 2025 announcement) vs 2025-11-04 (Steam/Dekudeals) vs 5 Nov (Automaton, Japan time); 2025-11-04 is used. Genre label: 'idle auto-battler' (Mein-MMO/CogConnected) vs 'Rusty's Retirement meets Tower Defense' (publisher press release); both describe the same desktop idle defence loop. Team size is not explicitly stated; '1' is inferred from singular 'developer' wording in multiple outlets. Review counts vary by snapshot (1,319 → 1,770); the latest is used.",
+  "notes": "This is the realistic end of the solo spectrum. It was not a mega-hit (≈ 60k–110k copies, ≈ $0.2–0.4M gross), but it is clearly profitable for one developer and is roughly in the top ~3–8% of Steam releases (see _market_stats.md: ~8% of 2025 releases grossed > $100k). The key lever was Next Fest timing plus a novel desktop-overlay hook; the demo went from ~3 players to a top-50 Next Fest demo, and the press picked up the 'tiny game, Valve noticed' story. Desktop-idle games keep long session times (players leave them running), which helps Steam visibility. Caveat: the market for this sub-genre is filling quickly after Rusty's Retirement, Bongo Cat and Desktop Defender."
+}

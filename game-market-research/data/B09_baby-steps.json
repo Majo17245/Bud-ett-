@@ -1,5 +1,5 @@
 {
-  "id": "B10",
+  "id": "B09",
   "group": "B",
   "title": "Baby Steps",
   "genre": "Physics-based walking simulator / 'rage' traversal game (QWOP / Getting Over It lineage) with narrative comedy",
@@ -31,18 +31,54 @@
   "solo_ai_mvp_cost_time": "1–2 months, $200–$600 for a one-mechanic physics rage-climber prototype (Claude Pro/Max, 3D gen $20–$60/mo, Steam Direct $100). Excludes the developer's own living costs.",
   "solo_ai_polished_cost_time": "6–12 months, $3,000–$12,000 (subscriptions, freelance character/animation and voice polish, playtests, trailer, streamer key outreach). Excludes living costs. A full Baby Steps-scale open mountain with narrative is beyond a solo dev in this time.",
   "sources": [
-    {"title": "Baby Steps on Steam", "url": "https://store.steampowered.com/app/1281040/Baby_Steps/"},
-    {"title": "Baby Steps Steam Stats - Raijin", "url": "https://raijin.gg/app/1281040/Baby_Steps"},
-    {"title": "Baby Steps Steam Charts - Steambase", "url": "https://steambase.io/games/baby-steps/steam-charts"},
-    {"title": "Baby Steps Steam Charts and Player Stats - SteamPulse", "url": "https://steampulse.org/game/1281040"},
-    {"title": "Baby Steps - VG Insights", "url": "https://vginsights.com/game/1281040"},
-    {"title": "Baby Steps (video game) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Baby_Steps_(video_game)"},
-    {"title": "Baby Steps - Games By Bennett Foddy", "url": "https://www.foddy.net/blog/2026/02/baby-steps/"},
-    {"title": "Baby Steps isn't done with Maxi Boch - Engadget", "url": "https://www.engadget.com/gaming/baby-steps-isnt-done-with-maxi-boch-140000613.html"},
-    {"title": "Release date moved to September 23 - Indigo Pearl press release", "url": "https://indigo-pearl.prezly.com/learning-to-walk-takes-time-baby-steps-release-date-moved-to-september-23-for-pc-and-ps5"},
-    {"title": "Devolver Digital 2025 earnings release (operating review)", "url": "https://financialfilings.com/filings/devolver-digital-inc/earnings-release/2026/33900765/"},
-    {"title": "Baby Steps PS Plus Premium free trial - PlayStation LifeStyle", "url": "https://www.playstationlifestyle.net/?p=922152"},
-    {"title": "Bennett Foddy Interview: Baby Steps, QWOP, Getting Over It - Kill Screen", "url": "https://www.killscreen.com/bennett-foddy-baby-steps-interview/"}
+    {
+      "title": "Baby Steps on Steam",
+      "url": "https://store.steampowered.com/app/1281040/Baby_Steps/"
+    },
+    {
+      "title": "Baby Steps Steam Stats - Raijin",
+      "url": "https://raijin.gg/app/1281040/Baby_Steps"
+    },
+    {
+      "title": "Baby Steps Steam Charts - Steambase",
+      "url": "https://steambase.io/games/baby-steps/steam-charts"
+    },
+    {
+      "title": "Baby Steps Steam Charts and Player Stats - SteamPulse",
+      "url": "https://steampulse.org/game/1281040"
+    },
+    {
+      "title": "Baby Steps - VG Insights",
+      "url": "https://vginsights.com/game/1281040"
+    },
+    {
+      "title": "Baby Steps (video game) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baby_Steps_(video_game)"
+    },
+    {
+      "title": "Baby Steps - Games By Bennett Foddy",
+      "url": "https://www.foddy.net/blog/2026/02/baby-steps/"
+    },
+    {
+      "title": "Baby Steps isn't done with Maxi Boch - Engadget",
+      "url": "https://www.engadget.com/gaming/baby-steps-isnt-done-with-maxi-boch-140000613.html"
+    },
+    {
+      "title": "Release date moved to September 23 - Indigo Pearl press release",
+      "url": "https://indigo-pearl.prezly.com/learning-to-walk-takes-time-baby-steps-release-date-moved-to-september-23-for-pc-and-ps5"
+    },
+    {
+      "title": "Devolver Digital 2025 earnings release (operating review)",
+      "url": "https://financialfilings.com/filings/devolver-digital-inc/earnings-release/2026/33900765/"
+    },
+    {
+      "title": "Baby Steps PS Plus Premium free trial - PlayStation LifeStyle",
+      "url": "https://www.playstationlifestyle.net/?p=922152"
+    },
+    {
+      "title": "Bennett Foddy Interview: Baby Steps, QWOP, Getting Over It - Kill Screen",
+      "url": "https://www.killscreen.com/bennett-foddy-baby-steps-interview/"
+    }
   ],
   "data_conflicts": "Units: Raijin ~51.7k (Jul 2026) vs VG Insights 96,455 (undated) vs my Boxleiter ~77k (×30); revenue $620k (Raijin) vs $1.3M (VGI). I report a range. Peak CCU: 1,032 (Steambase, 2025-09-25) vs 1,019 (SteamCharts). Dev start: Engadget ~Mar 2019 prototyping vs Foddy 'late 2019'. Release date: some localised articles say 2025-09-08 (the original date); the confirmed date is 2025-09-23. Reception: one outlet described launch reception as mixed, while Steam is 90% positive and Metacritic 76.",
   "notes": "Cautionary benchmark: famous creators + a strong streamer hook + a top publisher still produced only ~1k peak CCU and an estimated ~$1M on Steam at $19.99. 'Streamer-viral' (people watching) is not the same as 'buyer-viral' (people buying and playing together). Rage/precision games are watched more than bought. Compare How to Fish / co-op friendslop, which converts viewers into multi-pack buyers at a low price. The 6-year dev time on a single physics mechanic shows how expensive feel-driven games are. A solo+AI dev should scope a rage-climber to one mechanic and a short, dense course (as Getting Over It did) rather than an open world."

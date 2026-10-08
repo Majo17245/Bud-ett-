@@ -1,5 +1,5 @@
 {
-  "id": "B25",
+  "id": "B20",
   "group": "B",
   "title": "Big Walk",
   "genre": "Online co-op exploration / social 'walk and talk' adventure with puzzles and proximity voice chat (separate variants for 2, 3 and 4+ players)",
@@ -31,22 +31,70 @@
   "solo_ai_mvp_cost_time": "4–8 weeks for a small proximity-chat walking sandbox with 2–3 puzzles, ~$300–$800 (Claude Max, 3D/audio gen, asset packs, Steam Direct $100). Excludes living costs.",
   "solo_ai_polished_cost_time": "12–24 months for a comparable hand-crafted world, ~$10,000–$40,000 (tools, art/environment freelancers, sound design, extensive playtesting, trailer/PR). Excludes living costs. Realistically below Big Walk's polish level.",
   "sources": [
-    {"title": "Steam store – Big Walk (app 1478500)", "url": "https://store.steampowered.com/app/1478500/Big_Walk/"},
-    {"title": "Game Developer – Press release: It's time for a Big Walk, out now on PC, Mac, PS5 and Switch 2", "url": "https://www.gamedeveloper.com/press-release/it-s-time-for-a-big-walk-out-now-on-pc-mac-ps5-and-nintendo-switch-2"},
-    {"title": "Game Informer – Big Walk sells one million copies in less than a week", "url": "https://gameinformer.com/2026/08/10/big-walk-sells-one-million-copies-in-less-than-a-week"},
-    {"title": "Gematsu – Big Walk sales top one million", "url": "https://www.gematsu.com/2026/08/big-walk-sales-top-one-million"},
-    {"title": "Game Developer – Big Walk has sold over 1 million copies worldwide", "url": "https://www.gamedeveloper.com/business/big-walk-has-sold-over-1-million-copies-worldwide"},
-    {"title": "GameDiscoverCo – August 2026's top new PC & console games", "url": "https://newsletter.gamediscover.co/p/august-2026s-top-new-pc-and-console"},
-    {"title": "Steam Page Analyzer – Big Walk revenue calculator", "url": "https://www.steampageanalyzer.com/tools/revenue-calculator/1478500"},
-    {"title": "Raijin – Big Walk", "url": "https://raijin.gg/app/1478500/Big_Walk"},
-    {"title": "Mein-MMO – Creators of an indie hit release their new co-op game (46,409 peak)", "url": "https://mein-mmo.de/en/creators-of-an-indie-hit-release-their-new-coop-game-on-steam-immediately-reaches-91-percent-positive,1581722/"},
-    {"title": "Outlook Respawn – Big Walk hits 1M sales in 6 days, outpacing Goose Game", "url": "https://respawn.outlookindia.com/gaming/gaming-news/big-walk-hits-1m-sales-in-6-days-outpacing-goose-game"},
-    {"title": "Kotaku – The creators of Big Walk break down development", "url": "https://kotaku.com/the-creators-of-big-walk-break-down-the-goty-contenders-development-puzzles-and-stunning-ending-2000725133"},
-    {"title": "GameDev.net (GamesIndustry.biz) – Big Walk's creators reflect on their six-year journey", "url": "https://gamedev.net/news/3845-big-walks-creators-reflect-on-their-six-year-journey/"},
-    {"title": "Wikipedia – House House", "url": "https://en.wikipedia.org/wiki/House_House"},
-    {"title": "Indie Hive – Big Walk (engine: Unity)", "url": "https://indie-hive.com/big-walk/"},
-    {"title": "Waxy – Big Walk and the magic of proximity chat", "url": "https://waxy.org/2026/06/big-walk-and-the-magic-of-proximity-chat/"},
-    {"title": "Inven Global – Big Walk hits #2 in sales one day after launch", "url": "https://labs.invenglobal.com/articles/24485/another-hit-game-to-play-with-friends-indie-title-big-walk-hits-2-in-sales-one-day-after-launch"}
+    {
+      "title": "Steam store – Big Walk (app 1478500)",
+      "url": "https://store.steampowered.com/app/1478500/Big_Walk/"
+    },
+    {
+      "title": "Game Developer – Press release: It's time for a Big Walk, out now on PC, Mac, PS5 and Switch 2",
+      "url": "https://www.gamedeveloper.com/press-release/it-s-time-for-a-big-walk-out-now-on-pc-mac-ps5-and-nintendo-switch-2"
+    },
+    {
+      "title": "Game Informer – Big Walk sells one million copies in less than a week",
+      "url": "https://gameinformer.com/2026/08/10/big-walk-sells-one-million-copies-in-less-than-a-week"
+    },
+    {
+      "title": "Gematsu – Big Walk sales top one million",
+      "url": "https://www.gematsu.com/2026/08/big-walk-sales-top-one-million"
+    },
+    {
+      "title": "Game Developer – Big Walk has sold over 1 million copies worldwide",
+      "url": "https://www.gamedeveloper.com/business/big-walk-has-sold-over-1-million-copies-worldwide"
+    },
+    {
+      "title": "GameDiscoverCo – August 2026's top new PC & console games",
+      "url": "https://newsletter.gamediscover.co/p/august-2026s-top-new-pc-and-console"
+    },
+    {
+      "title": "Steam Page Analyzer – Big Walk revenue calculator",
+      "url": "https://www.steampageanalyzer.com/tools/revenue-calculator/1478500"
+    },
+    {
+      "title": "Raijin – Big Walk",
+      "url": "https://raijin.gg/app/1478500/Big_Walk"
+    },
+    {
+      "title": "Mein-MMO – Creators of an indie hit release their new co-op game (46,409 peak)",
+      "url": "https://mein-mmo.de/en/creators-of-an-indie-hit-release-their-new-coop-game-on-steam-immediately-reaches-91-percent-positive,1581722/"
+    },
+    {
+      "title": "Outlook Respawn – Big Walk hits 1M sales in 6 days, outpacing Goose Game",
+      "url": "https://respawn.outlookindia.com/gaming/gaming-news/big-walk-hits-1m-sales-in-6-days-outpacing-goose-game"
+    },
+    {
+      "title": "Kotaku – The creators of Big Walk break down development",
+      "url": "https://kotaku.com/the-creators-of-big-walk-break-down-the-goty-contenders-development-puzzles-and-stunning-ending-2000725133"
+    },
+    {
+      "title": "GameDev.net (GamesIndustry.biz) – Big Walk's creators reflect on their six-year journey",
+      "url": "https://gamedev.net/news/3845-big-walks-creators-reflect-on-their-six-year-journey/"
+    },
+    {
+      "title": "Wikipedia – House House",
+      "url": "https://en.wikipedia.org/wiki/House_House"
+    },
+    {
+      "title": "Indie Hive – Big Walk (engine: Unity)",
+      "url": "https://indie-hive.com/big-walk/"
+    },
+    {
+      "title": "Waxy – Big Walk and the magic of proximity chat",
+      "url": "https://waxy.org/2026/06/big-walk-and-the-magic-of-proximity-chat/"
+    },
+    {
+      "title": "Inven Global – Big Walk hits #2 in sales one day after launch",
+      "url": "https://labs.invenglobal.com/articles/24485/another-hit-game-to-play-with-friends-indie-title-big-walk-hits-2-in-sales-one-day-after-launch"
+    }
   ],
   "data_conflicts": "(1) Team size: 4 (Wikipedia, founders) vs 5 full-time (Kotaku, incl. Kalonica Quigley). Chosen 5, so Group B, borderline. (2) Gross: GameDiscoverCo ~$21M (Aug, Steam) vs Steam Page Analyzer ~$17.2M. Chosen GDCo. (3) Peak CCU: 46,409 (SteamDB, opening weekend) vs 21,015 (Raijin, Aug 5 snapshot before the peak) vs SteamSpy's 24,444 'yesterday' peak. Chosen 46,409. (4) Whether the 1M figure includes PS Plus claims is unspecified by Panic. (5) Reviews: English 26,788 vs all-language ~35,062. Both reported.",
   "notes": "This is the 'craft' counterpoint to the friendslop cluster: a 5-person veteran team, 6 years, Panic publishing, a $20 price and multi-platform plus PS Plus. Its Steam CCU (46k) was much lower than How to Fish or Meccha Chameleon, but August revenue was comparable thanks to a 4× higher price. The reusable insight for a solo creator is that physically modelled proximity voice chat is a cheap, high-impact social mechanic (an older precedent is Lethal Company); it can be prototyped in weeks, but a hand-crafted world at this level cannot."

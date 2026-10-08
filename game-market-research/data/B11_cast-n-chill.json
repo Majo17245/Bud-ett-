@@ -1,5 +1,5 @@
 {
-  "id": "B12",
+  "id": "B11",
   "group": "B",
   "title": "Cast n Chill",
   "genre": "Cozy fishing sim / idle game (2D side-scrolling boat fishing with an active mode and a fully idle 'desktop' mode)",
@@ -31,20 +31,62 @@
   "solo_ai_mvp_cost_time": "2–4 weeks, $150–$400 (Claude Pro/Max, pixel-art AI tool $10–$30, Steam Direct $100). Excludes the developer's own living costs.",
   "solo_ai_polished_cost_time": "3–6 months, $2,000–$8,000 (subscriptions, freelance pixel-art polish/animation $1,000–$5,000, music licensing or commission, macOS notarisation $99/yr, festival/marketing budget). Excludes living costs.",
   "sources": [
-    {"title": "Cast n Chill on Steam", "url": "https://store.steampowered.com/app/3483740/Cast_n_Chill/"},
-    {"title": "Cast n Chill · SteamDB", "url": "https://steamdb.info/app/3483740/"},
-    {"title": "Cast n Chill - Steam Charts", "url": "https://steamcharts.com/app/3483740"},
-    {"title": "Cast n Chill Steam Charts - Steambase", "url": "https://steambase.io/games/cast-n-chill/steam-charts"},
-    {"title": "Cast n Chill - Raijin", "url": "https://raijin.gg/app/3483740/Cast_n_Chill"},
-    {"title": "Cast n Chill - VG Insights", "url": "https://vginsights.com/game/cast-n-chill"},
-    {"title": "Cast n Chill - Sensor Tower (VGI)", "url": "https://app.sensortower.com/vgi/game/cast-n-chill"},
-    {"title": "Cast n Chill - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cast_n_Chill"},
-    {"title": "Press release: Cast n Chill releases June 16 - Cozy fishing", "url": "https://gamespress.westeu-v2.propressroom.com/CAST-N-CHILL-RELEASES-JUNE-16-COZY-FISHING-FOR-THOSE-THAT-NEED-TO-KICK"},
-    {"title": "Cast n Chill demo coverage - Automaton", "url": "https://automaton-media.com/articles/newsjp/cast-n-chill-20250506-337669/"},
-    {"title": "Cast N Chill Is A Simple, Gorgeous Fishing Game - Aftermath", "url": "https://aftermath.site/cast-n-chill-demo/"},
-    {"title": "Cast n Chill review - LadiesGamers", "url": "https://ladiesgamers.com/cast-n-chill-review/"},
-    {"title": "Cast n Chill Switch 2 Edition - Nintendo", "url": "https://www.nintendo.com/us/store/products/cast-n-chill-nintendo-switch-2-edition-switch-2/"},
-    {"title": "Wild n Chill demo impressions - Aftermath", "url": "https://aftermath.site/wild-n-chill-demo-impressions-review/"}
+    {
+      "title": "Cast n Chill on Steam",
+      "url": "https://store.steampowered.com/app/3483740/Cast_n_Chill/"
+    },
+    {
+      "title": "Cast n Chill · SteamDB",
+      "url": "https://steamdb.info/app/3483740/"
+    },
+    {
+      "title": "Cast n Chill - Steam Charts",
+      "url": "https://steamcharts.com/app/3483740"
+    },
+    {
+      "title": "Cast n Chill Steam Charts - Steambase",
+      "url": "https://steambase.io/games/cast-n-chill/steam-charts"
+    },
+    {
+      "title": "Cast n Chill - Raijin",
+      "url": "https://raijin.gg/app/3483740/Cast_n_Chill"
+    },
+    {
+      "title": "Cast n Chill - VG Insights",
+      "url": "https://vginsights.com/game/cast-n-chill"
+    },
+    {
+      "title": "Cast n Chill - Sensor Tower (VGI)",
+      "url": "https://app.sensortower.com/vgi/game/cast-n-chill"
+    },
+    {
+      "title": "Cast n Chill - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cast_n_Chill"
+    },
+    {
+      "title": "Press release: Cast n Chill releases June 16 - Cozy fishing",
+      "url": "https://gamespress.westeu-v2.propressroom.com/CAST-N-CHILL-RELEASES-JUNE-16-COZY-FISHING-FOR-THOSE-THAT-NEED-TO-KICK"
+    },
+    {
+      "title": "Cast n Chill demo coverage - Automaton",
+      "url": "https://automaton-media.com/articles/newsjp/cast-n-chill-20250506-337669/"
+    },
+    {
+      "title": "Cast N Chill Is A Simple, Gorgeous Fishing Game - Aftermath",
+      "url": "https://aftermath.site/cast-n-chill-demo/"
+    },
+    {
+      "title": "Cast n Chill review - LadiesGamers",
+      "url": "https://ladiesgamers.com/cast-n-chill-review/"
+    },
+    {
+      "title": "Cast n Chill Switch 2 Edition - Nintendo",
+      "url": "https://www.nintendo.com/us/store/products/cast-n-chill-nintendo-switch-2-edition-switch-2/"
+    },
+    {
+      "title": "Wild n Chill demo impressions - Aftermath",
+      "url": "https://aftermath.site/wild-n-chill-demo-impressions-review/"
+    }
   ],
   "data_conflicts": "Units: Gamalytic 481k / VGI 496k / PlayTracker 548k vs Vorythic 333k vs Raijin 172k (a 3× spread); I used a 250k–500k range with ~334k Boxleiter central. Revenue: $1.7M (Raijin) vs $4.9M (Sensor Tower/VGI). Peak CCU: 4,447 (SteamDB, 2025-06-17) vs 4,425 (SteamCharts); Raijin's '1,979 all-time peak' is actually the Dec 2025 monthly peak. Switch date: 12-18 (eShop) vs 12-19 (Nintendo Everything), probably time zones. Team/founder names (Brendan Watts, Mark White) come from a single unverified snippet. Price: $14.99 is from a review listing, not the Steam page directly.",
   "notes": "The most direct comparable for How to Fish: a fishing theme with a cozy/idle twist reached roughly 250k–500k Steam units at $14.99 with ~4.4k peak CCU and ~95% positive reviews, without any multiplayer virality. Its levers: (1) a desktop-idle mode, so people keep it running and it 'charts'; (2) top-tier pixel art that sells itself in GIFs; (3) launching into the Steam Fishing Fest themed sale; (4) a Switch 2 port for the holidays. For a solo+AI creator, an idle fishing game is among the most feasible builds; the main investment is art quality, so budget for a pixel artist. Combining How to Fish's co-op physics comedy with Cast n Chill's idle/desktop mode is an untested but plausible hybrid."
