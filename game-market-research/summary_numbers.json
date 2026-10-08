@@ -48,7 +48,7 @@
   "dev_months": 4,
   "ai_score": 3,
   "mvp_weeks": "6-10",
-  "comment": "Core built in a ~4-week jam; ~$200k production cost (reported, single secondary source)."
+  "comment": "Core built in a ~4-week jam; production cost < $200k (CONFIRMED via Game Developer)."
  },
  "A04": {
   "group": "A",
@@ -167,7 +167,7 @@
   "dev_months": 2.25,
   "ai_score": 3,
   "mvp_weeks": "6-10",
-  "comment": "Reportedly built by 4 devs in ~9 weeks while the rest of the studio was on holiday (single-source); ~$54k est. cost."
+  "comment": "Built by 4 devs in just over 2 months while the rest of the studio was on holiday (Automaton); ~$54k est. cost."
  },
  "A11": {
   "group": "A",
