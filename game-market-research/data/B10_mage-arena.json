@@ -23,7 +23,7 @@
   "production_cost": "No disclosed figure. Cash cost likely minimal (Unity, Steam Direct $100, assets) [ESTIMATE]. Opportunity cost ≈ $10k–$40k [ESTIMATE – 1 person × ~2–6 months × $3k–$6k/month; country and dev time unknown].",
   "development_time": "no data (Steam app ID 3716600 suggests a store page created ~spring 2025, i.e. a short pre-launch cycle [ESTIMATE – inferred from app ID range]; launched in EA with many bugs).",
   "why_popular": "Novel, instantly understandable hook: you cast spells by shouting their names into your mic ('FIREBALL!', 'Freeze', 'Magic Missile', 'Wormhole'), and mispronunciations backfire hilariously. Proximity voice chat means enemies hear you incanting, which creates chaotic, funny moments. It's a perfect TikTok/streamer clip generator. It is cheap ($2.99) for friend groups to buy together, and has light extra layers (crafting staves from logs and frogs, a goblin trading village, a skeleton crypt, Torn Pages to unlock spells). It arrived during the summer-2025 'friendslop' wave (PEAK, R.E.P.O.).",
-  "marketing_channels": "TikTok (videos with millions of views, credited by Wikipedia as the main driver); Twitch/YouTube streamers; very low price; word of mouth in friend groups; Steam charts momentum (Alinea top-10 weekly sellers); press curiosity pieces (TweakTown, Notebookcheck, Automaton, PCGH, Multiplayer.it); modding community (Thunderstore).",
+  "marketing_channels": "TikTok (videos with millions of views, credited by Wikipedia as the main driver); Twitch/YouTube streamers; very low price; word of mouth in friend groups; Steam charts momentum (Alinea top-10 weekly sellers); press curiosity pieces (TweakTown, Notebookcheck, Automaton, PCGH, Multiplayer.it); modding community (Thunderstore). | FOLLOW-UP 2026-10-08: the developer's own TikTok showing a novice accidentally saying 'Fireball' and casting the spell became a popular scene [CONFIRMED – Automaton]; xQc streamed it to a large audience, boosting the player surge [CONFIRMED – PCGH]; the dev cut the price to $2.99 because of bugs, planning $4.99 once stable.",
   "engine": "Unity [ESTIMATE – Wikipedia infobox / igm.gg listing]",
   "art_style": "Low-poly / simple stylised 3D, first-person, with a medieval-fantasy outdoor arena map; cheap 'friendslop' look",
   "ai_feasibility_score": 4,
@@ -82,6 +82,10 @@
     {
       "title": "Better Voice Detection mod - Thunderstore",
       "url": "https://thunderstore.io/c/mage-arena/p/D1GQ/BetterVoiceDetection/v/1.1.0/"
+    },
+    {
+      "title": "PCGH – Steam hit Mage Arena",
+      "url": "https://www.pcgameshardware.de/Indie-Games-Thema-239276/News/Steam-Hit-Koop-PVP-Spiel-Release-Bewertung-1478471/"
     }
   ],
   "data_conflicts": "Units: Alinea ~2.4M (end Aug 2025), Gamalytic 2.5M (1.4–3.5M), VG Insights 2.7M vs Raijin ~816k–820k (Jul 2026). I used a 1.2M–2.5M range, leaning to ~2–2.5M. Peak CCU: Steambase 17,404 (2025-08-02) and SteamCharts 17,126 vs Raijin 2,835 (clearly wrong for the all-time peak; disregarded). Revenue per copy: Alinea's $286k/235k ≈ $1.22 and the dev's '~$1 per sale after Steam's cut' imply much heavier regional/low-price effects than the spec's 0.75 factor; I used ~$1.43 average gross per copy. Team size/country: 'solo' comes from press, not a developer statement; country unknown. The brief said 'small team'; sources say solo.",

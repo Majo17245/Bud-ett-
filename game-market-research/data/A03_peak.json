@@ -23,7 +23,7 @@
   "production_cost": "< $200,000 total [CONFIRMED – Game Developer: 'How co-op climbing hit Peak achieved 2 million sales for less than $200,000' (developer figures; see sources)]. Cross-check: 7 people × ~1–4 months × $6k ≈ $42k–170k [ESTIMATE].",
   "development_time": "Core built in a ~4-week jam in Seoul starting Feb 2025; ~4 months total to launch 2025-06-16 [CONFIRMED – devs via PC Gamer/Game Developer]. Teaser went live only ~4 days before release; announce-to-launch about one week.",
   "why_popular": "Simple, instantly understandable goal (climb the mountain together) with stamina management, ragdoll physics and comedic failure; no monster, the climb is the antagonist; built for voice chat and teamwork (revives, ropes, shared food); extremely watchable for streamers; $8 price (under $5 at launch) made it an impulse buy for whole friend groups; daily changing maps; arrived as 'friendslop' (Lethal Company, Content Warning, R.E.P.O.) was peaking.",
-  "marketing_channels": "Almost no pre-launch hype (only 29,384 wishlists at launch, teaser ~4 days before release); growth came after launch from Twitch/YouTube streamers and TikTok/short-form clips of ragdoll falls; existing Landfall/Aggro Crab audiences and social accounts; Steam top-seller/algorithm momentum; launch discount; summer sale and later $4.95 discounts plus content updates (Mesa) that set new CCU records. Valve advised against a Content Warning-style free day. Award nominations kept it visible (devs publicly rebutted false AI-use claims).",
+  "marketing_channels": "Almost no pre-launch hype (only 29,384 wishlists at launch, teaser ~4 days before release); growth came after launch from Twitch/YouTube streamers and TikTok/short-form clips of ragdoll falls; existing Landfall/Aggro Crab audiences and social accounts; Steam top-seller/algorithm momentum; launch discount; summer sale and later $4.95 discounts plus content updates (Mesa) that set new CCU records. Valve advised against a Content Warning-style free day. Award nominations kept it visible (devs publicly rebutted false AI-use claims). | FOLLOW-UP 2026-10-08: a single TikTok clip by @manticatol (2025-06-19) reached ~3.6M views and ~539k likes in ten days [ESTIMATE – Know Your Meme]; Twitch later added an exclusive PEAK badge.",
   "engine": "Unity [CONFIRMED – devs describe baking maps in the Unity Editor (GDC talk via Game Developer)]",
   "art_style": "stylised low-poly / soft-shaded 3D with bright colours, cartoony scout characters, physics-driven active ragdolls",
   "ai_feasibility_score": 3,
@@ -82,6 +82,10 @@
     {
       "title": "How To Market A Game – Is Friendslop saturated?",
       "url": "https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/"
+    },
+    {
+      "title": "Know Your Meme – PEAK (video game)",
+      "url": "https://knowyourmeme.com/memes/subcultures/peak-video-game"
     }
   ],
   "data_conflicts": "Units: 10M+ (Aug 2025, Keighley/Alinea) and '11M on Steam' (GamesRadar 2026 headline) vs Raijin's ~7M (June 2026), which is clearly an underestimate; used 10–11M. The lead of 15.7M units / $87–92M could not be found in any source and was not used. '20M players' (June 2026, Aggro Crab) counts players, not purchases. Price: list $7.99 but launched at 38% off (~$4.95) and frequently discounted, so used Alinea's implied ~$5.67 realised price instead of 0.75 × list. Dev time: '4 weeks' (core jam) vs '~4 months' (total) – both reported. Peak CCU: 169,910–171k across trackers; used SteamDB-reported 170,759. CROSS-CHECK 2026-10-08: the '< $200k' cost is supported by the Game Developer headline in the sources (and ~$200k by Italian press); a second independent search did not surface the article again.",

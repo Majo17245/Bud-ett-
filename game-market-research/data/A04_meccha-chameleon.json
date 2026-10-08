@@ -23,7 +23,7 @@
   "production_cost": "≈ $24k [ESTIMATE – 2 people × 2 months × $6k/month (Japan lean indie)]. No advertising spend [CONFIRMED – Haganeiro]. Networking uses free Epic Online Services, so near-zero server cost [CONFIRMED – Haganeiro via Automaton].",
   "development_time": "~2 months [CONFIRMED – dev statements as reported by allthings.how/Socialbook and others]",
   "why_popular": "The rules are explainable in one sentence. Painting yourself to blend in is creative self-expression combined with a social deduction moment, and every round produces funny, absurd disguise reveals that make perfect TikTok/Shorts clips and streamer content. It is a $6 impulse buy that whole friend groups grab together, and hide-and-seek has timeless appeal across ages and cultures. Its Japanese 'meccha' (super) branding and clean white mannequin look read well in thumbnails.",
-  "marketing_channels": "Zero ad spend (Haganeiro). Growth was organic word of mouth via streamers and content creators ('fun-to-stream' design) and viral TikTok clips of absurd disguises. The devs explicitly encouraged community sharing of gameplay footage with minimal usage rules. There were also strong Japanese and Asian streamer scenes, and Malaysian/LatAm/Polish press noted it was 'all over my timeline'. Rumours that streamers were paid before release were dismissed as conspiracy theories (Automaton). Steam store page announced 2026-05-15, so there was only ~4 weeks of wishlist building. Next Fest/demo: no data.",
+  "marketing_channels": "Zero ad spend (Haganeiro). Growth was organic word of mouth via streamers and content creators ('fun-to-stream' design) and viral TikTok clips of absurd disguises. The devs explicitly encouraged community sharing of gameplay footage with minimal usage rules. There were also strong Japanese and Asian streamer scenes, and Malaysian/LatAm/Polish press noted it was 'all over my timeline'. Rumours that streamers were paid before release were dismissed as conspiracy theories (Automaton). Steam store page announced 2026-05-15, so there was only ~4 weeks of wishlist building. Next Fest/demo: no data. | FOLLOW-UP 2026-10-08: StreamHatchet's analysis says big streamers had it on their radar before release (LIRIK, Junichi Kato, caseoh_); ~20k CCU on launch day and 90k+ by 2026-06-15; live-viewing peak on 2026-06-24 driven by alanzoka and regional streamers; YouTube Shorts picked it up almost instantly, long-form videos peaked 2026-06-26; a VTuber Let's Play (Chuy Mine) drew 1.5M+ views and an animated fan Short 2.3M; the biggest video-view day (2026-07-08) came weeks after live viewership cooled [ESTIMATE – StreamHatchet].",
   "engine": "Unreal Engine 5 (reportedly 5.6) [ESTIMATE – community datamining of memory/shaders; not on the Steam page] + Epic Online Services for multiplayer [CONFIRMED – Haganeiro]. This is consistent with the devs' UEFN background.",
   "art_style": "Clean, minimal stylised 3D: white mannequin-like characters on colourful stages (paint is the visual hook)",
   "ai_feasibility_score": 4,
@@ -31,22 +31,78 @@
   "solo_ai_mvp_cost_time": "3–6 weeks, ~$200–$600 (Claude Pro/Max $20–$200/mo, 3D gen $20–$60/mo, asset packs $50–$200, Steam Direct $100). Excludes living costs.",
   "solo_ai_polished_cost_time": "2–4 months, ~$1,500–$5,000 (tools, more stages and asset packs, freelance trailer/key art, playtests and creator outreach). Excludes living costs.",
   "sources": [
-    {"title": "Steam store – MECCHA CHAMELEON (app 4704690)", "url": "https://store.steampowered.com/app/4704690/MECCHA_CHAMELEON/"},
-    {"title": "Steam news – 1 Million Copies Sold!", "url": "https://store.steampowered.com/news/app/4704690/view/667242081733838690"},
-    {"title": "SteamDB – MECCHA CHAMELEON peaks at 340k players (Steam news)", "url": "https://store.steampowered.com/news/group/4777282/view/671745681362257532"},
-    {"title": "Raijin – MECCHA CHAMELEON Steam stats", "url": "https://raijin.gg/app/4704690/MECCHA_CHAMELEON"},
-    {"title": "Game Developer – Meccha Chameleon tops 20M sales in two months", "url": "https://www.gamedeveloper.com/business/meccha-chameleon-tops-20m-sales-in-two-months"},
-    {"title": "Insider Gaming – Meccha Chameleon hits 20 million sales", "url": "https://insider-gaming.com/meccha-chameleon-hits-20-million-sales/"},
-    {"title": "Inven Global – Meccha Chameleon surpasses 20 million units", "url": "https://labs.invenglobal.com/articles/24670/meccha-chameleon-surpasses-20-million-units-sold-just-two-months-after-launch"},
-    {"title": "Inven Global – Hits 15 million units sold", "url": "https://labs.invenglobal.com/articles/23443/mecha-chameleon-the-hide-and-seek-game-with-a-splash-of-color-hits-15-million-units-sold"},
-    {"title": "GamesBeat – Meccha Chameleon hits 10M copies sold in 16 days", "url": "https://gamesbeat.com/indie-hit-meccha-chameleon-hits-10m-copies-sold-in-16-days/"},
-    {"title": "Automaton – Japan-themed map as sales top 7 million", "url": "https://automaton-media.com/en/news/meccha-chameleon-to-get-japan-themed-map-as-sales-top-7-million/"},
-    {"title": "allthings.how – Who made Meccha Chameleon", "url": "https://allthings.how/who-made-meccha-chameleon-the-indie-devs-behind-the-viral-hit/"},
-    {"title": "WN Hub – Meccha Chameleon phenomenon: from Fortnite to $50M", "url": "https://wnhub.io/news/stores-and-publishing/item-51336"},
-    {"title": "GameDiscoverCo June 2026 top games (via GameDev Reports)", "url": "https://gamedevreports.substack.com/p/gamediscoverco-top-games-on-steam-be7"},
-    {"title": "Tech4Gamers – Second only to Fortnite in June revenue", "url": "https://tech4gamers.com/meccha-chameleon-second-only-to-fortnite-june-revenue/"},
-    {"title": "PureXbox – Dev tight-lipped on Xbox version", "url": "https://www.purexbox.com/news/2026/06/meccha-chameleon-dev-remains-tight-lipped-on-xbox-version-following-pc-success"},
-    {"title": "Outlook Respawn – 20M sales with 22k daily players", "url": "https://respawn.outlookindia.com/gaming/gaming-news/meccha-chameleon-hits-20m-sales-with-22k-daily-players"}
+    {
+      "title": "Steam store – MECCHA CHAMELEON (app 4704690)",
+      "url": "https://store.steampowered.com/app/4704690/MECCHA_CHAMELEON/"
+    },
+    {
+      "title": "Steam news – 1 Million Copies Sold!",
+      "url": "https://store.steampowered.com/news/app/4704690/view/667242081733838690"
+    },
+    {
+      "title": "SteamDB – MECCHA CHAMELEON peaks at 340k players (Steam news)",
+      "url": "https://store.steampowered.com/news/group/4777282/view/671745681362257532"
+    },
+    {
+      "title": "Raijin – MECCHA CHAMELEON Steam stats",
+      "url": "https://raijin.gg/app/4704690/MECCHA_CHAMELEON"
+    },
+    {
+      "title": "Game Developer – Meccha Chameleon tops 20M sales in two months",
+      "url": "https://www.gamedeveloper.com/business/meccha-chameleon-tops-20m-sales-in-two-months"
+    },
+    {
+      "title": "Insider Gaming – Meccha Chameleon hits 20 million sales",
+      "url": "https://insider-gaming.com/meccha-chameleon-hits-20-million-sales/"
+    },
+    {
+      "title": "Inven Global – Meccha Chameleon surpasses 20 million units",
+      "url": "https://labs.invenglobal.com/articles/24670/meccha-chameleon-surpasses-20-million-units-sold-just-two-months-after-launch"
+    },
+    {
+      "title": "Inven Global – Hits 15 million units sold",
+      "url": "https://labs.invenglobal.com/articles/23443/mecha-chameleon-the-hide-and-seek-game-with-a-splash-of-color-hits-15-million-units-sold"
+    },
+    {
+      "title": "GamesBeat – Meccha Chameleon hits 10M copies sold in 16 days",
+      "url": "https://gamesbeat.com/indie-hit-meccha-chameleon-hits-10m-copies-sold-in-16-days/"
+    },
+    {
+      "title": "Automaton – Japan-themed map as sales top 7 million",
+      "url": "https://automaton-media.com/en/news/meccha-chameleon-to-get-japan-themed-map-as-sales-top-7-million/"
+    },
+    {
+      "title": "allthings.how – Who made Meccha Chameleon",
+      "url": "https://allthings.how/who-made-meccha-chameleon-the-indie-devs-behind-the-viral-hit/"
+    },
+    {
+      "title": "WN Hub – Meccha Chameleon phenomenon: from Fortnite to $50M",
+      "url": "https://wnhub.io/news/stores-and-publishing/item-51336"
+    },
+    {
+      "title": "GameDiscoverCo June 2026 top games (via GameDev Reports)",
+      "url": "https://gamedevreports.substack.com/p/gamediscoverco-top-games-on-steam-be7"
+    },
+    {
+      "title": "Tech4Gamers – Second only to Fortnite in June revenue",
+      "url": "https://tech4gamers.com/meccha-chameleon-second-only-to-fortnite-june-revenue/"
+    },
+    {
+      "title": "PureXbox – Dev tight-lipped on Xbox version",
+      "url": "https://www.purexbox.com/news/2026/06/meccha-chameleon-dev-remains-tight-lipped-on-xbox-version-following-pc-success"
+    },
+    {
+      "title": "Outlook Respawn – 20M sales with 22k daily players",
+      "url": "https://respawn.outlookindia.com/gaming/gaming-news/meccha-chameleon-hits-20m-sales-with-22k-daily-players"
+    },
+    {
+      "title": "StreamHatchet – How Did Meccha Chameleon Get So Big?",
+      "url": "https://streamhatchet.com/blog/meccha-chameleons-popularity-on-live-streaming/"
+    },
+    {
+      "title": "SAYS – What Is Meccha Chameleon And Why Is It All Over My Timeline?",
+      "url": "https://says.com/my/gaming/what-is-meccha-chameleon-and-why-is-it-all-over-my-timeline"
+    }
   ],
   "data_conflicts": "(1) Team size: 2 people (most outlets, dev statements) vs 'one person' (GameDiscoverCo June write-up). Chosen: 2. (2) Release: Jun 10 vs Jun 9 (timezone). (3) Launch price: $5.99 vs $4.79 (likely a 20% launch discount). (4) June units: dev 10M by Jun 26 / 15M by Jul 5 vs GameDiscoverCo 11.5M (June) vs Alinea 12.6M (to Jun 30). These are broadly consistent; dev figures used as CONFIRMED. (5) Gross: Gamalytic ~$66.2M vs WN Hub ~$50M vs spec-method ~$90M vs list×units $119.8M. Reported a $66–90M range. (6) Peak CCU: 340,534 (SteamDB) vs 339,272 (Raijin). Chosen SteamDB. (7) The brief's '15M' was outdated; the latest confirmed figure is 20M (Aug 12).",
   "notes": "An extreme outlier: 2 devs, ~2 months, $0 ads, $6 price, 20M units in ~9 weeks. Key enablers for a solo creator to copy: (a) skills honed in UEFN (Fortnite Creative) transferred straight to UE5; (b) free Epic Online Services removed server costs; (c) the design is built for clips (each round produces a reveal moment); (d) an ultra-low price drove group buying; (e) a short pre-launch period (page live ~4 weeks) worked because virality came from streamers at launch. Steep CCU decay (340k peak → ~4k avg in Oct) shows the friendslop pattern of a big spike and a short tail. Content updates continued (Japan map; update on 2026-08-11). The very high review multiplier (~220) warns that Boxleiter badly undercounts Asian-audience party games."

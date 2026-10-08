@@ -23,7 +23,7 @@
   "production_cost": "[ESTIMATE] 2 people × ~14 months (June 2024 → Aug 2025) × ~$6k/person-month (Spain, lean indie; arguably $4–6k) ≈ $110k–$170k, plus freelance writers/composer. The founders appear to have self-funded at first (one laid off, one quit his job), so much of this was opportunity cost. Wholesome Games publishing/marketing spend is unknown.",
   "development_time": "~14 months from going indie (June 2024) to launch (2025-08-07); Next Fest demo after ~8 months (2025-02-10) [ESTIMATE – derived from Indie Arena profile + launch date]",
   "why_popular": "Instantly relatable social hook: everyone knows the awkwardness of choosing a seat next to strangers. Each puzzle is a tiny comedic scene (the loud talker, the smelly passenger, the couple). The rules are easy to read but layer into real logic puzzles, in short, bite-sized levels. Charming 2D art, cheap, and available everywhere on day one (Switch, mobile, PC). It suits short-form video and 'which seat would you pick?' engagement. [Qualitative from reviews: Mancunion, Bonus Action, The Sixth Axis, Thinky Games]",
-  "marketing_channels": "Wholesome Games publishing label and Wholesome Direct-style showcases; Steam Next Fest demo (Feb 2025); shadow-drop in a Nintendo Indie World Direct (2025-08-07); Apple App Store editorial ('Games We Love' story; featured in Apple's 'Hello Developer' August 2026 developer spotlight); Gamescom 2025 Indie Arena Booth; conference talks. TikTok/short-form virality is plausible given the format but NOT verified by any source found.",
+  "marketing_channels": "Wholesome Games publishing label and Wholesome Direct-style showcases; Steam Next Fest demo (Feb 2025); shadow-drop in a Nintendo Indie World Direct (2025-08-07); Apple App Store editorial ('Games We Love' story; featured in Apple's 'Hello Developer' August 2026 developer spotlight); Gamescom 2025 Indie Arena Booth; conference talks. TikTok/short-form virality is plausible given the format but NOT verified by any source found. | FOLLOW-UP 2026-10-08: announced Jan 2025 with a wishlist call; demo from 2025-02-10 (Steam Next Fest), called a top Steam Deck demo of the fest and kept live afterwards; shown at GDC 2025 and Wholesome Direct; official TikTok/Instagram/Bluesky accounts exist but no viral moment is documented.",
   "engine": "no data",
   "art_style": "Clean, colourful 2D cartoon illustration; grid-based seating layouts",
   "ai_feasibility_score": 5,
@@ -86,6 +86,10 @@
     {
       "title": "Pocket Tactics – Is This Seat Taken? launches on Switch, mobile, and PC",
       "url": "https://www.pockettactics.com/is-this-seat-taken/release-date"
+    },
+    {
+      "title": "Pocket Tactics – Cozy Steam Deck puzzle game makes waves at Next Fest",
+      "url": "https://www.pockettactics.com/is-this-seat-taken/next-fest"
     }
   ],
   "data_conflicts": "Steam units: Gamalytic ~428k (283k–573k) vs Raijin ~166k–176k; the Boxleiter midpoint (~275k–367k) sits between them, so a range of ~170k–430k with ~300k as the central case is used. Gross: $1.4M (Raijin) vs $3.4M (Gamalytic). Peak CCU: 984 (Raijin) / 1,301 (SteamCharts) / 1,696 (Tracker.gg). Studio name appears as 'Poti Poti Studio' (Apple, Wikipedia) and 'Poti Poti Studios' (Gamereactor). Team: '2 people' refers to the co-founders; credits include freelance writers and a composer.",

@@ -500,3 +500,16 @@ Sources:
 10. **Roblox is even more top-heavy than Steam:** the top 10 creators averaged $65.7M, while the median DevEx creator got ~$1,500 (12 months to June 2026, ~$1.7B total). Only ~100–250 accounts earned $1M+.
 11. **Browser portals pay ~$0.5–4 per 1,000 plays** (derived estimate), so 1M plays ≈ $500–$4,000. Poki's top developers earn $50k–$1M a year.
 12. **AI disclosure is now mainstream but under-sells:** ~31% of 2026 Steam releases disclose AI, but they take ~10–27% of sales. 8% of engaged Steam users reject AI games outright, and ~25% of US players are less likely to buy. Backlash concentrates on visible AI art.
+
+---
+
+## 13. Addendum (2026-10-08): how small hits were promoted
+- Co-op games have the **lowest ratio of plays to wishlists** among Next Fest demos: many people play them, few wishlist them [ESTIMATE – Chris Zukowski, Feb 2026 Next Fest analysis]. Rough Next Fest outcomes: ~15,000 wishlists for a game at the bottom-to-middle of the top-100 chart, 2,000–3,000 for mid-tier games with some streamer coverage, ≤1,000 when marketing struggles [ESTIMATE – Zukowski's own estimates].
+- 85% of pre-launch wishlists arrive at least four months before release [ESTIMATE – VG Insights 'The importance of wishlists 2025'].
+- Next Fest 2026 editions: 23 Feb–2 Mar, 15–22 Jun, 19–26 Oct; a game can take part only once [ESTIMATE – Cinevva/Steam Page Analyzer guides].
+
+Sources:
+- https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/
+- https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/
+- https://gameindustrylibrary.com/documents/the-importance-of-wishlists-2025
+- https://app.cinevva.com/guides/steam-next-fest-strategy-gamedeveloper

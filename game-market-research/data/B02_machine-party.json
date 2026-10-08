@@ -23,7 +23,7 @@
   "production_cost": "no disclosed figure. Illustrative only: 2 devs × 9–12 months × $3k/month (E. Europe lean indie) ≈ $54k–$72k + composer fee + publisher marketing [ESTIMATE – dev duration NOT known; assumed from the Apr 2026 announcement]",
   "development_time": "no data (announced 2026-04-09; launched 2026-07-30)",
   "why_popular": "The Buckshot Roulette creator's brand and dark, gritty aesthetic, applied to a party-game format (Mario Party/Pummel Party meets Saw-style deadly 'human experiments'). Mistakes are fatal, which creates screams and laughs that make strong streamer and clip content, especially on Chinese social media. Trust and suspicion minigames add social drama. The $7.99 price suits friend groups, and couch co-op (v2.0) broadened the audience.",
-  "marketing_channels": "Announcement at the Triple-i Initiative showcase (Apr 2026); existing Buckshot Roulette fanbase and Steam bundle cross-sell; publisher PR (Oro Interactive press releases at 500k/1M); Japanese media coverage (Automaton, Denfaminicogamer, Dengeki, Gamebiz); viral social media and streamers in China driving word of mouth. Next Fest/demo/wishlists: no data.",
+  "marketing_channels": "Announcement at the Triple-i Initiative showcase (Apr 2026); existing Buckshot Roulette fanbase and Steam bundle cross-sell; publisher PR (Oro Interactive press releases at 500k/1M); Japanese media coverage (Automaton, Denfaminicogamer, Dengeki, Gamebiz); viral social media and streamers in China driving word of mouth. Next Fest/demo/wishlists: no data. | FOLLOW-UP 2026-10-08: after its April 2026 Triple-i reveal the game reportedly passed 100,000 wishlists within a week [ESTIMATE – single Japanese report, Automaton].",
   "engine": "no confirmation for Machine Party. Likely Godot [ESTIMATE – Buckshot Roulette was made in Godot (prior knowledge) and Klubnika is a Platinum Godot sponsor; not stated for MP]",
   "art_style": "Dark, gritty low-poly horror with a PS1/industrial 'machine' aesthetic (consistent with Buckshot Roulette and GDeavid's low-poly work)",
   "ai_feasibility_score": 4,
@@ -31,17 +31,54 @@
   "solo_ai_mvp_cost_time": "4–8 weeks for 3–5 minigames plus online lobbies, ~$250–$700 (Claude Pro/Max, image/3D/audio gen subscriptions, asset packs, Steam Direct $100). Excludes living costs.",
   "solo_ai_polished_cost_time": "4–8 months for 12–15 minigames plus online and couch co-op, ~$2,000–$8,000 (tools, asset packs, freelance art/music/trailer, playtests, creator outreach). Excludes living costs.",
   "sources": [
-    {"title": "Steam store – Machine Party (app 4108000)", "url": "https://store.steampowered.com/app/4108000/Machine_Party/"},
-    {"title": "Raijin – Machine Party Steam stats", "url": "https://raijin.gg/app/4108000/Machine_Party"},
-    {"title": "Game Developer – Machine Party sells over 500,000 copies in its first week (press release)", "url": "https://www.gamedeveloper.com/press-release/machine-party-sells-over-500-000-copies-in-its-first-week-reaching-20-000-concurrent-players"},
-    {"title": "PCGamesN – Machine Party sales half a million", "url": "https://www.pcgamesn.com/machine-party/sales-half-a-million"},
-    {"title": "Niche Gamer – Machine Party celebrates 1 million copies sold with couch co-op update", "url": "https://nichegamer.com/machine-party-celebrates-1-million-copies-sold-with-new-couch-co-op-update/"},
-    {"title": "80.lv – Machine Party adds couch co-op with its 2.0 update", "url": "https://80.lv/articles/machine-party-adds-couch-co-op-with-its-2-0-update/"},
-    {"title": "Inven Global – Buckshot Roulette developer's new game Machine Party launches July 31", "url": "https://labs.invenglobal.com/articles/23813/buckshot-roulette-developers-new-game-machine-party-launches-on-steam-july-31"},
-    {"title": "Automaton (JP) – Machine Party release date announcement", "url": "https://automaton-media.com/articles/newsjp/machine-party-20260716-455207/"},
-    {"title": "WN Hub – Machine Party purchased over a million times", "url": "https://wnhub.io/news/investment/item-51757"},
-    {"title": "WN Hub – Buckshot Roulette creator becomes Platinum Godot sponsor", "url": "https://wnhub.io/news/engines/item-50134"},
-    {"title": "CGM – Machine Party sold over 500K in one week", "url": "https://cogconnected.com/2026/08/machine-party-has-sold-over-500k-copies-in-just-one-week-and-hits-20k-concurrent-players/"}
+    {
+      "title": "Steam store – Machine Party (app 4108000)",
+      "url": "https://store.steampowered.com/app/4108000/Machine_Party/"
+    },
+    {
+      "title": "Raijin – Machine Party Steam stats",
+      "url": "https://raijin.gg/app/4108000/Machine_Party"
+    },
+    {
+      "title": "Game Developer – Machine Party sells over 500,000 copies in its first week (press release)",
+      "url": "https://www.gamedeveloper.com/press-release/machine-party-sells-over-500-000-copies-in-its-first-week-reaching-20-000-concurrent-players"
+    },
+    {
+      "title": "PCGamesN – Machine Party sales half a million",
+      "url": "https://www.pcgamesn.com/machine-party/sales-half-a-million"
+    },
+    {
+      "title": "Niche Gamer – Machine Party celebrates 1 million copies sold with couch co-op update",
+      "url": "https://nichegamer.com/machine-party-celebrates-1-million-copies-sold-with-new-couch-co-op-update/"
+    },
+    {
+      "title": "80.lv – Machine Party adds couch co-op with its 2.0 update",
+      "url": "https://80.lv/articles/machine-party-adds-couch-co-op-with-its-2-0-update/"
+    },
+    {
+      "title": "Inven Global – Buckshot Roulette developer's new game Machine Party launches July 31",
+      "url": "https://labs.invenglobal.com/articles/23813/buckshot-roulette-developers-new-game-machine-party-launches-on-steam-july-31"
+    },
+    {
+      "title": "Automaton (JP) – Machine Party release date announcement",
+      "url": "https://automaton-media.com/articles/newsjp/machine-party-20260716-455207/"
+    },
+    {
+      "title": "WN Hub – Machine Party purchased over a million times",
+      "url": "https://wnhub.io/news/investment/item-51757"
+    },
+    {
+      "title": "WN Hub – Buckshot Roulette creator becomes Platinum Godot sponsor",
+      "url": "https://wnhub.io/news/engines/item-50134"
+    },
+    {
+      "title": "CGM – Machine Party sold over 500K in one week",
+      "url": "https://cogconnected.com/2026/08/machine-party-has-sold-over-500k-copies-in-just-one-week-and-hits-20k-concurrent-players/"
+    },
+    {
+      "title": "Automaton – Machine Party launch (2026-07-31)",
+      "url": "https://automaton-media.com/articles/newsjp/20260731-457592/"
+    }
   ],
   "data_conflicts": "(1) Release date: Jul 30 (Oro/West) vs Jul 31 (Japan time zone). Chosen Jul 30. (2) 500k press release dated Aug 6 vs Aug 18 on some wires. The 500k milestone was reached in week 1, i.e. ~Aug 6. (3) Peak CCU: 22,039 (Raijin) vs 22,629 (Chinese report) vs '>20,000' (press release). Chosen ~22k. (4) Reviews: 3,600/92% vs 4,118/87% vs 4,289/86%, which reflect different dates. (5) Brief said the publisher might be Critical Reflex (the Buckshot Roulette publisher). The actual publisher is Oro Interactive. (6) Brief listed team size as unknown; verified as 2 core devs.",
   "notes": "Case study of a second hit from a known viral solo dev. Brand plus the party/friendslop format plus a Chinese streamer wave produced 1M in ~2 weeks, at a much smaller CCU (~22k) than How to Fish or Meccha Chameleon. The very high units/review ratio (~250) is a strong warning that Boxleiter undercounts China-heavy party games. Klubnika partnered with a game-jam developer (GDeavid) rather than scaling a studio, and reused his Buckshot Roulette composer."
